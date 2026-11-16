@@ -11,6 +11,67 @@ templateEngineOverride: md
 
 Selected Committees, Juries, Commissions, Advisory Boards, etc.
 
+## Current and recent roles
+
+### Industry
+
+- Strategic Advisor to Board of ETPPA - European Third Party Providers' Association
+- Member of the CEPS Centre for European Policy Studies' Task Force on the Future of Retail Payments in the EU organised by the ECRI European Credit Research Institute
+- Advisory Board to Africa FinTech, Nigeria
+- Advisory Board Mastercard Latin America & Caribbean, Miami
+- Consultant Partner to Open Banking Exchange, Paris/Global
+- Expert of the Digital Euro Association DEA, Europe
+- Mentor to the "1871 FinTech Innovation Lab", Chicago
+- Expert to ECB on the design of a central bank digital currency CBDC
+- Leadership board of Digitinary NextGen Digital Solutions, Amman, Jordan
+- Co-founder Global Expert Council of Asia Payments Connect, Singapore
+- Founder CAPS (Convenient Access to Payment Services), Europe
+- Advisory Board Berlin Group NextGenPSD2 Open Finance, Europe/Global
+- Advisory Board to Regional Hero, Germany
+- Advisor to NOBO "Frictionless Finance" Fintech Africa on Open Banking and CBDC
+- Strategic Partner to FinTech Istanbul, Turkey
+- Strategic Partner to Payments Consulting Network, Australia
+- Advisory Council of Centre for the Study of Financial Innovation (CSFI), London
+- Member of Frankfurt Payments Network e.V. (FPN), Germany
+
+### Academic
+
+- Advisory Board for MBA and Masters studies on Internationalen Management, International School of Management (ISM), Munich
+- Lecturer at Saïd Business School, University of Oxford in “AI in Fintech and Open Banking Programme”, Oxford
+- Lecturer at Ozyegin University, Graduate School of Business, Graduate Financial Engineering Program, University of Istanbul at Executive MBA Course on Open Finance, Turkey
+- Lecturer on FinTech at Sabanci University's Master in Finance Program, Turkey
+- Lecturer on "Frontiers in FinTech" within the Master of Financial Technologies at the Swinburne University of Technology, the Australian Graduate School of Entrepreneurship, Melbourne, Australia
+- Evaluator for the Cyprus Research and Innovation Foundation (RIF), the National Research Funding Agency of Cyprus
+
+### Honours
+
+- Freeman of the Worshipful Company of International Bankers
+- Fellow of the Royal Society for Arts, Manufactures and Commerce FRSA
+- Freeman of the City of London
+
+### Publishing/Media
+
+- Co-creator and director of Transaction Innovation Forum, Japan
+- Program Committee of the International Conference on Financial Technology (ICFT), Singapore
+- Advisory Board to International Payments Summit/Payment International IPS/IP (“Europe’s Most Prestigious Payments Forum”), Leadership Board of Kinfos Instant Payments Summit and their Open Banking Forum and more, such as CBDC Conference
+- Advisory Board to Currency Research (“The World’s Resource for Currency Knowledge”), the leading global resource for central banks, their suppliers, and the related supply chain for currency and payment systems
+- Editorial board of Henry Stewart Publications (Journal of Payments Strategy & Systems JPSS – the internationally leading peer-reviewed journal for international advances in payments, also Applied Marketing Analytics, Journal of Risk Management in Financial Institutions, Journal of Urban Regeneration & Renewal), London
+- Editorial Board of Inderscience Publishers Ltd for the American Journal of Finance and Accounting
+- Editorial board of E-finance & Payments Law & Policy and Payments & FinTech Lawyer, the monthly journals for the online finance and payments industry, Cecile Park publishing, London
+- Editorial board of peer-reviewed Journal Automation, Control and Intelligent Systems (ACIS)
+- Member of the Bank-IT advisory board for Handelsblatt, Germany
+
+### Ex-Member of
+
+- ECB European Central Bank advisory boards
+- EC/EP European Commission/European Parliament
+- EPC European Payments Council
+- PSMEG Payments Systems Market Expert Group
+- ERPB European Retail Payments Board
+- Executive Board Adviser Worldline Financial Services
+
+## In more detail
+
 ### European Commission (EC), for example
 
 - **Steering Committee** on eInvoicing to improve European competitiveness/efficiency by 243bn€ p.a. towards the EU’s Lisbon Agenda and Member of the **European Multi-Stakeholder** Forum on Supply Chain Finance of the European Commission

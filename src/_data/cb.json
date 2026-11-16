@@ -12,10 +12,35 @@
     "cartoonCaption": "… it uses cartoons!",
     "differentText": "Instead of having one finger in the recipe text, one on the list of ingredients, and two arms at the stove, you see everything clearly laid out for you, so you can use both hands for cooking.",
     "points": [
-      { "title": "Efficient", "items": ["See the ingredients when they are used (rather than as a list at the beginning nowhere near their use)", "See which pots, implements, etc. to use"] },
-      { "title": "Logical", "items": ["See what can be done in parallel", "See how the various intermediate products get merged together", "Clear, unambiguous notation (like critical-path diagrams, formulae for weights, cooking times, etc.)"] },
-      { "title": "Intuitive", "items": ["Recognise the recipes immediately while thumbing through (unlike text recipes which all look the same)", "Hints and tests to ensure success (like the famous Hoi-Sin-Sauce comparison)"] },
-      { "title": "Great fun!", "items": ["Optimised for maximum pleasure", "It’s more fun and colourful!"] }
+      {
+        "title": "Efficient",
+        "items": [
+          "See the ingredients when they are used (rather than as a list at the beginning nowhere near their use)",
+          "See which pots, implements, etc. to use"
+        ]
+      },
+      {
+        "title": "Logical",
+        "items": [
+          "See what can be done in parallel",
+          "See how the various intermediate products get merged together",
+          "Clear, unambiguous notation (like critical-path diagrams, formulae for weights, cooking times, etc.)"
+        ]
+      },
+      {
+        "title": "Intuitive",
+        "items": [
+          "Recognise the recipes immediately while thumbing through (unlike text recipes which all look the same)",
+          "Hints and tests to ensure success (like the famous Hoi-Sin-Sauce comparison)"
+        ]
+      },
+      {
+        "title": "Great fun!",
+        "items": [
+          "Optimised for maximum pleasure",
+          "It’s more fun and colourful!"
+        ]
+      }
     ],
     "insideTitle": "Look inside",
     "insideText": "Three of the 126 recipes, exactly as they appear in the book.",
@@ -29,22 +54,36 @@
     "spoonCaption": "Presented by Heston Blumenthal (world’s #1 best restaurant 2005) to the mathematician cook author.",
     "quotesTitle": "How others have liked the book",
     "quotes": [
-      { "text": "Unique, definitely unusual, has much appeal, innovative, for eclectic readership", "who": "UK publisher" },
-      { "text": "Brilliant, delightful, loved the recipe by your daughter, GREAT!! My staff and I have been ******** ourselves", "who": "J. v. E., 22559 Hamburg" },
-      { "text": "This works", "who": "Prof. Dr. W. G., 70619 Stuttgart-Sillenbuch" },
-      { "text": "How much does it cost ?", "who": "Dr. G. M. (controller), 60325 Frankfurt" }
+      {
+        "text": "Unique, definitely unusual, has much appeal, innovative, for eclectic readership",
+        "who": "UK publisher"
+      },
+      {
+        "text": "Brilliant, delightful, loved the recipe by your daughter, GREAT!! My staff and I have been ******** ourselves",
+        "who": "J. v. E., 22559 Hamburg"
+      },
+      {
+        "text": "This works",
+        "who": "Prof. Dr. W. G., 70619 Stuttgart-Sillenbuch"
+      },
+      {
+        "text": "How much does it cost ?",
+        "who": "Dr. G. M. (controller), 60325 Frankfurt"
+      }
     ],
     "buyTitle": "Buy the book",
     "buyText": "Produced just for you using the wonders of print-on-demand technology.",
     "amazonUk": "Kochbuch für Mathematiker (The Mathematician’s Cookbook), paperback.",
     "amazonUkButton": "Buy on Amazon.co.uk",
-    "amazonDe": "The same paperback, delivered from Germany.",
+    "amazonDe": "The same paperback from Amazon's German shop.",
     "amazonDeButton": "Buy on Amazon.de",
     "directTitle": "Direct from the author",
     "directText": "Only €19.90 including postage, paid via PayPal.",
     "directButton": "Buy with PayPal",
     "authorTitle": "About the author",
-    "authorText": "Find out more about the author Michael Salmony: his <a href=\"/the-explosives-experiment-that-i-survived/\">potato cannon experiments</a>, his <a href=\"/personal/travels/michael-salmony-on-japan/\">love of Japan</a>, his <a href=\"/the-british-public-school-system-that-i-survived/\">education in England</a>, his favourite <a href=\"/personal/top-10-books/\">books</a> and <a href=\"/personal/top-10-films/\">films</a>, the <a href=\"/genealogy/\">origin of the name Salmony</a>, the <a href=\"/the-terrorist-attack-i-survived/\">terrorist attack</a> and <a href=\"/the-train-crash-i-survived/\">train crash</a> he survived, <a href=\"/work/\">what he really does for a living</a>, and <a href=\"/personal/what-i-lust-for/\">what he lusts for</a> … at <a href=\"/\">www.salmony.co.uk</a>."
+    "authorText": "Find out more about the author Michael Salmony: his <a href=\"/the-explosives-experiment-that-i-survived/\">potato cannon experiments</a>, his <a href=\"/personal/travels/michael-salmony-on-japan/\">love of Japan</a>, his <a href=\"/the-british-public-school-system-that-i-survived/\">education in England</a>, his favourite <a href=\"/personal/top-10-books/\">books</a> and <a href=\"/personal/top-10-films/\">films</a>, the <a href=\"/genealogy/\">origin of the name Salmony</a>, the <a href=\"/the-terrorist-attack-i-survived/\">terrorist attack</a> and <a href=\"/the-train-crash-i-survived/\">train crash</a> he survived, <a href=\"/work/\">what he really does for a living</a>, and <a href=\"/personal/what-i-lust-for/\">what he lusts for</a> … at <a href=\"/\">www.salmony.co.uk</a>.",
+    "amazonUkTitle": "Amazon UK",
+    "amazonDeTitle": "Amazon Germany"
   },
   "de": {
     "heroTitle": "Dieses Kochbuch ist anders.",
@@ -59,10 +98,35 @@
     "cartoonCaption": "… benutzt es Cartoons!",
     "differentText": "Anstatt einen Finger im Text, einen in der Liste der Zutaten und zwei Arme am Herd zu haben, sehen Sie alles klar und übersichtlich, sodass Sie beide Hände zum Kochen benutzen können.",
     "points": [
-      { "title": "Effizient", "items": ["Sie sehen die Zutaten, wenn sie gebraucht werden (anstatt einer Liste am Anfang nicht annähernd in der Nähe ihrer Verwendung)", "Sie sehen, welche Töpfe, Küchengeräte etc. Sie benutzen müssen"] },
-      { "title": "Logisch", "items": ["Sie sehen, was gleichzeitig gemacht werden kann", "Sie sehen, wie die verschiedenen Zutaten zusammengemischt werden", "Eine klare, eindeutige Darstellung (wie z.B. Diagramme vom kritischen Pfad, Formeln für Gewichte, Garzeiten etc.)"] },
-      { "title": "Intuitiv", "items": ["Sie erkennen die Rezepte sofort, während Sie durchblättern (im Gegensatz zu Rezepten mit Text, die alle gleich aussehen)", "Hinweise und Tests, die den Erfolg garantieren (wie z.B. der berühmte Hoi-Sin-Soßen-Vergleich)"] },
-      { "title": "Einfach witzig!", "items": ["Optimiert für maximales Vergnügen", "Es ist bunt und macht viel mehr Spaß!"] }
+      {
+        "title": "Effizient",
+        "items": [
+          "Sie sehen die Zutaten, wenn sie gebraucht werden (anstatt einer Liste am Anfang nicht annähernd in der Nähe ihrer Verwendung)",
+          "Sie sehen, welche Töpfe, Küchengeräte etc. Sie benutzen müssen"
+        ]
+      },
+      {
+        "title": "Logisch",
+        "items": [
+          "Sie sehen, was gleichzeitig gemacht werden kann",
+          "Sie sehen, wie die verschiedenen Zutaten zusammengemischt werden",
+          "Eine klare, eindeutige Darstellung (wie z.B. Diagramme vom kritischen Pfad, Formeln für Gewichte, Garzeiten etc.)"
+        ]
+      },
+      {
+        "title": "Intuitiv",
+        "items": [
+          "Sie erkennen die Rezepte sofort, während Sie durchblättern (im Gegensatz zu Rezepten mit Text, die alle gleich aussehen)",
+          "Hinweise und Tests, die den Erfolg garantieren (wie z.B. der berühmte Hoi-Sin-Soßen-Vergleich)"
+        ]
+      },
+      {
+        "title": "Einfach witzig!",
+        "items": [
+          "Optimiert für maximales Vergnügen",
+          "Es ist bunt und macht viel mehr Spaß!"
+        ]
+      }
     ],
     "insideTitle": "Blick ins Buch",
     "insideText": "Drei der 126 Rezepte, genau so wie sie im Buch stehen.",
@@ -76,14 +140,26 @@
     "spoonCaption": "Überreicht von Heston Blumenthal (bestes Restaurant der Welt 2005) an den kochenden Mathematiker und Autor.",
     "quotesTitle": "Wie anderen das Buch gefällt",
     "quotes": [
-      { "text": "Schwer beeindruckend, herzlich gelacht, gefällt sehr, schwarzer britischer Humor, klasse, mutig", "who": "Dr. M. P., 60325 Frankfurt am Main" },
-      { "text": "Überwältigend, grandios, in allen Details, vermittelt wahren optischen und geschmacklichen Genuss", "who": "U. H., 52146 Würselen-Berdenberg" },
-      { "text": "Originell, Zielgruppe zu klein", "who": "Dr. O. D., Lektor, 60329 Frankfurt am Main" },
-      { "text": "Ist mir alles zu kompliziert", "who": "I. S., 80538 München (meine Mutter)" }
+      {
+        "text": "Schwer beeindruckend, herzlich gelacht, gefällt sehr, schwarzer britischer Humor, klasse, mutig",
+        "who": "Dr. M. P., 60325 Frankfurt am Main"
+      },
+      {
+        "text": "Überwältigend, grandios, in allen Details, vermittelt wahren optischen und geschmacklichen Genuss",
+        "who": "U. H., 52146 Würselen-Berdenberg"
+      },
+      {
+        "text": "Originell, Zielgruppe zu klein",
+        "who": "Dr. O. D., Lektor, 60329 Frankfurt am Main"
+      },
+      {
+        "text": "Ist mir alles zu kompliziert",
+        "who": "I. S., 80538 München (meine Mutter)"
+      }
     ],
     "buyTitle": "Ein Exemplar bestellen",
     "buyText": "Speziell für Sie gedruckt (das Wunder der Print-on-Demand-Technologie).",
-    "amazonUk": "Kochbuch für Mathematiker, Taschenbuch, Versand aus Großbritannien.",
+    "amazonUk": "Kochbuch für Mathematiker, Taschenbuch, im britischen Amazon-Shop.",
     "amazonUkButton": "Bei Amazon.co.uk bestellen",
     "amazonDe": "Kochbuch für Mathematiker, Taschenbuch.",
     "amazonDeButton": "Bei Amazon.de kaufen",
@@ -91,6 +167,8 @@
     "directText": "Nur 19,90 € inklusive Versand, bezahlt über PayPal.",
     "directButton": "Mit PayPal kaufen",
     "authorTitle": "Über den Autor",
-    "authorText": "Erfahren Sie mehr über den Autor Michael Salmony: seine <a href=\"/the-explosives-experiment-that-i-survived/\">Kartoffelkanonen-Experimente</a>, seine <a href=\"/personal/travels/michael-salmony-on-japan/\">Liebe zu Japan</a>, seine <a href=\"/the-british-public-school-system-that-i-survived/\">Schulzeit in England</a>, seine Lieblings<a href=\"/personal/top-10-books/\">bücher</a> und -<a href=\"/personal/top-10-films/\">filme</a>, die <a href=\"/genealogy/\">Herkunft des Namens Salmony</a>, den <a href=\"/the-terrorist-attack-i-survived/\">Terroranschlag</a> und das <a href=\"/the-train-crash-i-survived/\">Zugunglück</a>, die er überlebt hat, <a href=\"/work/\">was er wirklich beruflich macht</a> und <a href=\"/personal/what-i-lust-for/\">wonach es ihn gelüstet</a> … auf <a href=\"/\">www.salmony.co.uk</a> (auf Englisch)."
+    "authorText": "Erfahren Sie mehr über den Autor Michael Salmony: seine <a href=\"/the-explosives-experiment-that-i-survived/\">Kartoffelkanonen-Experimente</a>, seine <a href=\"/personal/travels/michael-salmony-on-japan/\">Liebe zu Japan</a>, seine <a href=\"/the-british-public-school-system-that-i-survived/\">Schulzeit in England</a>, seine Lieblings<a href=\"/personal/top-10-books/\">bücher</a> und -<a href=\"/personal/top-10-films/\">filme</a>, die <a href=\"/genealogy/\">Herkunft des Namens Salmony</a>, den <a href=\"/the-terrorist-attack-i-survived/\">Terroranschlag</a> und das <a href=\"/the-train-crash-i-survived/\">Zugunglück</a>, die er überlebt hat, <a href=\"/work/\">was er wirklich beruflich macht</a> und <a href=\"/personal/what-i-lust-for/\">wonach es ihn gelüstet</a> … auf <a href=\"/\">www.salmony.co.uk</a> (auf Englisch).",
+    "amazonUkTitle": "Amazon UK",
+    "amazonDeTitle": "Amazon Deutschland"
   }
 }

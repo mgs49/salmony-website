@@ -69,8 +69,8 @@ section: cookbook
     <h2>{{ t.buyTitle }}</h2>
     <p>{{ t.buyText }}</p>
     <div class="cb-buy-options">
-      <div><h3>Amazon.co.uk</h3><p>{{ t.amazonUk }}</p><a class="button" href="https://www.amazon.co.uk/dp/1482534703">{{ t.amazonUkButton }}</a></div>
-      <div><h3>Amazon.de</h3><p>{{ t.amazonDe }}</p><a class="button" href="https://www.amazon.de/dp/1482534703">{{ t.amazonDeButton }}</a></div>
+      <div><h3>{{ t.amazonUkTitle }}</h3><p>{{ t.amazonUk }}</p><a class="button" href="https://www.amazon.co.uk/dp/1482534703">{{ t.amazonUkButton }}</a></div>
+      <div><h3>{{ t.amazonDeTitle }}</h3><p>{{ t.amazonDe }}</p><a class="button" href="https://www.amazon.de/dp/1482534703">{{ t.amazonDeButton }}</a></div>
       <div><h3>{{ t.directTitle }}</h3><p>{{ t.directText }}</p><a class="button" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=QWR5DHTYBD8GY">{{ t.directButton }}</a></div>
     </div>
   </div>
@@ -79,6 +79,6 @@ section: cookbook
 <section class="cb-band" id="author">
   <div class="wrap">
     <h2>{{ t.authorTitle }}</h2>
-    <p><img src="/assets/cookbook/author.jpg" alt="Michael Salmony" width="120" height="157" loading="lazy" style="float:left;margin:0.3rem 1.5rem 0.5rem 0"> {{ t.authorText | safe }}</p>
+    <p><img src="/assets/cookbook/author.jpg" alt="Michael Salmony" width="120" height="157" style="float:left;margin:0.3rem 1.5rem 0.5rem 0"> {{ t.authorText | safe }}</p>
   </div>
 </section>
