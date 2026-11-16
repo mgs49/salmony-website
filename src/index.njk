@@ -9,6 +9,7 @@ description: "The personal site of Michael Salmony: things survived, travels, Ja
   <section class="home-intro">
     <h1>Michael Salmony</h1>
     <p>Payments by profession. Japan, good food and the occasional potato cannon by inclination.</p>
+    <figure class="fun-only doodle" aria-hidden="true">{% include "potato.svg" %}</figure>
   </section>
 
   <section class="survived" aria-labelledby="survived-h">
@@ -18,6 +19,7 @@ description: "The personal site of Michael Salmony: things survived, travels, Ja
       <li><a href="{{ story.url }}">{{ story.data.title }}</a></li>
     {%- endfor %}
     </ol>
+    <p class="fun-only grade" aria-hidden="true">{{ collections.stories | length }}/{{ collections.stories | length }}</p>
   </section>
 
   <section class="doors">

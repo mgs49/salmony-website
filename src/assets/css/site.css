@@ -322,3 +322,9 @@ h4 { font-size: 1.15rem; margin: 2rem 0 0.6rem; font-family: var(--body-font); f
 .prose::after { content: ""; display: block; clear: both; }
 .prose > table { max-width: 100%; }
 .prose { overflow-wrap: break-word; }
+
+/* Parts that only the alternative "fun" look shows (see fun.css) */
+.fun-only { display: none; }
+.look-switch button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer;
+  text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 0.2em; }
+.look-switch button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }

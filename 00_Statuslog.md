@@ -16,6 +16,7 @@ Single source of truth for this project. Latest first.
 
 ## Key facts and decisions (latest first)
 
+- 17th November 2026 (Michael, in chat): asked for an alternative private website that is "a bit more fun looking, not quite as clean and professional as the work one". Built as a second look for the personal pages only; he has not yet chosen between the two.
 - 16th November 2026 (Michael, in chat): Impressum to show business name and VAT ID only, "address and e-mail to follow"; he accepts the risk and will change it if anyone complains.
 - 16th November 2026 (Michael, in chat): the professional site is to be separate from salmony.co.uk, not a sub-directory. Domains, e-mail continuity and re-hosting to be organised once the websites are finished.
 - 16th November 2026 (Michael, in chat): the title string "Prof. h.c. Dr. rer. nat. ... VIP (Colbert), L.I.V.R., FRSA" is tongue in cheek: fine on salmony.co.uk, not wanted on the professional site.
@@ -37,6 +38,7 @@ Single source of truth for this project. Latest first.
 
 ## Open items and next steps
 
+0. Michael chooses between the clean and the fun look for the personal pages (see `src/assets/css/fun.css` and the note in CLAUDE.md). Then remove the look switch and the look not chosen.
 1. Michael reviews both previews and answers the open points in REMAKE_REPORT.md (boards wording, CAPS name, book title, client logos to add, the unidentified lion logo, videos to keep or add).
 2. Michael plays each video on the Media page once.
 3. Go live when he is happy: DNS for salmony.co.uk and payments-innovation.com, `src/CNAME` in each repository, HTTPS, forward paymentsinnovation.consulting, decide on mathematicianscookbook.com, then cancel SiteGround and the GoDaddy Website Builder plan. E-mail on the two consulting domains must keep working throughout.
@@ -46,6 +48,7 @@ Single source of truth for this project. Latest first.
 
 ## Log
 
+- 17th November 2026: alternative "fun" look added for the personal pages (school exercise book: squared paper, red margin, headings in his handwriting, potato-cannon drawing on the home page). Same pages and texts; the clean look stays the default; a link in the footer or `?look=fun` switches. Cookbook and professional site unchanged. New on the home page in the fun look only: the drawing with "range = v² / g (roughly)" and the red "6/6" mark, both Claude's additions.
 - 16th November 2026 (evening): after Michael's review, professional site split out into its own repository and published as a preview; authoritative biography and boards list applied; announcements, events, Impressum and privacy policy added; seven videos from his work-videos folder converted and added to the Media page; X/Twitter and Facebook links removed; cookbook buy buttons open in a new tab.
 - 16th November 2026: old site downloaded (34 pages, 6 stories, media), consulting site downloaded, cookbook folder reviewed. New site built, checked and published as a preview. Proposal and report written.
 

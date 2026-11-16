@@ -40,6 +40,10 @@ Most pages are Markdown: `## Heading`, `**bold**`, `[link text](address)`, a bla
 
 Links to the professional site are written as `https://payments-innovation.com/...`. While that site is still a preview they are pointed at the preview automatically; set `workUrl` in `src/_data/site.json` to `https://payments-innovation.com` when it goes live.
 
+## Two looks for the personal pages
+
+While Michael decides, the personal pages can be seen in two looks: the clean one and a more playful one (an exercise book in his own handwriting). Use the link at the bottom of any personal page to switch, or add `?look=fun` to the address. Details are in CLAUDE.md.
+
 ## How it is built
 
 [Eleventy](https://www.11ty.dev/) turns the files in `src/` into the finished site in `_site/`. On every push to `main`, the workflow in `.github/workflows/deploy.yml` builds the site, checks every internal link and picture, and publishes the result to the `gh-pages` branch, which GitHub Pages serves. Do not edit `gh-pages` by hand.

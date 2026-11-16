@@ -24,3 +24,12 @@ This is Michael Salmony's personal website (www.salmony.co.uk) with the cookbook
 - Commit to `main` with a plain-English message and push. Publishing is automatic. Never push to `gh-pages` yourself except to repair a failed publish.
 - When an old address changes, add a line to `src/_data/redirects.json` so existing links keep working.
 - Keep `00_Statuslog.md` up to date: latest entry first, with the date.
+
+## Two looks for the personal pages (temporary)
+
+- The personal pages have two looks while he decides: the clean one (`site.css`, the default) and the fun one (`fun.css`, an exercise book in his handwriting). Only the look differs; pages and texts are shared. The cookbook has its own look and is not affected.
+- A link in the footer switches, as does adding `?look=fun` or `?look=clean` to any address. The choice is kept in the visitor's browser only (no cookie, nothing sent anywhere).
+- Parts with `class="fun-only"` (the potato-cannon drawing in `src/_includes/potato.svg` and the "6/6" mark on the home page) show in the fun look only.
+- When changing the design of a personal page, check both looks: view the page with and without `?look=fun`.
+- Once he has chosen, remove the other look and the switch (the two blocks marked in `src/_includes/base.njk`).
+

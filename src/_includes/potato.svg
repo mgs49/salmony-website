@@ -1,0 +1,41 @@
+<svg viewBox="0 0 520 326" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false">
+  <defs>
+    <filter id="wobble" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#wobble)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ground -->
+    <path class="pen" d="M8 263 C 120 260, 250 266, 380 262 S 480 264, 512 262"/>
+    <path class="pen thin" d="M22 263 l-9 11 M40 263 l-9 11 M58 263 l-9 11"/>
+    <!-- the flight -->
+    <path class="pen dash" d="M162 158 Q 310 10 488 258"/>
+    <!-- prop -->
+    <path class="pen" d="M137 184 L151 262 M137 184 L125 262"/>
+    <!-- cannon: barrel, combustion chamber, end cap and igniter -->
+    <g transform="translate(70 250) rotate(-45)">
+      <rect class="pen fill-paper" x="20" y="-10" width="106" height="20" rx="2"/>
+      <rect class="pen fill-paper" x="-22" y="-17" width="46" height="34" rx="5"/>
+      <path class="pen" d="M-22 -19 v38"/>
+      <path class="pen thin" d="M2 -17 v-9 M-4 -27 h12"/>
+    </g>
+    <!-- angle -->
+    <path class="red thin" d="M99 262 A 41 41 0 0 0 87 233"/>
+    <!-- the potato -->
+    <g transform="translate(318 109) rotate(-14)">
+      <path class="pen fill-potato" d="M-29 -3 C -28 -18, -9 -21, 7 -19 C 22 -17, 31 -10, 30 2 C 29 14, 13 19, -3 18 C -18 17, -30 11, -29 -3 Z"/>
+      <path class="pen thin" d="M-13 -7 l3 2 M4 -10 l3 1 M11 5 l3 -1 M-6 8 l3 1"/>
+    </g>
+    <path class="pen thin" d="M272 118 l-17 6 M270 104 l-15 3 M278 132 l-15 9"/>
+    <!-- landing -->
+    <path class="red" d="M488 258 l-14 -16 M488 258 l1 -22 M488 258 l15 -15 M488 258 l-22 -3 M488 258 l21 -2"/>
+    <!-- pointer to the potato -->
+    <path class="red thin" d="M404 50 C 386 56, 370 70, 358 88 M358 88 l2 -13 M358 88 l12 -6"/>
+    <!-- range -->
+    <path class="red thin" d="M162 284 H 488 M162 284 l9 -5 M162 284 l9 5 M488 284 l-9 -5 M488 284 l-9 5 M162 276 v16 M488 276 v16"/>
+  </g>
+  <text class="hand red-text" x="410" y="52">potato</text>
+  <text class="hand red-text small" x="103" y="251">45°</text>
+  <text class="hand pen-text" x="325" y="316" text-anchor="middle">range = v² / g (roughly)</text>
+</svg>
