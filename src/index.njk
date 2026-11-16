@@ -1,0 +1,60 @@
+---
+title: Michael Salmony
+layout: base.njk
+section: personal
+permalink: /
+description: "The personal site of Michael Salmony: things survived, travels, Japan, genealogy, a cookbook for mathematicians, and what he does for a living."
+---
+<div class="wrap">
+  <section class="home-intro">
+    <h1>Michael Salmony</h1>
+    <p>Payments by profession. Japan, good food and the occasional potato cannon by inclination.</p>
+  </section>
+
+  <section class="survived" aria-labelledby="survived-h">
+    <h2 id="survived-h">Things I survived</h2>
+    <ol>
+    {%- for story in collections.stories %}
+      <li><a href="{{ story.url }}">{{ story.data.title }}</a></li>
+    {%- endfor %}
+    </ol>
+  </section>
+
+  <section class="doors">
+    <div>
+      <h2><a href="/personal/">Private</a></h2>
+      <ul>
+        <li><a href="/personal/what-i-lust-for/">What I lust for</a></li>
+        <li><a href="/personal/top-10-books/">Top 10 books</a> and <a href="/personal/top-10-films/">films</a></li>
+        <li><a href="/personal/travels/">Travels</a> and <a href="/personal/travels/michael-salmony-on-japan/">Japan</a></li>
+        <li><a href="/genealogy/">Genealogy of the name Salmony</a></li>
+        <li><a href="/personal/the-meaning-of-life/">The meaning of life</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2><a href="/work/">Work</a></h2>
+      <ul>
+        <li><a href="/work/">Profile</a> and <a href="/work/consulting/">consulting</a></li>
+        <li><a href="/work/boards/">Boards</a></li>
+        <li><a href="/work/lectures/">Lectures</a></li>
+        <li><a href="/work/publications/">Publications</a></li>
+        <li><a href="/work/media/">Media</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2><a href="/cookbook/">Cookbook</a></h2>
+      <p>The Mathematician's Cookbook: recipes as cartoons and diagrams instead of text.</p>
+      <ul>
+        <li><a href="/cookbook/">English</a>, <a href="/cookbook/de/" lang="de">Deutsch</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <aside class="warning" aria-labelledby="warning-h">
+    <h2 id="warning-h">Warning</h2>
+    <p>This web site contains material that is in rather questionable taste and may not be suitable for computer users under the age of 17 or chartered public accountants of any age. This web site is also unsuitable for use when submerged in water or in close proximity to open flame. Also unsuitable for the prevention of disease. This web site is intended for the idle amusement of mature adults and has no redeeming feature whatsoever.</p>
+    <p>The first web site devised exclusively for the betterment of humanity. Includes scenes of extreme violence.</p>
+    <p><img src="/assets/img/counter-static.png" alt="3005058" width="105" height="20"> people have visited this site, or was it… <img src="/assets/img/counter.gif" alt="a counter spinning wildly" width="90" height="20"></p>
+    <p><img src="/assets/img/fosters.gif" alt="Best viewed after a few cans of Fosters" loading="lazy"></p>
+  </aside>
+</div>

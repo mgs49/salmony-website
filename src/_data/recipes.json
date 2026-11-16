@@ -1,0 +1,565 @@
+[
+ {
+  "chapter": "Vorspeisen",
+  "recipes": [
+   {
+    "name": "Aalmousse",
+    "page": 10
+   },
+   {
+    "name": "Artischocken",
+    "page": 11
+   },
+   {
+    "name": "Baked Beans",
+    "page": 12
+   },
+   {
+    "name": "Bongo-Bongo Soup",
+    "page": 13
+   },
+   {
+    "name": "Foie Gras",
+    "page": 14
+   },
+   {
+    "name": "Jakobsmuscheln",
+    "page": 15
+   },
+   {
+    "name": "Le Snails",
+    "page": 16
+   },
+   {
+    "name": "Morcheltöpfchen",
+    "page": 17
+   },
+   {
+    "name": "Muschelsuppe",
+    "page": 18
+   },
+   {
+    "name": "Oyster",
+    "page": 19
+   },
+   {
+    "name": "Philip’s Super Soup",
+    "page": 20
+   },
+   {
+    "name": "Scampi à l’ail",
+    "page": 21
+   },
+   {
+    "name": "Schinkencroissants",
+    "page": 22
+   },
+   {
+    "name": "Welsh Rarebit",
+    "page": 23
+   }
+  ],
+  "chapterEn": "Starters"
+ },
+ {
+  "chapter": "Hauptgerichte",
+  "recipes": [
+   {
+    "name": "Blömenköhl Öflöf",
+    "page": 26,
+    "alias": "Blumenkohlauflauf"
+   },
+   {
+    "name": "Bröselfisch mit Supersauce . . (Seezungen Müller)",
+    "page": 27
+   },
+   {
+    "name": "BSE in Guiness",
+    "page": 28,
+    "alias": "Beef in Guiness"
+   },
+   {
+    "name": "Chinesische Spare Ribs",
+    "page": 29
+   },
+   {
+    "name": "Cörry",
+    "page": 30,
+    "alias": "Curry"
+   },
+   {
+    "name": "Das Allgemeine Chinesische Gericht",
+    "page": 31
+   },
+   {
+    "name": "Devilled Kidneys",
+    "page": 32
+   },
+   {
+    "name": "Egerlinge mit Nudeln",
+    "page": 33
+   },
+   {
+    "name": "Eier - Tomaten",
+    "page": 34
+   },
+   {
+    "name": "Ente",
+    "page": 35
+   },
+   {
+    "name": "Flo’s Chiken Filing",
+    "page": 36
+   },
+   {
+    "name": "Gunkan-Maki",
+    "page": 72
+   },
+   {
+    "name": "Hepatitis B",
+    "page": 37,
+    "alias": "Muscheln"
+   },
+   {
+    "name": "Hoisin Saucen Test",
+    "page": 55
+   },
+   {
+    "name": "Hoppelpoppel",
+    "page": 38
+   },
+   {
+    "name": "Hubba Bubba",
+    "page": 39
+   },
+   {
+    "name": "Hühnchen im Pyjama",
+    "page": 40,
+    "alias": "Hühnchen im Speck"
+   },
+   {
+    "name": "Hühnchen Ragout",
+    "page": 41
+   },
+   {
+    "name": "Involtini di Melanzane della Fattoressa",
+    "page": 42
+   },
+   {
+    "name": "Italienisch Hühn",
+    "page": 43
+   },
+   {
+    "name": "Italienische Auberginen",
+    "page": 44
+   },
+   {
+    "name": "Käsefondue",
+    "page": 45
+   },
+   {
+    "name": "Käsesalat",
+    "page": 46
+   },
+   {
+    "name": "Kwietsch",
+    "page": 47,
+    "alias": "Quiche"
+   },
+   {
+    "name": "Lachs in Champagner",
+    "page": 48
+   },
+   {
+    "name": "Lammkeule",
+    "page": 49
+   },
+   {
+    "name": "Lammm",
+    "page": 50
+   },
+   {
+    "name": "Lancashire Hot Pot",
+    "page": 51
+   },
+   {
+    "name": "Marinated Tuna",
+    "page": 52
+   },
+   {
+    "name": "Original Peking Duck",
+    "page": 53,
+    "alias": "title in Chinese in the book"
+   },
+   {
+    "name": "Peking Ente",
+    "page": 54
+   },
+   {
+    "name": "Philip’s Most Incredible Recipe",
+    "page": 56
+   },
+   {
+    "name": "Pizza",
+    "page": 57
+   },
+   {
+    "name": "Risotto",
+    "page": 58
+   },
+   {
+    "name": "Rouladen",
+    "page": 59
+   },
+   {
+    "name": "Satay",
+    "page": 60
+   },
+   {
+    "name": "Schloß - Gericht",
+    "page": 61
+   },
+   {
+    "name": "Shepherd’s Pie",
+    "page": 62
+   },
+   {
+    "name": "Shrimp Auflauf",
+    "page": 63
+   },
+   {
+    "name": "Steak",
+    "page": 64
+   },
+   {
+    "name": "Slow - cooked Steak",
+    "page": 65
+   },
+   {
+    "name": "Steak en bloc",
+    "page": 66
+   },
+   {
+    "name": "Steak ‘n Kidney Pie",
+    "page": 67
+   },
+   {
+    "name": "Stew",
+    "page": 68
+   },
+   {
+    "name": "Sukijaki",
+    "page": 69
+   },
+   {
+    "name": "Sushi",
+    "page": 70
+   },
+   {
+    "name": "Sushi - Subroutine",
+    "page": 71
+   },
+   {
+    "name": "Tempura",
+    "page": 73
+   },
+   {
+    "name": "Truite à la fameuse sauce",
+    "page": 74
+   },
+   {
+    "name": "Wellington Boots",
+    "page": 75,
+    "alias": "Beef Wellington"
+   }
+  ],
+  "chapterEn": "Main courses"
+ },
+ {
+  "chapter": "Beilagen",
+  "recipes": [
+   {
+    "name": "Blömenköhl",
+    "page": 78,
+    "alias": "Blumenkohl"
+   },
+   {
+    "name": "Bratkartoffeln",
+    "page": 79
+   },
+   {
+    "name": "Broccoli",
+    "page": 80
+   },
+   {
+    "name": "Coleslaw",
+    "page": 81
+   },
+   {
+    "name": "Fusselpüffer",
+    "page": 82,
+    "alias": "Kartoffelpuffer"
+   },
+   {
+    "name": "Gröne Böner",
+    "page": 83,
+    "alias": "Grüne Bohnen"
+   },
+   {
+    "name": "Grougère",
+    "page": 84
+   },
+   {
+    "name": "Kartoffelbrei",
+    "page": 85
+   },
+   {
+    "name": "Kartoffelsalat",
+    "page": 86
+   },
+   {
+    "name": "Köhlrabi",
+    "page": 87
+   },
+   {
+    "name": "Möhren",
+    "page": 88
+   },
+   {
+    "name": "Neeps",
+    "page": 89
+   },
+   {
+    "name": "Ratatouille",
+    "page": 90
+   },
+   {
+    "name": "Rösenköhler",
+    "page": 91,
+    "alias": "Rosenkohl"
+   },
+   {
+    "name": "Sahnekartoffeln",
+    "page": 92
+   },
+   {
+    "name": "Salzkartoffeln",
+    "page": 93
+   },
+   {
+    "name": "Spinat",
+    "page": 94
+   },
+   {
+    "name": "Wirsing",
+    "page": 95
+   }
+  ],
+  "chapterEn": "Side dishes"
+ },
+ {
+  "chapter": "Saucen",
+  "recipes": [
+   {
+    "name": "Bearnaise",
+    "page": 98
+   },
+   {
+    "name": "Bread Sauce",
+    "page": 99
+   },
+   {
+    "name": "Pesto",
+    "page": 100
+   },
+   {
+    "name": "Miso Soup / Sesame Sauce",
+    "page": 101
+   },
+   {
+    "name": "Morrel Sauce",
+    "page": 102
+   }
+  ],
+  "chapterEn": "Sauces"
+ },
+ {
+  "chapter": "Nachtische",
+  "recipes": [
+   {
+    "name": "Apple Crumble",
+    "page": 104
+   },
+   {
+    "name": "Backapfel",
+    "page": 105
+   },
+   {
+    "name": "Baked Alaska",
+    "page": 106
+   },
+   {
+    "name": "Bread ‘n Butter Pud",
+    "page": 107
+   },
+   {
+    "name": "Christmas Pudding",
+    "page": 108
+   },
+   {
+    "name": "Creme Brulee",
+    "page": 109
+   },
+   {
+    "name": "Eton Mess",
+    "page": 110
+   },
+   {
+    "name": "Flo’s Fruit Salad / Letter Soup",
+    "page": 111
+   },
+   {
+    "name": "Gebratene Banane",
+    "page": 112
+   },
+   {
+    "name": "Goats Cheese ‘n Honey",
+    "page": 113
+   },
+   {
+    "name": "Kreppes",
+    "page": 114,
+    "alias": "Crepes"
+   },
+   {
+    "name": "Lemon Sorbet",
+    "page": 115
+   },
+   {
+    "name": "Mascarpone Schaum",
+    "page": 116
+   },
+   {
+    "name": "Moelleux au Chocolat",
+    "page": 117
+   },
+   {
+    "name": "Mousse au Choc",
+    "page": 118
+   },
+   {
+    "name": "Mousse Tullamore",
+    "page": 119
+   },
+   {
+    "name": "Panna Cotta",
+    "page": 120
+   },
+   {
+    "name": "Pfirsich in Weinschaum",
+    "page": 121
+   },
+   {
+    "name": "Rhababerkompott",
+    "page": 122
+   },
+   {
+    "name": "Tirami Su",
+    "page": 123
+   },
+   {
+    "name": "Verzaubertes Apfelmus",
+    "page": 124
+   }
+  ],
+  "chapterEn": "Desserts"
+ },
+ {
+  "chapter": "Keks & Kuchen",
+  "recipes": [
+   {
+    "name": "Flo’s Straberie Cake",
+    "page": 126,
+    "alias": "Strawberry Cake"
+   },
+   {
+    "name": "Kurzkeks",
+    "page": 127,
+    "alias": "Shortbread"
+   },
+   {
+    "name": "Oma’s Apfelkuchen",
+    "page": 128
+   },
+   {
+    "name": "Scones",
+    "page": 129
+   },
+   {
+    "name": "Tschiskeek",
+    "page": 130,
+    "alias": "Cheesecake"
+   },
+   {
+    "name": "Tschiskeek Conversion Chart",
+    "page": 131
+   },
+   {
+    "name": "Ungedeckter Apfelkuchen",
+    "page": 132
+   }
+  ],
+  "chapterEn": "Biscuits and cakes"
+ },
+ {
+  "chapter": "Sonderformeln",
+  "recipes": [
+   {
+    "name": "Chutney",
+    "page": 134
+   },
+   {
+    "name": "Confit aux Echalottes",
+    "page": 135
+   },
+   {
+    "name": "English Breakfast",
+    "page": 136
+   },
+   {
+    "name": "Fischfond",
+    "page": 137
+   },
+   {
+    "name": "Fond (long)",
+    "page": 138
+   },
+   {
+    "name": "Fond (short)",
+    "page": 139
+   },
+   {
+    "name": "IKEA",
+    "page": 140
+   },
+   {
+    "name": "Marmelade",
+    "page": 141
+   },
+   {
+    "name": "Mint Julep",
+    "page": 142
+   },
+   {
+    "name": "P’tit Ponche",
+    "page": 143,
+    "alias": "Lime Daiquiri"
+   },
+   {
+    "name": "Rumtopf",
+    "page": 144
+   }
+  ],
+  "chapterEn": "Special formulae"
+ }
+]

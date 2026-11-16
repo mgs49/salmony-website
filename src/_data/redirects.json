@@ -1,0 +1,8 @@
+[
+  { "from": "/mathematicians-cookbook/", "to": "/cookbook/" },
+  { "from": "/kochbuch-fur-mathematiker/", "to": "/cookbook/de/" },
+  { "from": "/personal/potato-cannon/", "to": "/the-explosives-experiment-that-i-survived/" },
+  { "from": "/private/", "to": "/personal/" },
+  { "from": "/consulting/", "to": "/work/consulting/" },
+  { "from": "/older-lectures/", "to": "/work/lectures/older-lectures/" }
+]

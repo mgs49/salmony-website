@@ -1,0 +1,12 @@
+---
+title: Things I survived
+layout: page.njk
+section: personal
+permalink: /stories/
+description: "The British public school system, a train crash, a terrorist attack, an explosives experiment and other things Michael Salmony survived."
+---
+<ul class="index-list">
+{%- for story in collections.stories %}
+  <li><a href="{{ story.url }}">{{ story.data.title }}</a></li>
+{%- endfor %}
+</ul>

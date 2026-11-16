@@ -1,0 +1,25 @@
+---
+title: Recipes
+layout: base.njk
+section: cookbook
+permalink: /cookbook/recipes/
+description: "The full list of the 126 recipes in the Mathematician's Cookbook, by chapter."
+---
+<div class="wrap page">
+  <p class="crumb"><a href="/cookbook/">The Mathematician’s Cookbook</a></p>
+  <h1>All 126 recipes</h1>
+  <p class="lede">The index of the 4th edition, with page numbers. Names are as hand-written in the book, spelling included.</p>
+  <div class="cb-chapters">
+  {%- for c in recipes %}
+    <section>
+      <h2>{{ c.chapterEn }} <small lang="de">({{ c.chapter }})</small></h2>
+      <ul>
+      {%- for r in c.recipes %}
+        <li><div>{{ r.name }}{% if r.alias %} <small>({{ r.alias }})</small>{% endif %}</div><span>{{ r.page }}</span></li>
+      {%- endfor %}
+      </ul>
+    </section>
+  {%- endfor %}
+  </div>
+  <p class="button-row"><a class="button" href="/cookbook/#buy">Buy the book</a></p>
+</div>

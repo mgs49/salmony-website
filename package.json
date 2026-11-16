@@ -1,0 +1,15 @@
+{
+  "name": "salmony-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "salmony.co.uk - personal site, professional pages and the Mathematician's Cookbook",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "check": "node tools/check-links.mjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

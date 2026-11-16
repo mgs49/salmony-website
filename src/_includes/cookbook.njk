@@ -1,0 +1,84 @@
+---
+layout: base.njk
+section: cookbook
+---
+{%- set t = cb[lang or "en"] -%}
+<div class="wrap">
+  <section class="cb-hero">
+    <div>
+      <h1>{{ t.heroTitle }}</h1>
+      <p>{{ t.heroText }}</p>
+      <p class="button-row"><a class="button" href="#buy">{{ t.buyButton }}</a> <a class="button quiet" href="#inside">{{ t.insideButton }}</a></p>
+    </div>
+    <figure><img src="/assets/cookbook/cover.jpg" alt="{{ t.coverAlt }}" width="900" height="1125"></figure>
+  </section>
+</div>
+
+<section class="cb-band" id="different">
+  <div class="wrap">
+    <h2>{{ t.differentTitle }}</h2>
+    <div class="cb-versus">
+      <figure><img src="/assets/cookbook/boring-recipe.png" alt="{{ t.boringAlt }}" width="441" height="219" loading="lazy"><figcaption>{{ t.boringCaption }}</figcaption></figure>
+      <figure><img src="/assets/cookbook/cartoon-recipe.png" alt="{{ t.cartoonAlt }}" width="934" height="346" loading="lazy"><figcaption>{{ t.cartoonCaption }}</figcaption></figure>
+    </div>
+    <p>{{ t.differentText }}</p>
+    <div class="cb-points">
+    {%- for point in t.points %}
+      <div>
+        <h3>{{ point.title }}</h3>
+        <ul>{% for item in point.items %}<li>{{ item }}</li>{% endfor %}</ul>
+      </div>
+    {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="cb-band" id="inside">
+  <div class="wrap">
+    <h2>{{ t.insideTitle }}</h2>
+    <p>{{ t.insideText }} <a href="/cookbook/recipes/">{{ t.recipesLink }}</a></p>
+    <div class="cb-pages">
+      <figure><a href="/assets/cookbook/sample-kaesefondue.jpg"><img src="/assets/cookbook/sample-kaesefondue.jpg" alt="{{ t.sample1Alt }}" width="1000" height="1294" loading="lazy"></a><figcaption>Käsefondue</figcaption></figure>
+      <figure><a href="/assets/cookbook/sample-apfelkuchen.jpg"><img src="/assets/cookbook/sample-apfelkuchen.jpg" alt="{{ t.sample2Alt }}" width="1000" height="1414" loading="lazy"></a><figcaption>Oma’s Apfelkuchen</figcaption></figure>
+      <figure><a href="/assets/cookbook/sample-sushi-subroutine.jpg"><img src="/assets/cookbook/sample-sushi-subroutine.jpg" alt="{{ t.sample3Alt }}" width="1000" height="1414" loading="lazy"></a><figcaption>Sushi - Subroutine</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="cb-band" id="about">
+  <div class="wrap">
+    <h2>{{ t.aboutTitle }}</h2>
+    <p>{{ t.aboutText }}</p>
+    <figure class="cb-spoon"><img src="/assets/cookbook/spoon.png" alt="{{ t.spoonAlt }}" width="1000" height="200" loading="lazy"><figcaption>{{ t.spoonCaption }}</figcaption></figure>
+  </div>
+</section>
+
+<section class="cb-band" id="references">
+  <div class="wrap">
+    <h2>{{ t.quotesTitle }}</h2>
+    <div class="cb-quotes">
+    {%- for q in t.quotes %}
+      <blockquote><p>“{{ q.text }}”</p><footer>{{ q.who }}</footer></blockquote>
+    {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="cb-band cb-buy" id="buy">
+  <div class="wrap">
+    <h2>{{ t.buyTitle }}</h2>
+    <p>{{ t.buyText }}</p>
+    <div class="cb-buy-options">
+      <div><h3>Amazon.co.uk</h3><p>{{ t.amazonUk }}</p><a class="button" href="https://www.amazon.co.uk/dp/1482534703">{{ t.amazonUkButton }}</a></div>
+      <div><h3>Amazon.de</h3><p>{{ t.amazonDe }}</p><a class="button" href="https://www.amazon.de/dp/1482534703">{{ t.amazonDeButton }}</a></div>
+      <div><h3>{{ t.directTitle }}</h3><p>{{ t.directText }}</p><a class="button" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=QWR5DHTYBD8GY">{{ t.directButton }}</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="cb-band" id="author">
+  <div class="wrap">
+    <h2>{{ t.authorTitle }}</h2>
+    <p><img src="/assets/cookbook/author.jpg" alt="Michael Salmony" width="120" height="157" loading="lazy" style="float:left;margin:0.3rem 1.5rem 0.5rem 0"> {{ t.authorText | safe }}</p>
+  </div>
+</section>

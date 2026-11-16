@@ -1,0 +1,13 @@
+---
+pagination:
+  data: redirects
+  size: 1
+  alias: r
+permalink: "{{ r.from }}"
+layout: redirect.njk
+section: personal
+eleventyExcludeFromCollections: true
+eleventyComputed:
+  redirect: "{{ r.to }}"
+  title: "Moved"
+---

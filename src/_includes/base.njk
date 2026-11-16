@@ -1,0 +1,51 @@
+{%- set sec = section or "personal" -%}
+{%- set menu = nav[navset or sec] -%}
+<!doctype html>
+<html lang="{{ lang or 'en-GB' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title and title != menu.name %}{{ title }} - {% endif %}{{ menu.name }}{% if sec == "work" %} - {{ menu.tagline }}{% endif %}</title>
+{% if description %}<meta name="description" content="{{ description }}">{% endif %}
+{% if noindex %}<meta name="robots" content="noindex">{% endif %}
+{% if redirect %}<meta http-equiv="refresh" content="0; url={{ redirect }}"><link rel="canonical" href="{{ redirect }}">{% endif %}
+<link rel="icon" href="/assets/img/favicon-{{ sec }}.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body class="sec-{{ sec }}{% if bodyClass %} {{ bodyClass }}{% endif %}">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="{{ menu.home }}">
+      {%- if sec == "personal" %}<span class="seal" aria-hidden="true">MS</span>{% endif -%}
+      <span class="brand-name">{{ menu.name }}</span>
+      {%- if menu.tagline %}<span class="brand-tag">{{ menu.tagline }}</span>{% endif -%}
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+      {%- for item in menu.links %}
+        <li><a href="{{ item.url }}"{% if item.url == page.url or (item.url != menu.home and page.url | startsWith(item.url)) %} aria-current="page"{% endif %}>{{ item.label }}</a></li>
+      {%- endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+{{ content | safe }}
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <p>© {{ "" | year }} Michael Salmony</p>
+    <ul>
+      {%- if sec != "personal" %}<li><a href="/">salmony.co.uk</a></li>{% endif %}
+      {%- if sec != "work" %}<li><a href="/work/">Work</a></li>{% endif %}
+      {%- if sec != "cookbook" %}<li><a href="/cookbook/">Cookbook</a></li>{% endif %}
+      <li><a href="{{ site.linkedin }}" rel="me">LinkedIn</a></li>
+      {%- if sec == "personal" %}<li><a href="{{ site.facebook }}" rel="me">Facebook</a></li>{% endif %}
+      <li><a href="{{ site.x }}" rel="me">X</a></li>
+      <li><a href="{% if sec == 'work' %}/work/contact/{% else %}/contact/{% endif %}">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
