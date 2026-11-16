@@ -88,7 +88,7 @@ Giovanni) and Claude Salmony (**Switzerland**)
 <img src="/assets/uploads/2024/02/middleage-275x300.jpg" loading="lazy" width="275" height="300">
 
 <figure>
-<img src="https://art.seattleartmuseum.org/internal/media/dispatcher/5472/literal%3Aresize%3Aformat%3Dpreview;jsessionid=AB2AB01E1E7BBE8C9FF85CF0E7A5F259" loading="lazy" width="312" height="400">
+
 <figcaption>Alfred Salmony at age 68 by Imogen Cunningham</figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ Dr. Hani Al-Salmony, Professor of Computer Science at King Saud University, **Sa
 
 There is a connection to the Sal Oppenheim bankers (also a Salomon) founded in Cologne
 
-<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salomon_Oppenheim_jr..jpg?width=260" loading="lazy" alt="Salomon Oppenheim jr..jpg">
+<img src="/assets/uploads/external/e61fe3-Salomon_Oppenheim_jr..jpg" loading="lazy" alt="Salomon Oppenheim jr..jpg">
 
 ------------------------------------------------------------------------
 

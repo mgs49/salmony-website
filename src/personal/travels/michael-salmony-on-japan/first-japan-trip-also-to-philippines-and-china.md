@@ -121,7 +121,7 @@ to a super luxury [Relais & Chateaux Ryokan](http://www.gorakadan.com/)  both 
 ## Conclusion
 
 **All in all an ichi-go ichi-e (“once in a lifetime”) holiday  
-**[… and here is the next trip …](http://salmony.tumblr.com/)
+** [… and here is the next trip …](http://salmony.tumblr.com/)
 
 We ate a scorpion, dried fishes’ heads, survived typhoons and earthquakes, were refused entry into china (and thus to our way home) and had an emergency root canal operation – but otherwise we had the most exciting holiday of our lives in Japan. Also outside Japan we had the nicest hotel (Mandarin Oriental Manila), nicest beach resort (Pearl Farm) and the best discount shopping (Peking) of our lives.
 

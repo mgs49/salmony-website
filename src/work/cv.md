@@ -13,7 +13,6 @@ templateEngineOverride: md
 
 **Prof. h.c. Dr. rer. nat. Michael G. Salmony, M.A. (Cantab.), VIP (Colbert), L.I.V.R., FRSA**
 
-[  Connect on LinkedIn](https://www.linkedin.com/in/salmony)
 
 is an internationally recognised leader on strategy of business innovations in **digital and financial services** with a particular focus on Payments, Open Finance, FinTech, Digital Identity, e-Invoicing/SCF, Fraud/Cybercrime, AI for Financial Services and Electronic Money/CBDC. He is board-level advisor to major international banks (e.g. to the German Banking community “Deutsche Kreditwirtschaft” with 2.277 Banks of aggregated assets of 7.626 billion Euro), to industry associations (e.g. the EACB’s 2.914 banks with aggregated assets of 7 trillion Euro and their 209 million customers and 732.000 employees throughout the EU) and to European decision making bodies (e.g. the European Commission, the ECB, the EPC – the decision making body of the 8.000 banks in the 31 countries of Europe, the ERPB – the central multi-stakeholder strategy board chaired by the Executive Board of the ECB for the future of payments in Europe, the EU CEPS Think-Tank for guidance on future policy) and further national and international [boards](/work/boards/).
 

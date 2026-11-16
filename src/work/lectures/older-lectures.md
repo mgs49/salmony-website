@@ -17,8 +17,6 @@ More recent lectures can be [found here](/work/lectures/)
 
 </nav>
 
-------------------------------------------------------------------------
-
 This is what I tend to talk about:
 
 <span class="t10">bank</span> <span class="t4">banken</span> <span class="t2">berlin</span> <span class="t0">business</span> <span class="t2">communication</span> <span class="t6">conference</span> <span class="t0">datenautobahn</span> <span class="t5">durch</span> <span class="t3">e-commerce</span> <span class="t0">electronic</span> <span class="t2">epc</span> <span class="t1">er</span> <span class="t0">etc</span> <span class="t2">europe</span> <span class="t6">european</span> <span class="t1">financial</span> <span class="t2">forum</span> <span class="t6">frankfurt</span> <span class="t2">german</span> <span class="t2">high-speed</span> <span class="t4">ibm</span> <span class="t0">industry</span> <span class="t0">innovations</span> <span class="t2">international</span> <span class="t2">internet</span> <span class="t0">lecture</span> <span class="t2">london</span> <span class="t4">management</span> <span class="t4">medien</span> <span class="t5">multimedia</span> <span class="t3">nchen</span> <span class="t1">neben</span> <span class="t7">networks</span> <span class="t3">neue</span> <span class="t1">open</span> <span class="t5">payments</span> <span class="t0">perspektiven</span> <span class="t4">seminar</span> <span class="t5">sepa</span> <span class="t2">services</span> <span class="t2">stuttgart</span> <span class="t0">tagung</span> <span class="t2">telecommunications</span> <span class="t2">university</span> <span class="t0">ver</span> <span class="t2">vorst</span> <span class="t5">vortrag</span> <span class="t1">wirtschaft</span> <span class="t0">zahlungsverkehr</span> <span class="t0">zukunft</span>
@@ -275,7 +273,7 @@ Vortrag auf Top Management Konferenz, Tegernsee
 
 ## 1997
 
-**16.1.97** “Perspektiven der Datenautobahn -Möglichkeiten mit Multimedia und Internet”Colonia Nordstern Gesamtvorstand, IBM Management Forum, Stuttgart
+**16.1.97** “Perspektiven der Datenautobahn -Möglichkeiten mit Multimedia und Internet” Colonia Nordstern Gesamtvorstand, IBM Management Forum, Stuttgart
 
 **11.4.97** “Perspektiven der Datenautobahn und Multimedia”  
 Gesamtvorstand der Deutschen EA Generali und Deutsche Lloyd, München
