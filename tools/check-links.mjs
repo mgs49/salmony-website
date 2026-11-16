@@ -4,7 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const root = "_site";
-const prefix = fs.existsSync("src/CNAME") ? "/" : (process.env.PATH_PREFIX || "/salmony-website/");
+const prefix = (process.env.PATH_PREFIX || (fs.existsSync("src/CNAME") ? "/" : "/salmony-website/")).replace(/\/$/, "");
 const pages = [];
 (function walk(dir) {
   for (const f of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -14,30 +14,36 @@ const pages = [];
   }
 })(root);
 
-const idsOf = (html) => new Set([...html.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]));
-const cache = new Map();
-let problems = 0;
+const ids = new Map();
+const idsOf = (file) => {
+  if (!ids.has(file)) {
+    const html = fs.readFileSync(file, "utf8");
+    ids.set(file, new Set([...html.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1])));
+  }
+  return ids.get(file);
+};
+
+let problems = 0, checked = 0;
 for (const page of pages) {
   const html = fs.readFileSync(page, "utf8");
-  const refs = [...html.matchAll(/\s(?:href|src|poster)="([^"]+)"/g)].map((m) => m[1].replace(/&amp;/g, "&"));
-  for (const ref of refs) {
-    if (/^([a-z][a-z0-9+.-]*:|\/\/)/i.test(ref)) continue;
-    let [target, frag] = ref.split("#");
+  for (const m of html.matchAll(/\s(?:href|src|poster)="([^"]+)"/g)) {
+    let url = m[1].replace(/&amp;/g, "&");
+    if (/^([a-z][a-z0-9+.-]*:|\/\/)/i.test(url)) continue;
+    checked++;
+    let [target, hash] = url.split("#");
     let file = page;
     if (target) {
-      if (!target.startsWith(prefix)) {
-        if (target.startsWith("/")) { console.log(`${page}: link outside the site folder: ${ref}`); problems++; continue; }
-        target = path.posix.join("/", path.relative(root, path.dirname(page)), target);
-      } else target = "/" + target.slice(prefix.length);
-      file = path.join(root, decodeURIComponent(target));
+      if (!target.startsWith("/")) target = path.posix.join("/", path.relative(root, path.dirname(page)), target);
+      else if (prefix && target.startsWith(prefix)) target = target.slice(prefix.length) || "/";
+      else if (prefix) { console.log(`${page}: link without site prefix: ${url}`); problems++; continue; }
+      file = path.join(root, decodeURIComponent(target.split("?")[0]));
       if (fs.existsSync(file) && fs.statSync(file).isDirectory()) file = path.join(file, "index.html");
-      if (!fs.existsSync(file)) { console.log(`${page}: missing ${ref}`); problems++; continue; }
+      if (!fs.existsSync(file)) { console.log(`${page}: missing ${url}`); problems++; continue; }
     }
-    if (frag && file.endsWith(".html")) {
-      if (!cache.has(file)) cache.set(file, idsOf(fs.readFileSync(file, "utf8")));
-      if (!cache.get(file).has(decodeURIComponent(frag))) { console.log(`${page}: no anchor #${frag} in ${file}`); problems++; }
+    if (hash && file.endsWith(".html") && !idsOf(file).has(decodeURIComponent(hash))) {
+      console.log(`${page}: no anchor #${hash} in ${path.relative(root, file)}`); problems++;
     }
   }
 }
-console.log(`${pages.length} pages checked, ${problems} problem(s).`);
+console.log(`${pages.length} pages, ${checked} internal links and files checked, ${problems} problems`);
 process.exit(problems ? 1 : 0);
