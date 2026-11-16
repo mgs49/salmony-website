@@ -5,7 +5,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% if title and title != menu.name %}{{ title }} - {% endif %}{{ menu.name }}{% if sec == "work" %} - {{ menu.tagline }}{% endif %}</title>
+<title>{% if title and title != menu.name %}{{ title }} - {% endif %}{{ menu.name }}</title>
 {% if description %}<meta name="description" content="{{ description }}">{% endif %}
 {% if noindex %}<meta name="robots" content="noindex">{% endif %}
 {% if redirect %}<meta http-equiv="refresh" content="0; url={{ redirect }}"><link rel="canonical" href="{{ redirect }}">{% endif %}
@@ -19,7 +19,6 @@
     <a class="brand" href="{{ menu.home }}">
       {%- if sec == "personal" %}<span class="seal" aria-hidden="true">MS</span>{% endif -%}
       <span class="brand-name">{{ menu.name }}</span>
-      {%- if menu.tagline %}<span class="brand-tag">{{ menu.tagline }}</span>{% endif -%}
     </a>
     <nav class="site-nav" aria-label="Main">
       <ul>
@@ -38,12 +37,10 @@
     <p>© {{ "" | year }} Michael Salmony</p>
     <ul>
       {%- if sec != "personal" %}<li><a href="/">salmony.co.uk</a></li>{% endif %}
-      {%- if sec != "work" %}<li><a href="/work/">Work</a></li>{% endif %}
+      <li><a href="/work/">Work</a></li>
       {%- if sec != "cookbook" %}<li><a href="/cookbook/">Cookbook</a></li>{% endif %}
       <li><a href="{{ site.linkedin }}" rel="me">LinkedIn</a></li>
-      {%- if sec == "personal" %}<li><a href="{{ site.facebook }}" rel="me">Facebook</a></li>{% endif %}
-      <li><a href="{{ site.x }}" rel="me">X</a></li>
-      <li><a href="{% if sec == 'work' %}/work/contact/{% else %}/contact/{% endif %}">Contact</a></li>
+      <li><a href="/contact/">Contact</a></li>
     </ul>
   </div>
 </footer>

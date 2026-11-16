@@ -86,6 +86,6 @@ Special mention in Children’s Category (also for adults):
   Planktonia, Erich Hoyt  
   The unbelievable life in the deep oceans – great pictures and fascinating facts what we don’t know about our own world
 - Lexikon der populären Irrtümer, W. Krämer
-- all my [publications](/work/publications/) (although some may count as fiction …)
+- all my [publications](https://payments-innovation.com/publications/) (although some may count as fiction …)
 
 See also the books on [Japan](/personal/travels/michael-salmony-on-japan/#japbooks)

@@ -1,8 +1,54 @@
 [
-  { "from": "/mathematicians-cookbook/", "to": "/cookbook/" },
-  { "from": "/kochbuch-fur-mathematiker/", "to": "/cookbook/de/" },
-  { "from": "/personal/potato-cannon/", "to": "/the-explosives-experiment-that-i-survived/" },
-  { "from": "/private/", "to": "/personal/" },
-  { "from": "/consulting/", "to": "/work/consulting/" },
-  { "from": "/older-lectures/", "to": "/work/lectures/older-lectures/" }
+  {
+    "from": "/mathematicians-cookbook/",
+    "to": "/cookbook/"
+  },
+  {
+    "from": "/kochbuch-fur-mathematiker/",
+    "to": "/cookbook/de/"
+  },
+  {
+    "from": "/personal/potato-cannon/",
+    "to": "/the-explosives-experiment-that-i-survived/"
+  },
+  {
+    "from": "/private/",
+    "to": "/personal/"
+  },
+  {
+    "from": "/older-lectures/",
+    "to": "https://payments-innovation.com/lectures/older-lectures/"
+  },
+  {
+    "from": "/work/boards/",
+    "to": "https://payments-innovation.com/boards/"
+  },
+  {
+    "from": "/work/lectures/",
+    "to": "https://payments-innovation.com/lectures/"
+  },
+  {
+    "from": "/work/lectures/older-lectures/",
+    "to": "https://payments-innovation.com/lectures/older-lectures/"
+  },
+  {
+    "from": "/work/lectures/older-lectures/abstrakt-meines-aktuellen-standardvortrags/",
+    "to": "https://payments-innovation.com/lectures/older-lectures/abstrakt-meines-aktuellen-standardvortrags/"
+  },
+  {
+    "from": "/work/publications/",
+    "to": "https://payments-innovation.com/publications/"
+  },
+  {
+    "from": "/work/publications/my-older-publications/",
+    "to": "https://payments-innovation.com/publications/my-older-publications/"
+  },
+  {
+    "from": "/work/media/",
+    "to": "https://payments-innovation.com/media/"
+  },
+  {
+    "from": "/consulting/",
+    "to": "https://payments-innovation.com/"
+  }
 ]

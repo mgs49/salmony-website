@@ -1,6 +1,6 @@
 # Notes for Claude when working on this repository
 
-This is Michael Salmony's website (www.salmony.co.uk). He edits it by asking Claude; he does not write code. Read README.md for the layout of the repository.
+This is Michael Salmony's personal website (www.salmony.co.uk) with the cookbook sub-site. He edits it by asking Claude; he does not write code. Read README.md for the layout of the repository. His professional site is separate: repository `mgs49/payments-innovation-website`. Boards, lectures, publications, media and clients live only there; do not recreate them here.
 
 ## House rules
 
@@ -9,6 +9,8 @@ This is Michael Salmony's website (www.salmony.co.uk). He edits it by asking Cla
 - Never use the em dash character in new text; use a hyphen.
 - Do not rewrite his texts for style. The humour, odd spellings in recipe names and old-fashioned turns of phrase are deliberate. Fix only what he asks for, and plain typos if he agrees.
 - Never state a specific number of years of experience in a biography; say "decades".
+- The Work page here carries the deliberately tongue-in-cheek title string ("Prof. h.c. Dr. rer. nat. ... VIP (Colbert), L.I.V.R., FRSA"). It is fine here and must never appear on the professional site.
+- Only LinkedIn. He does not use X, Twitter or Facebook; do not add links to them.
 - The cookbook is for sale. Never add the book's print PDFs, or more sample pages than the three already shown, without his explicit say-so.
 - Do not publish an e-mail address, phone number or home address on the site unless he asks.
 - Do not add trackers, analytics, cookie banners, external fonts or embedded social-media widgets. Link to LinkedIn or X posts instead of embedding them.

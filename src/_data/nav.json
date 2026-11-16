@@ -3,49 +3,86 @@
     "home": "/",
     "name": "Michael Salmony",
     "links": [
-      { "label": "Stories", "url": "/stories/" },
-      { "label": "Private", "url": "/personal/" },
-      { "label": "Travels", "url": "/personal/travels/" },
-      { "label": "Genealogy", "url": "/genealogy/" },
-      { "label": "Cookbook", "url": "/cookbook/" },
-      { "label": "Work", "url": "/work/" },
-      { "label": "Contact", "url": "/contact/" }
-    ]
-  },
-  "work": {
-    "home": "/work/",
-    "name": "Dr Michael Salmony",
-    "tagline": "Payments Innovation Consulting",
-    "links": [
-      { "label": "Profile", "url": "/work/" },
-      { "label": "Consulting", "url": "/work/consulting/" },
-      { "label": "Boards", "url": "/work/boards/" },
-      { "label": "Lectures", "url": "/work/lectures/" },
-      { "label": "Publications", "url": "/work/publications/" },
-      { "label": "Media", "url": "/work/media/" },
-      { "label": "Contact", "url": "/work/contact/" }
+      {
+        "label": "Stories",
+        "url": "/stories/"
+      },
+      {
+        "label": "Private",
+        "url": "/personal/"
+      },
+      {
+        "label": "Travels",
+        "url": "/personal/travels/"
+      },
+      {
+        "label": "Genealogy",
+        "url": "/genealogy/"
+      },
+      {
+        "label": "Cookbook",
+        "url": "/cookbook/"
+      },
+      {
+        "label": "Work",
+        "url": "/work/"
+      },
+      {
+        "label": "Contact",
+        "url": "/contact/"
+      }
     ]
   },
   "cookbook": {
     "home": "/cookbook/",
     "name": "The Mathematician's Cookbook",
     "links": [
-      { "label": "Why it is different", "url": "/cookbook/#different" },
-      { "label": "Look inside", "url": "/cookbook/#inside" },
-      { "label": "Recipes", "url": "/cookbook/recipes/" },
-      { "label": "Buy", "url": "/cookbook/#buy" },
-      { "label": "Deutsch", "url": "/cookbook/de/" }
+      {
+        "label": "Why it is different",
+        "url": "/cookbook/#different"
+      },
+      {
+        "label": "Look inside",
+        "url": "/cookbook/#inside"
+      },
+      {
+        "label": "Recipes",
+        "url": "/cookbook/recipes/"
+      },
+      {
+        "label": "Buy",
+        "url": "/cookbook/#buy"
+      },
+      {
+        "label": "Deutsch",
+        "url": "/cookbook/de/"
+      }
     ]
   },
   "cookbookDe": {
     "home": "/cookbook/de/",
     "name": "Kochbuch für Mathematiker",
     "links": [
-      { "label": "Warum anders", "url": "/cookbook/de/#different" },
-      { "label": "Blick ins Buch", "url": "/cookbook/de/#inside" },
-      { "label": "Rezepte", "url": "/cookbook/recipes/" },
-      { "label": "Kaufen", "url": "/cookbook/de/#buy" },
-      { "label": "English", "url": "/cookbook/" }
+      {
+        "label": "Warum anders",
+        "url": "/cookbook/de/#different"
+      },
+      {
+        "label": "Blick ins Buch",
+        "url": "/cookbook/de/#inside"
+      },
+      {
+        "label": "Rezepte",
+        "url": "/cookbook/recipes/"
+      },
+      {
+        "label": "Kaufen",
+        "url": "/cookbook/de/#buy"
+      },
+      {
+        "label": "English",
+        "url": "/cookbook/"
+      }
     ]
   }
 }

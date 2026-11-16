@@ -7,6 +7,7 @@ import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 // so every link needs that folder in front. Nothing else has to change when the domain moves.
 const hasCustomDomain = fs.existsSync("src/CNAME");
 const pathPrefix = process.env.PATH_PREFIX || (hasCustomDomain ? "/" : "/salmony-website/");
+const site = JSON.parse(fs.readFileSync("src/_data/site.json", "utf8"));
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
@@ -33,6 +34,16 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection("stories", (api) =>
     api.getFilteredByTag("story").sort((a, b) => (a.data.order || 0) - (b.data.order || 0))
   );
+
+  // Pages always link to the professional site by its real address, https://payments-innovation.com/.
+  // While that site is still a preview, the links are pointed at the preview instead
+  // (set "workUrl" in src/_data/site.json to the real address at go-live).
+  eleventyConfig.addTransform("work-site-links", function (content) {
+    if ((this.page.outputPath || "").endsWith(".html") && site.workUrl !== "https://payments-innovation.com") {
+      return content.replaceAll("https://payments-innovation.com/", site.workUrl + "/");
+    }
+    return content;
+  });
 
   eleventyConfig.addFilter("startsWith", (value, prefix) => String(value || "").startsWith(prefix));
   eleventyConfig.addFilter("year", () => new Date().getFullYear());

@@ -2,6 +2,18 @@
 
 Prepared 16th November 2026. Everything stated as a fact below was checked that day against the live sites and public DNS; the method is noted where it matters.
 
+## Update, 16th November 2026: what Michael decided
+
+- **The professional site stands on its own**, not as a folder of salmony.co.uk. It is now a separate site in the repository `mgs49/payments-innovation-website` (preview: https://mgs49.github.io/payments-innovation-website/) and will be served directly under payments-innovation.com. This replaces recommendation 1 and 2 and the forwarding table in section 5 as far as payments-innovation.com is concerned: that domain will point at its own site, and paymentsinnovation.consulting will forward to it as today.
+- salmony.co.uk keeps a Work page with the tongue-in-cheek CV and links across to the professional site. The old addresses `/work/boards/`, `/work/lectures/`, `/work/publications/` and `/work/media/` redirect there.
+- The biography ("Bio Michael Salmony PI") and the boards file ("Boards Salmony") are the authoritative texts for the professional site.
+- No e-mail is in use on salmony.co.uk, so nothing has to be preserved there when its DNS moves.
+- Only LinkedIn is used; links to X/Twitter and Facebook are removed from both sites.
+- Impressum: business name and VAT ID, with address and e-mail to follow. A privacy policy has been added.
+- Domains, e-mail continuity and re-hosting are to be organised once the websites are finished.
+
+The rest of this document is the original proposal and is kept for the record.
+
 ## 1. Recommendation in short
 
 1. **One source for everything professional: the `/work/` section of the new site.** Profile, Consulting, Boards, Lectures, Publications, Media, Clients and Contact live there and nowhere else. This is already built in the new site.

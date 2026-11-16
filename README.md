@@ -1,8 +1,9 @@
 # salmony-website
 
-The source of **www.salmony.co.uk**: Michael Salmony's personal site, his professional pages and the Mathematician's Cookbook sub-site. It replaces the WordPress site and the separate GoDaddy consulting site.
+The source of **www.salmony.co.uk**: Michael Salmony's personal site and the Mathematician's Cookbook sub-site. It replaces the WordPress site. The professional site (payments-innovation.com) is a separate site in the sister repository `mgs49/payments-innovation-website`.
 
 - Preview (until the domain is switched): https://mgs49.github.io/salmony-website/
+- Preview of the professional site: https://mgs49.github.io/payments-innovation-website/
 - Report on the remake: [REMAKE_REPORT.md](REMAKE_REPORT.md)
 - Proposal on the professional pages and the domains: [docs/PROPOSAL-professional-pages-and-domains.md](docs/PROPOSAL-professional-pages-and-domains.md)
 - Project log: [00_Statuslog.md](00_Statuslog.md)
@@ -25,8 +26,7 @@ Claude edits the file, saves it to GitHub, and the live site updates by itself a
 | The six stories | `src/stories/` |
 | Private pages (books, films, travels, Japan ...) | `src/personal/` |
 | Genealogy | `src/genealogy.md`, `src/genealogy/` |
-| Professional pages (profile, CV, consulting, boards, lectures, publications, media) | `src/work/` |
-| Client and partner logos | `src/_data/clients.json`, pictures in `src/assets/work/clients/` |
+| Work page (the tongue-in-cheek CV, with a link to the professional site) | `src/work/index.md` |
 | Cookbook texts, English and German | `src/_data/cb.json` |
 | Cookbook recipe list | `src/_data/recipes.json` |
 | Cookbook pictures | `src/assets/cookbook/` |
@@ -36,7 +36,9 @@ Claude edits the file, saves it to GitHub, and the live site updates by itself a
 | Colours, fonts, layout | `src/assets/css/site.css` (the three colour schemes are at the top) |
 | Page frames | `src/_includes/` |
 
-Most pages are Markdown: `## Heading`, `**bold**`, `[link text](address)`, a blank line between paragraphs. On the lectures and publications pages a heading that is just a year (`## 2027`) automatically becomes a jump target for the row of years at the top; when a new year starts, add it to that row as well.
+Most pages are Markdown: `## Heading`, `**bold**`, `[link text](address)`, a blank line between paragraphs.
+
+Links to the professional site are written as `https://payments-innovation.com/...`. While that site is still a preview they are pointed at the preview automatically; set `workUrl` in `src/_data/site.json` to `https://payments-innovation.com` when it goes live.
 
 ## How it is built
 
@@ -44,7 +46,7 @@ Most pages are Markdown: `## Heading`, `**bold**`, `[link text](address)`, a bla
 
 To build on your own computer (optional): `npm install`, then `npm run build` and `npm run check`, or `npm start` for a local preview.
 
-The site sets no cookies, uses no trackers and loads its fonts from this repository. The only content fetched from elsewhere is three YouTube videos on the lectures page (through YouTube's no-cookie address) and ten small genealogy pictures that are still loaded from the Internet Archive, as on the old site.
+The site sets no cookies, uses no trackers and loads its fonts from this repository. The only content fetched from elsewhere is ten small genealogy pictures that are still loaded from the Internet Archive, as on the old site.
 
 ## Switching the real domain to this site
 

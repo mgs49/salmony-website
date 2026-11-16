@@ -1,77 +1,116 @@
-# Remake report: salmony.co.uk
+# Remake report: salmony.co.uk and payments-innovation.com
 
-Date: 16th November 2026. Preview: https://mgs49.github.io/salmony-website/
+Date: 16th November 2026 (second round, after Michael's review).
+
+- Personal site and cookbook, preview: https://mgs49.github.io/salmony-website/
+- Professional site, preview: https://mgs49.github.io/payments-innovation-website/
+
+The live sites (WordPress and GoDaddy) have not been touched.
 
 ## Not verified - please check these yourself
 
-- **The two Amazon buttons and the PayPal button on the cookbook pages were not opened in a browser by me.** Amazon and PayPal refuse automatic checks. The Amazon addresses answer (a missing listing would give "not found"), and the PayPal button is the same one that is on your current cookbook page. Please click each once.
-- **Not every page was looked at by eye on every screen size.** 51 of the 52 pages (all but the "page not found" page) were tested automatically at desktop and phone width (nothing spills off the screen, no page errors), and I looked at screenshots of 40 pages at desktop width and 6 at phone width. Tablet widths were not looked at.
-- **Outside links were tested from a data centre, not from a normal home connection.** 31 could not be reached at all from there and may be fine for real visitors.
+- **The Istanbul keynote video** on the Events page is your YouTube video, taken from the link on your lectures page. YouTube cannot be reached from where I work, so I have not seen it play.
+- **The videos were checked by looking at still frames, not watched or listened to.** Please play each one once, in particular the European Parliament hearing, which I had to shrink hard (see Videos).
+- **Announcements**: titles, dates and summaries come from the feed of your current site. The individual announcement pages could not be read automatically; if any of them has longer text or a certificate picture, it has not been carried over.
+- **Impressum and privacy policy** are my drafts, not legal advice.
+- **Screens**: every page of both sites was tested automatically at desktop and phone width (nothing spills, no page errors). I looked at screenshots of the pages that are new or changed in this round; tablet widths were not looked at.
 
-## What was built
+## What changed in this round
 
-A new site in the GitHub repository `mgs49/salmony-website`, in three parts that share one design system but each have their own look:
+1. **The professional site is now a site of its own** (repository `mgs49/payments-innovation-website`), no longer a folder of salmony.co.uk. Pages: Home (consulting pitch), Profile, Clients, Boards, Lectures (with older lectures), Publications (with older publications), Media, Events, Announcements, Contact, Impressum, Privacy policy. The old GoDaddy addresses (`/ceo-profile`, `/references`, `/b2b-events`, `/open-banking`) redirect to the new pages.
+2. **salmony.co.uk** keeps one Work page: the long CV with the tongue-in-cheek titles and the photo gallery, and a link across to the professional site. The old addresses for boards, lectures, publications and media redirect to the professional site.
+3. **Profile** on the professional site is your attached biography, word for word. No tongue-in-cheek title there.
+4. **The long CV on salmony.co.uk** was brought into line with it: focus areas, universities, "one of the top most viewed profiles", "two millennial children", and offices in Heidelberg and London. I also corrected "has also publish a cookbook".
+5. **Boards** now follows your boards file, with the honours added and your older detailed list underneath.
+6. **Announcements**: all 15 awards and nominations from your current site, newest first.
+7. **Events**: the Transaction Innovation Forum in Tokyo with the final 2023 programme, the FinTech Istanbul B2B Connect Summit keynote with video, and the Open Banking Masterclass. The 2022 material and the "Dubai, coming soon" notice are gone.
+8. **Videos** on the Media page (see below).
+9. **Cookbook**: the two Amazon buttons and the PayPal button open in a new tab.
+10. **Only LinkedIn**: links to X/Twitter and Facebook are removed from both sites.
+11. **No copyright line** on the professional site. Impressum as you decided: business name, VAT ID DE316962182, address and e-mail to follow. Privacy policy added. The new site has no cookie banner and no form, so there are no German notices left to translate.
 
-1. **Personal site** (`/`): white page, Caslon type, a red seal as the only decoration. The home page is your name, one line, and the six things you survived as the headline list; the private pages, work and the cookbook follow underneath. The warning notice and the visitor counter joke are still there.
-2. **Professional pages** (`/work/`): navy and gold from the PIC slide template, with Jost as the free stand-in for Brandon Grotesque. Profile, full CV, Consulting, Clients, Boards, Lectures, Publications, Media, Contact.
-3. **Cookbook** (`/cookbook/`, German at `/cookbook/de/`): the red of the book cover, headings in your own handwriting font, the cover, the "instead of text it uses cartoons" comparison, three sample pages, the complete list of 126 recipes with page numbers, the quotes, and buy buttons.
+## Boards: your file against the websites
 
-It is a plain static site: no WordPress, no database, no logins, no cookies, no trackers. Hosting on GitHub Pages is free. You change it by asking Claude (see README.md).
+Your boards file (dated June 2025) is now the list on the Boards page. Differences I found against the list on your current consulting site:
 
-## What was carried over, and how it was checked
+| Item | Boards file | Current consulting site |
+|---|---|---|
+| ETPPA | "Strategic Adviser to Board **or** ETPPA ..., Brussels" (typo, shown as "of") | "Strategic Advisor to Board of ETPPA" |
+| Open Banking Exchange | "OBE Open Banking Exchange" | "Open Banking Exchange" |
+| Digital Euro Association | "Expert **and Fellow** to DEA" | "Expert of the Digital Euro Association" |
+| ECB | "on the options for the design of a central bank digital currency for digital euro payments CBDC" | shorter wording |
+| Asia Payments Connect | "Co-founder **and Member** of Global Expert Council of APC" | "Co-founder Global Expert Council" |
+| CAPS | "**Compliant** Access to Payment Services" | "**Convenient** Access to Payment Services" |
+| BIS Innovation Hub Project Aperta | listed | missing |
+| UK Cabinet Office (ex-member) | listed | missing |
+| Honours (two Freeman titles, FRSA) | not in the file | listed; kept |
 
-| Check | Result |
-|---|---|
-| Pages and stories on the old site | 40 (34 pages, 6 stories) |
-| Carried over | All 40. 33 converted as they were (Boards with the consulting site's list added). Reworked: the two cookbook pages and the old `/cookbook/` page became the new cookbook sub-site; the Work page was split into Profile and CV; the Private index and Contact pages were rewritten; the Potato Cannon page was identical to the explosives story, so its address now redirects there |
-| Text compared word for word, old page against new | Done for all 40. Nothing missing except navigation words ("Quick navigation", "Back to top") and the fallback text of audio and video players |
-| Pictures and documents | 379 files copied into the site, same year/month folders. 5 very large pictures were scaled down to 1800 pixels |
-| Internal links and pictures | 1,464 checked on the finished site, 0 broken. This check now runs automatically before every publish |
-| Old addresses | Unchanged, except the three that now redirect: `/mathematicians-cookbook/`, `/kochbuch-fur-mathematiker/`, `/personal/potato-cannon/` |
-| Build on GitHub | Passed; the preview is live |
+Please decide:
 
-The old sites have not been touched in any way.
+- **CAPS** has three spellings: your boards file says "Compliant Access to Payment Services", the consulting site "Convenient Access to Payment Services", and the CAPS logo on your clients page reads "Convenient Access to PSD2 Services". I used the boards file.
+- The boards file is from June 2025. It does not mention the Oxford Bank Governance Programme or the EBA Academy, which your biography does.
+- Your biography says "Board Member of Fintech Africa"; the boards file says "Advisory Board to Africa FinTech, Nigeria".
 
-## Deliberate changes
+## Biography: three small points
 
-- LinkedIn posts that were embedded in the lectures and publications pages (11) are now links to the posts, and the X/Twitter widget script is gone. The quoted text of tweets is kept.
-- YouTube videos (3, on the lectures page) use YouTube's no-cookie address.
-- Year navigation on the long lists is a single row of years at the top; the repeated "Back to top" links are gone.
-- Home page: one new line of text under your name ("Payments by profession. Japan, good food and the occasional potato cannon by inclination."). This is my wording, not yours. Change or delete it as you wish.
-- Contact pages: the old page said the form had been removed because of spammers. The new pages point to LinkedIn. No e-mail address is published.
-- Boards: the consulting site's list of current roles is now the first half of the Boards page, your detailed list the second half. Some roles therefore appear twice; prune as you see fit.
-- Cookbook: "inferiour" corrected to "inferior"; the link to the deluxe hardback at skoobebooks.co.uk was dropped because that website no longer exists; the German page's English paragraph about the author was put into German.
-- Geographies list: "Tallin" corrected to "Tallinn" and a doubled "Jordan" removed.
+- The book title in your biography is "The Tokenisation of Money - from Fiat to Stablecoins", published July 2026. The cover shown on your publications page reads "Tokenisation of Money - From Fiat Currencies to Stablecoins". I kept your biography as written; tell me which is right.
+- "EBA European Banking Academy": your lectures page calls it the "EBA Academy". Kept as written.
+- The biography gives salmony@payments-innovation.com as contact; for the Impressum you gave salmony@paymentsinnovation.consulting. Neither is published at the moment.
 
-## Things that were already broken on the old site
+## Clients: the logo wall against your client folders
 
-- 7 pictures no longer exist anywhere and were left out: two on the culture vulture page with no picture file at all (Turner, Helmut Newton), one Helmut Newton picture linked from artnet.de, one from the Seattle Art Museum on the namesakes page, and three LinkedIn/X preview pictures on the lectures page. Captions are kept.
-- The Media page has three captions without their videos.
-- 141 links to other websites are dead. They are listed page by page in [docs/dead-outside-links.md](docs/dead-outside-links.md) and were carried over unchanged.
-- 10 small genealogy pictures on the namesakes page are still loaded from the Internet Archive's copy of your 2004 site, as before. I could not download them from here. If the originals are in your old homepage backups, I can move them into the site.
+The wall has 58 client logos and 7 partners. Going by the names of your client folders (I did not open the documents), these clients have a folder but no logo on the wall:
 
-## The cookbook and what is public
+- Current: Bank of Israel (CB Israel), EBA Academy, Spuerkeess (Luxembourg).
+- Past: Roland Berger, Comatch, Digitinary, Guidepoint, RAKBANK, TK Pay, Turkcell Paycell, Ziraat, G3, E-Invoicing Exchange Summit, IFF, South African Reserve Bank, Payments Leaders' Summit, NOBO, J.C. Flowers/Paycy, BankZero.
 
-- None of the print PDFs are in the repository or on the site.
-- Public: the front cover, three sample pages (Käsefondue p. 45, Oma's Apfelkuchen p. 128, Sushi - Subroutine) at reduced size, and the index of recipe names.
-- The recipe list comes from the 4th edition index. One title is written in Chinese in the book; it appears as "Original Peking Duck".
-- The printed back cover sends readers to www.mathematicianscookbook.com, which is currently not registered by anyone. See the proposal.
+I have not added any of them: some may be confidential, and I would need the logos. Tell me which to add.
 
-## Decisions I need from you
+**The line-drawn lion is not Guidance Guard.** Your Guidance Guard flyer for the Amman masterclass carries a gold "GG" logo, and that logo is already on the wall. The lion is a different, still unidentified client; the lettering under it is too small to read. It is still shown, labelled "Client logo".
 
-1. **Journalists page.** `/journalists/` is a list of named journalists with stars against some names. It is public on the old site (not in the menu) and I carried it over the same way, hidden from search engines. It reads like a private working list. Keep, or remove?
-2. **Client logos.** One logo (a line-drawn lion) has no name; who is it? And are you content for all of them to be shown?
-3. **Profile.** One master biography, updated for tokenised money, the Springer book, the EBA Academy and The Payments Trilogue? I have not written one because it is not on either site today.
-4. **Stale consulting material.** The TIF Japan 2022 programme and TIF MENA 2023 outline are linked from the Consulting page because they are on the consulting site today. Keep or drop?
-5. **Spelling in your own titles.** "Top 10 Favorite Books", "My Top 10 (Well, 25) Favorite Films" and "The tumor in my head I survived" use American spelling. I left your titles alone. Change to "Favourite" and "tumour"?
-6. **Domains and going live.** See [the proposal](docs/PROPOSAL-professional-pages-and-domains.md), in particular whether any @salmony.co.uk e-mail address is in use and whether to re-register mathematicianscookbook.com.
-7. **Where the project log should live on your Mac.** `00_Statuslog.md` is in the repository for now.
+## Videos
+
+All three missing videos were in your work-videos folder and are now on the Media page, stored on the site itself (no YouTube involved):
+
+| Video | Length | Note |
+|---|---|---|
+| Portrait Michael Salmony | 4 min | |
+| European Parliament hearing, March 2016 | 52 min | Shrunk to small picture size (360 lines) to stay under GitHub's 100 MB file limit. If you want it sharp, upload the original to your YouTube channel and I will embed that instead |
+| Salmony at ECB Conference 2017 | 21 min | |
+
+Added from the same folder because they are short and show you well:
+
+- Interview on PSD2, Amsterdam 2017 (2 min)
+- "The End of Money", teaser for New Scientist Live 2019 (1 min)
+- "Open finance - a game-changer for the financial services industry", MENA Open Finance Innovation Forum 2022 (1 min)
+- AI and payments, Saïd Business School 2024 (1 min)
+
+Remove any you do not want. These were made by event organisers; I assume you may show them.
+
+Other candidates I saw by file name but have not opened (most are long and large): Salmony at Mastercard RISE 2021, Salmony on CBDC at Payments Nordics 2022, Sal at BizzPay 2021, Istanbul TechWeek CBDC, Finextra Ponto webinar, EPC 20 years anniversary conference, the full New Scientist Live talk, Saïd Oxford 2024 on Open Banking/Open Finance/AI, Data Market interview at OpenX 2023, the APC "Hard Talk" series, and in Downloads "EPISODE 14 - Dr. Michael" (July 2026). Long recordings are better placed on YouTube and embedded; tell me which you want.
+
+In Downloads, the work clips not already in your work-videos folder appear to be "EPISODE 14 - Dr. Michael", "Banks Future Revenue Streams ..." (15 seconds), "MGS Arabic end" (14 seconds), "DeuBa supports CBDC - haha" and the full 11 GB recording of the Istanbul B2B Connect Summit. The others look private or unrelated by their names; I did not open them.
+
+## Left on your Mac
+
+- `Downloads/Claude web videos/` with two files (the shrunken European Parliament video and a sheet of stills). Safe to delete.
+- An empty hidden file `.claude_write_test` in Movies/Salmony work. Safe to delete.
+
+## Still open from the first round
+
+1. `/journalists/` on salmony.co.uk: a public list of named journalists with stars against some names. Keep or remove?
+2. The home page line under your name is my wording: "Payments by profession. Japan, good food and the occasional potato cannon by inclination." Keep, change or delete?
+3. American spellings in your own titles: "Top 10 Favorite Books", "Favorite Films", "The tumor in my head I survived". Change?
+4. Where the project folder with `00_Statuslog.md` should live on your Mac.
+5. Is transactioninnovationforum.com still the right address for the Transaction Innovation Forum? I could not reach it, and a 2024 text in your folders says it was moving to TIF.Global.
+6. 141 dead outside links (listed in `docs/dead-outside-links.md`) and ten genealogy pictures still loaded from the Internet Archive.
+7. Going live: domains, e-mail continuity and re-hosting, when you are happy with both sites.
 
 ## Where everything is
 
-- Site source: this repository, branch `main`. Finished pages: branch `gh-pages` (automatic).
-- Proposal: `docs/PROPOSAL-professional-pages-and-domains.md`
-- Dead outside links: `docs/dead-outside-links.md`
-- How to change the site: `README.md`. Standing rules for Claude: `CLAUDE.md`.
+- Personal site and cookbook: repository `mgs49/salmony-website`.
+- Professional site: repository `mgs49/payments-innovation-website`.
+- Proposal with the record of decisions: `docs/PROPOSAL-professional-pages-and-domains.md`.
+- Project log: `00_Statuslog.md`.
 
-**Status: remake complete.** The new site is built, checked and published as a preview. Going live on www.salmony.co.uk waits for your review and the DNS steps in the proposal.
+**Status: remake complete.** Both sites are built, checked and published as previews. Going live waits for your review and the domain steps.
