@@ -16,6 +16,7 @@ Single source of truth for this project. Latest first.
 
 ## Key facts and decisions (latest first)
 
+- 17th November 2026 (Michael, screenshots): SiteGround GrowBig hosting expires 26th February 2027 (renewal offered at £479.76 for 24 months ex. VAT); SiteGround offers mathematicianscookbook.com at £9.99 for the first year. Michael asked whether to switch to Cloudflare; Claude recommends moving all domains and DNS to Cloudflare and not renewing SiteGround. The PIC-side shared mailbox and catch-all are on paymentsinnovation.consulting and unaffected by the PI move.
 - 17th November 2026 (Claude, checked against public DNS and Microsoft's sign-in service): the two consulting e-mail domains are in two different Microsoft 365 tenants. paymentsinnovation.consulting (PIC) is the ordinary tenant managed by Abtis; payments-innovation.com (PI) is a GoDaddy-run tenant whose "Microsoft 365 E-Mail Essentials" free trial ends 16th June 2027 with auto-renew off. paymentsinnovation.consulting expires 15th/16th September 2027, auto-renew off. mathematicianscookbook.com is not registered. salmony.co.uk is registered at SiteGround until 9th July 2028. See `docs/PLAN-email-domains-hosting.md`.
 - 17th November 2026 (Michael, in chat): must not lose access to PIC and PI e-mail through any transition. Microsoft 365 is run by Abtis. A "Nathalie" address is simulated; mail to other addresses (e.g. office@) is rerouted to PIC.
 - 17th November 2026 (Michael, in chat): his YouTube channel holds the long European Parliament video and some newer professional videos worth highlighting; it also holds things not wanted on the professional site.
@@ -42,7 +43,7 @@ Single source of truth for this project. Latest first.
 
 ## Open items and next steps
 
-0. E-mail first (see `docs/PLAN-email-domains-hosting.md`): Michael switches on auto-renew for paymentsinnovation.consulting and checks the card; Abtis to move payments-innovation.com into the PIC tenant before 16th June 2027 (target January to February 2027), adding DKIM and DMARC. Michael to send the Nathalie/alias document and the SiteGround renewal date.
+0. E-mail first (see `docs/PLAN-email-domains-hosting.md`): Michael switches on auto-renew for paymentsinnovation.consulting and checks the card; Abtis to move payments-innovation.com into the PIC tenant before 16th June 2027 (target January to February 2027), adding DKIM and DMARC. salmony.co.uk must be off SiteGround before 26th February 2027.
 0. Michael chooses between the clean and the alternative look for the professional site (see `alt.css` and CLAUDE.md in `payments-innovation-website`). The switch must be removed before go-live.
 0. Michael chooses between the clean and the fun look for the personal pages (see `src/assets/css/fun.css` and the note in CLAUDE.md). Then remove the look switch and the look not chosen.
 1. Michael reviews both previews and answers the open points in REMAKE_REPORT.md (boards wording, CAPS name, book title, client logos to add, the unidentified lion logo, videos to keep or add).
@@ -54,6 +55,7 @@ Single source of truth for this project. Latest first.
 
 ## Log
 
+- 17th November 2026: plan updated with SiteGround expiry and prices, Cloudflare prices and the deadline of 26th February 2027.
 - 17th November 2026: e-mail, domains and hosting reviewed against Michael's GoDaddy and SiteGround screenshots and public records; plan written in `docs/PLAN-email-domains-hosting.md`. Nothing changed at any provider.
 - 17th November 2026: Michael's YouTube channel (@salmony, 38 videos incl. unlisted and private) reviewed. On the professional Media page the European Parliament hearing (1080p on YouTube) and the ECB 2017 talk (720p) now play from YouTube instead of the small files in the repository, which were removed. Added from the channel: interview at Saïd Business School 2024, technology panel at the EPC 20th Anniversary event 2022, fireside chat on Open Banking at the Mastercard LAC Innovation Forum 2021. All YouTube videos on the site (Media, Lectures, Events) now show a still picture and load the player only when play is pressed; privacy policy reworded to match. Not used: the unlisted Trilogue episodes and all family, school and travel videos.
 - 17th November 2026: alternative look added to the professional site (navy bands, a ribbon of engraved banknote lines turning into tokens, lectures/publications/announcements as a chain of blocks). Same pages and texts; clean look stays the default; footer link or `?look=alt` switches. Page frames were restructured for this; the clean look was compared pixel by pixel before and after on all 15 pages at desktop and phone width and is unchanged apart from the new footer link.
