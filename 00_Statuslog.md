@@ -66,6 +66,7 @@ Order agreed 17th November 2026 (details in `docs/PLAN-email-domains-hosting.md`
 
 ## Log
 
+- 17th November 2026: Abtis price list checked for the PI licence. Exchange Online (Plan 1), ex. VAT: €42.00 a year paid yearly, €44.04 a year paid monthly, or €4.20 a month on a monthly term. Ignore the "Managed Mail" lines (Abtis service add-ons). Leaning towards buying it directly from Microsoft in the PI admin centre after the GoDaddy hand-over, to avoid linking that tenant to Abtis.
 - 17th November 2026 (afternoon): Abtis support replied that licences are managed by Michael in the my.abtis portal; questions on the PI licence and the later quote go to vertrieb@abtis.de (no reply from sales yet). Business Basic: annual term, ends 14th October 2027, cannot be cut earlier in the portal; auto-renew to be off so it ends then.
 - 17th November 2026: e-mail sent by Michael to Abtis (vertrieb, cc CSP support): cancel Business Basic; licence for the PI mailbox after leaving GoDaddy; quote for bringing PI into the PIC tenant later as a separate mailbox. Awaiting reply. Cloudflare account opened by Michael (Gmail sign-in, Cloudflare password set, two-step sign-in on).
 - 17th November 2026: plan updated with SiteGround expiry and prices, Cloudflare prices and the deadline of 26th February 2027.
