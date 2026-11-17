@@ -46,6 +46,14 @@ Single source of truth for this project. Latest first.
 
 ## Open items and next steps
 
+Order agreed 17th November 2026 (details in `docs/PLAN-email-domains-hosting.md`):
+- A. Await Abtis's reply (licence for the PI mailbox, cancelling Business Basic, quote for bringing PI into the PIC tenant later as a separate mailbox).
+- B. Michael reviews both new sites and chooses the looks; switches removed.
+- C. salmony.co.uk: add to Cloudflare, copy its DNS records, transfer the domain from SiteGround, go live on GitHub Pages. Must be done before 26th February 2027 (SiteGround hosting ends; do not renew). Register mathematicianscookbook.com at Cloudflare.
+- D. PI: once Abtis confirms the licence, GoDaddy "move away" request, licence swapped in before the GoDaddy plan ends (by 16th June 2027). PIC and PI stay two separate mailboxes throughout.
+- E. Consulting domains to Cloudflare with mail records copied first; renew paymentsinnovation.consulting before 16th September 2027; payments-innovation.com site live; DKIM and DMARC.
+- F. Cancel SiteGround, the GoDaddy Website Builder and remaining GoDaddy items.
+
 0. E-mail first (see `docs/PLAN-email-domains-hosting.md`): Michael switches on auto-renew for paymentsinnovation.consulting and checks the card; Michael (with Claude) to move payments-innovation.com into the PIC tenant before 16th June 2027 (target January to February 2027), adding DKIM and DMARC. salmony.co.uk must be off SiteGround before 26th February 2027.
 0. Michael chooses between the clean and the alternative look for the professional site (see `alt.css` and CLAUDE.md in `payments-innovation-website`). The switch must be removed before go-live.
 0. Michael chooses between the clean and the fun look for the personal pages (see `src/assets/css/fun.css` and the note in CLAUDE.md). Then remove the look switch and the look not chosen.
@@ -58,7 +66,7 @@ Single source of truth for this project. Latest first.
 
 ## Log
 
-- 17th November 2026: e-mail sent by Michael to Abtis (vertrieb, cc CSP support): cancel Business Basic; licence for the PI mailbox after leaving GoDaddy; quote for bringing PI into the PIC tenant later as a separate mailbox. Awaiting reply. Next: Michael opens a Cloudflare account.
+- 17th November 2026: e-mail sent by Michael to Abtis (vertrieb, cc CSP support): cancel Business Basic; licence for the PI mailbox after leaving GoDaddy; quote for bringing PI into the PIC tenant later as a separate mailbox. Awaiting reply. Cloudflare account opened by Michael (Gmail sign-in, Cloudflare password set, two-step sign-in on).
 - 17th November 2026: plan updated with SiteGround expiry and prices, Cloudflare prices and the deadline of 26th February 2027.
 - 17th November 2026: e-mail, domains and hosting reviewed against Michael's GoDaddy and SiteGround screenshots and public records; plan written in `docs/PLAN-email-domains-hosting.md`. Nothing changed at any provider.
 - 17th November 2026: Michael's YouTube channel (@salmony, 38 videos incl. unlisted and private) reviewed. On the professional Media page the European Parliament hearing (1080p on YouTube) and the ECB 2017 talk (720p) now play from YouTube instead of the small files in the repository, which were removed. Added from the channel: interview at Saïd Business School 2024, technology panel at the EPC 20th Anniversary event 2022, fireside chat on Open Banking at the Mastercard LAC Innovation Forum 2021. All YouTube videos on the site (Media, Lectures, Events) now show a still picture and load the player only when play is pressed; privacy policy reworded to match. Not used: the unlisted Trilogue episodes and all family, school and travel videos.
