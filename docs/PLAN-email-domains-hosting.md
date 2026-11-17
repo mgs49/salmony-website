@@ -22,6 +22,10 @@ The two consulting e-mail domains live in **two different Microsoft 365 tenants*
 
 If nothing is done, mail to @payments-innovation.com is likely to stop working when that subscription ends, whatever Abtis does on the PIC side. Separately, paymentsinnovation.consulting itself expires in September 2027 with auto-renew off; if it lapses, PIC mail stops too.
 
+## 2a. Who runs the PIC tenant (checked 17th November 2026)
+
+From Michael's admin screens: Abtis is listed only as reseller, with no admin roles. Michael administers the tenant himself, so the PI move can be done by him with Claude's guidance; Abtis only needs to be told. The catch-all is a mail-flow rule ("forward all mails to any id to salmony"), with no domain condition, so it will also cover payments-innovation.com once that domain is added. The initial PICconsult.onmicrosoft.com address cannot be removed (Microsoft keeps it permanently). A third domain, paymentsconsulting.be, shows "Incomplete setup"; its public records point to a different Microsoft 365 organisation and a Belgian DNS host, so it should be removed unless Michael owns it.
+
 ## 3. Recommended end state
 
 - **E-mail:** one Microsoft 365 tenant, the Abtis one. payments-innovation.com is added to it, and salmony@payments-innovation.com (plus any catch-all or other addresses in use) becomes an alias of the PIC mailbox, or a shared mailbox if it must stay separate. No extra licence expected for an alias. GoDaddy's Microsoft 365 is then cancelled.
@@ -37,7 +41,7 @@ If nothing is done, mail to @payments-innovation.com is likely to stop working w
 
 
 1. **Now:** switch on auto-renew for paymentsinnovation.consulting at GoDaddy and check the card on file is valid (or transfer the domain in step 6, which also renews it).
-2. **Now:** brief Abtis. Ask them to bring payments-innovation.com into the PIC tenant: export the PI mailbox first, have GoDaddy release (defederate) the domain from its tenant, add it to the Abtis tenant, attach the addresses, then switch the MX, SPF and autodiscover records. Target: January to February 2027, well before 16th June 2027. Ask them to add DKIM and DMARC for both domains at the same time (neither has them today).
+2. Michael, with Claude: move payments-innovation.com into the PIC tenant: export the PI mailbox if it holds mail, release the domain from GoDaddy's Microsoft 365, add it to the PIC tenant, add the address as an alias, then switch the MX, SPF and autodiscover records. Target: January to February 2027, well before 16th June 2027. Add DKIM and DMARC for both domains at the same time (neither has them today). Tell Abtis beforehand.
 3. Michael chooses the looks for both sites; the look switches are removed.
 4. Websites go live on GitHub Pages: only the web records (A and www) change; mail records are not touched.
 5. Check both live sites; set the forward for paymentsinnovation.consulting.
