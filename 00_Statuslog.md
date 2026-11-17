@@ -66,6 +66,7 @@ Order agreed 17th November 2026 (details in `docs/PLAN-email-domains-hosting.md`
 
 ## Log
 
+- 17th November 2026 (afternoon): Abtis support replied that licences are managed by Michael in the my.abtis portal; questions on the PI licence and the later quote go to vertrieb@abtis.de (no reply from sales yet). Business Basic: annual term, ends 14th October 2027, cannot be cut earlier in the portal; auto-renew to be off so it ends then.
 - 17th November 2026: e-mail sent by Michael to Abtis (vertrieb, cc CSP support): cancel Business Basic; licence for the PI mailbox after leaving GoDaddy; quote for bringing PI into the PIC tenant later as a separate mailbox. Awaiting reply. Cloudflare account opened by Michael (Gmail sign-in, Cloudflare password set, two-step sign-in on).
 - 17th November 2026: plan updated with SiteGround expiry and prices, Cloudflare prices and the deadline of 26th February 2027.
 - 17th November 2026: e-mail, domains and hosting reviewed against Michael's GoDaddy and SiteGround screenshots and public records; plan written in `docs/PLAN-email-domains-hosting.md`. Nothing changed at any provider.
