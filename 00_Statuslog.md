@@ -58,6 +58,7 @@ Single source of truth for this project. Latest first.
 
 ## Log
 
+- 17th November 2026: e-mail sent by Michael to Abtis (vertrieb, cc CSP support): cancel Business Basic; licence for the PI mailbox after leaving GoDaddy; quote for bringing PI into the PIC tenant later as a separate mailbox. Awaiting reply. Next: Michael opens a Cloudflare account.
 - 17th November 2026: plan updated with SiteGround expiry and prices, Cloudflare prices and the deadline of 26th February 2027.
 - 17th November 2026: e-mail, domains and hosting reviewed against Michael's GoDaddy and SiteGround screenshots and public records; plan written in `docs/PLAN-email-domains-hosting.md`. Nothing changed at any provider.
 - 17th November 2026: Michael's YouTube channel (@salmony, 38 videos incl. unlisted and private) reviewed. On the professional Media page the European Parliament hearing (1080p on YouTube) and the ECB 2017 talk (720p) now play from YouTube instead of the small files in the repository, which were removed. Added from the channel: interview at Saïd Business School 2024, technology panel at the EPC 20th Anniversary event 2022, fireside chat on Open Banking at the Mastercard LAC Innovation Forum 2021. All YouTube videos on the site (Media, Lectures, Events) now show a still picture and load the player only when play is pressed; privacy policy reworded to match. Not used: the unlisted Trilogue episodes and all family, school and travel videos.
