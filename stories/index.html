@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Things I survived - Michael Salmony</title>
+<meta name="description" content="The British public school system, a train crash, a terrorist attack, an explosives experiment and other things Michael Salmony survived.">
+
+
+<link rel="icon" href="/salmony-website/assets/img/favicon-personal.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/salmony-website/assets/css/site.css">
+<link rel="stylesheet" href="/salmony-website/assets/css/fun.css">
+<script>
+/* Two looks for the personal pages while Michael decides: "clean" (default) and "fun".
+   Adding ?look=fun or ?look=clean to any address switches; the choice is remembered in this browser only. */
+(function () { try {
+  var q = new URLSearchParams(location.search).get("look");
+  if (q === "fun" || q === "clean") localStorage.setItem("look", q);
+  if (localStorage.getItem("look") === "fun") document.documentElement.classList.add("fun");
+} catch (e) {} })();
+</script>
+</head>
+<body class="sec-personal">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="/salmony-website/"><span class="seal" aria-hidden="true">MS</span><span class="brand-name">Michael Salmony</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/salmony-website/stories/" aria-current="page">Stories</a></li>
+        <li><a href="/salmony-website/personal/">Private</a></li>
+        <li><a href="/salmony-website/personal/travels/">Travels</a></li>
+        <li><a href="/salmony-website/genealogy/">Genealogy</a></li>
+        <li><a href="/salmony-website/cookbook/">Cookbook</a></li>
+        <li><a href="/salmony-website/work/">Work</a></li>
+        <li><a href="/salmony-website/contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<article class="wrap page">
+  <h1>Things I survived</h1>
+  <div class="prose">
+<ul class="index-list">
+  <li><a href="/salmony-website/the-british-public-school-system-that-i-survived/">The British public school system I survived</a></li>
+  <li><a href="/salmony-website/the-train-crash-i-survived/">The train crash I survived</a></li>
+  <li><a href="/salmony-website/the-terrorist-attack-i-survived/">The terrorist attack I survived</a></li>
+  <li><a href="/salmony-website/the-explosives-experiment-that-i-survived/">The explosives experiment that I survived</a></li>
+  <li><a href="/salmony-website/the-tumor-in-my-head-i-survived/">The tumor in my head I survived</a></li>
+  <li><a href="/salmony-website/the-criminal-exploits-i-didnt-get-caught-in/">The criminal exploits I didn’t get caught in</a></li>
+</ul>
+
+  </div>
+</article>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <p>© 2026 Michael Salmony</p>
+    <ul>
+      <li><a href="/salmony-website/work/">Work</a></li><li><a href="/salmony-website/cookbook/">Cookbook</a></li>
+      <li><a href="https://www.linkedin.com/in/salmony" rel="me">LinkedIn</a></li>
+      <li><a href="/salmony-website/contact/">Contact</a></li><li class="look-switch" hidden=""><button type="button" id="look-switch"></button></li>
+    </ul>
+  </div>
+</footer>
+<script>
+(function () {
+  var b = document.getElementById("look-switch"); if (!b) return;
+  var root = document.documentElement;
+  function label() { b.textContent = root.classList.contains("fun") ? "Switch to the clean look" : "Switch to the fun look"; }
+  b.addEventListener("click", function () {
+    var fun = root.classList.toggle("fun");
+    try { localStorage.setItem("look", fun ? "fun" : "clean"); } catch (e) {}
+    label();
+  });
+  label(); b.parentNode.hidden = false;
+})();
+</script>
+</body>
+</html>

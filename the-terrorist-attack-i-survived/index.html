@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The terrorist attack I survived - Michael Salmony</title>
+
+
+
+<link rel="icon" href="/salmony-website/assets/img/favicon-personal.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/salmony-website/assets/css/site.css">
+<link rel="stylesheet" href="/salmony-website/assets/css/fun.css">
+<script>
+/* Two looks for the personal pages while Michael decides: "clean" (default) and "fun".
+   Adding ?look=fun or ?look=clean to any address switches; the choice is remembered in this browser only. */
+(function () { try {
+  var q = new URLSearchParams(location.search).get("look");
+  if (q === "fun" || q === "clean") localStorage.setItem("look", q);
+  if (localStorage.getItem("look") === "fun") document.documentElement.classList.add("fun");
+} catch (e) {} })();
+</script>
+</head>
+<body class="sec-personal">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="/salmony-website/"><span class="seal" aria-hidden="true">MS</span><span class="brand-name">Michael Salmony</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/salmony-website/stories/">Stories</a></li>
+        <li><a href="/salmony-website/personal/">Private</a></li>
+        <li><a href="/salmony-website/personal/travels/">Travels</a></li>
+        <li><a href="/salmony-website/genealogy/">Genealogy</a></li>
+        <li><a href="/salmony-website/cookbook/">Cookbook</a></li>
+        <li><a href="/salmony-website/work/">Work</a></li>
+        <li><a href="/salmony-website/contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<article class="wrap page"><p class="crumb"><a href="/salmony-website/stories/">Stories</a></p>
+  <h1>The terrorist attack I survived</h1>
+  <div class="prose">
+<p>On 16th November 1986 we were sitting quietly at breakfast listening to the news on the radio. It happened to mention that my place of work had been blown up by a terrorist bomb.</p>
+<p>Luckily the terrorists had only wanted to harm the facility and no people: they let the bomb explode at 3 a.m. on a Sunday and told a priest to tell the security guard to get out in time. Thus nobody was hurt.</p>
+<img src="/salmony-website/assets/uploads/2019/01/attack-2.jpg" class="centre" loading="lazy" width="139" height="200">
+<p>The bomb was planted by the RAF (Rote Armee Fraktion) headed by the famous Baader-Meinhof gang. They left a very long and boring politically confused 8-page <a href="/salmony-website/assets/uploads/2019/01/raflet.jpg">letter</a> nearby turgidly explaining their actions – quite fascinating in its misguidedness. Apparently they thought that the IBM Research Centre with its computer networking activities was supporting the “Rasterfahndung” (whereby a terrorists are identified by computers, databases, telecommunications networks etc.). This was not true.</p>
+<img src="/salmony-website/assets/uploads/2019/01/attack.jpg" class="centre" loading="lazy" width="200" height="135">
+<p>(Above is the holes in our computer centre)</p>
+<p>However in other respects they had done their homework: they knew where it hurts most. The sensitive parts of the building are the computer centre and the best thing to destroy is the data on disk drives – not the more easily replaceable processors. The bomb was hidden in a fire extinguisher which was placed outside this critical spot. They caused several million DMs of damage and caused severe disruption to our work for several weeks.</p>
+<img src="/salmony-website/assets/uploads/2019/01/attack-3-300x206.jpg" loading="lazy" width="300" height="206">
+<p>(Above, Squadrons of policemen flown in by helicopter to search the area.)</p>
+
+  </div>
+</article>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <p>© 2026 Michael Salmony</p>
+    <ul>
+      <li><a href="/salmony-website/work/">Work</a></li><li><a href="/salmony-website/cookbook/">Cookbook</a></li>
+      <li><a href="https://www.linkedin.com/in/salmony" rel="me">LinkedIn</a></li>
+      <li><a href="/salmony-website/contact/">Contact</a></li><li class="look-switch" hidden=""><button type="button" id="look-switch"></button></li>
+    </ul>
+  </div>
+</footer>
+<script>
+(function () {
+  var b = document.getElementById("look-switch"); if (!b) return;
+  var root = document.documentElement;
+  function label() { b.textContent = root.classList.contains("fun") ? "Switch to the clean look" : "Switch to the fun look"; }
+  b.addEventListener("click", function () {
+    var fun = root.classList.toggle("fun");
+    try { localStorage.setItem("look", fun ? "fun" : "clean"); } catch (e) {}
+    label();
+  });
+  label(); b.parentNode.hidden = false;
+})();
+</script>
+</body>
+</html>

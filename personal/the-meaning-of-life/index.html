@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Meaning of Life - Michael Salmony</title>
+
+
+
+<link rel="icon" href="/salmony-website/assets/img/favicon-personal.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/salmony-website/assets/css/site.css">
+<link rel="stylesheet" href="/salmony-website/assets/css/fun.css">
+<script>
+/* Two looks for the personal pages while Michael decides: "clean" (default) and "fun".
+   Adding ?look=fun or ?look=clean to any address switches; the choice is remembered in this browser only. */
+(function () { try {
+  var q = new URLSearchParams(location.search).get("look");
+  if (q === "fun" || q === "clean") localStorage.setItem("look", q);
+  if (localStorage.getItem("look") === "fun") document.documentElement.classList.add("fun");
+} catch (e) {} })();
+</script>
+</head>
+<body class="sec-personal">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="/salmony-website/"><span class="seal" aria-hidden="true">MS</span><span class="brand-name">Michael Salmony</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/salmony-website/stories/">Stories</a></li>
+        <li><a href="/salmony-website/personal/" aria-current="page">Private</a></li>
+        <li><a href="/salmony-website/personal/travels/">Travels</a></li>
+        <li><a href="/salmony-website/genealogy/">Genealogy</a></li>
+        <li><a href="/salmony-website/cookbook/">Cookbook</a></li>
+        <li><a href="/salmony-website/work/">Work</a></li>
+        <li><a href="/salmony-website/contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<article class="wrap page"><p class="crumb"><a href="/salmony-website/personal/">Private</a></p>
+  <h1>The Meaning of Life</h1>
+  <div class="prose">
+<p><strong>The Strategy</strong></p>
+<img src="/salmony-website/assets/uploads/2026/09/meanbus.gif" class="left" loading="lazy" width="693" height="316">
+<p>This highly complicated chart aims to show a simple concept. There is a “good” area where the amount of free time is adequate as is the amount of spare cash. This, however, is only a small area of the total possible spectrum.</p>
+<p>Indeed most people find themselves in an area where the amount of free time is sorely inadquate – as is the amount of spending money. Other bad areas are when there is lots of spare time but maybe even less than zero free cash (unemployed and in debt), or too much money or spare time (yes, these are, I assume, problem areas too).</p>
+<p>The thing to note is that career pressures from your boss, your wife<sup>†</sup>, society etc. tend to push you through the good zone (into stress etc.) but many people either disqualify themselves before they enter it, or – after entering it – forget about the meaning of life at work and continue into an area of heart attacks, worries and excessive stress.</p>
+<p>But having seen this chart you will now surely never lose your peace of mind…<br>
+<sup>†</sup> not yours or mine, of course</p>
+<p><strong>The Tactic</strong></p>
+<p>If you can keep your head when all about you<br>
+Are losing theirs and blaming it on you;<br>
+If you can trust yourself when all men doubt you,<br>
+But make allowance for their doubting too;<br>
+If you can wait and not be tired by waiting,<br>
+Or, being lied about, don’t deal in lies,<br>
+Or, being hated, don’t give way to hating,<br>
+And yet don’t look too good, nor talk too wise;</p>
+<p>If you can dream – and not make dreams your master;<br>
+If you can think – and not make thoughts your aim;<br>
+If you can meet with triumph and disaster<br>
+And treat those two impostors just the same;<br>
+If you can bear to hear the truth you’ve spoken<br>
+Twisted by knaves to make a trap for fools,<br>
+Or watch the things you gave your life to broken,<br>
+And stoop and build ’em up with worn-out tools;</p>
+<p>If you can make one heap of all your winnings<br>
+And risk it on one turn of pitch-and-toss,<br>
+And lose, and start again at your beginnings<br>
+And never breath a word about your loss;<br>
+If you can force your heart and nerve and sinew<br>
+To serve your turn long after they are gone,<br>
+And so hold on when there is nothing in you<br>
+Except the Will which says to them: “Hold on”;</p>
+<p>If you can talk with crowds and keep your virtue,<br>
+Or walk with kings – nor lose the common touch;<br>
+If neither foes nor loving friends can hurt you;<br>
+If all men count with you, but none too much;<br>
+If you can fill the unforgiving minute<br>
+With sixty seconds’ worth of distance run –<br>
+Yours is the Earth and everything that’s in it,<br>
+And – which is more – you’ll be a Man my son!</p>
+<p>Rudyard Kipling (1865-1936), “If”</p>
+
+  </div>
+</article>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <p>© 2026 Michael Salmony</p>
+    <ul>
+      <li><a href="/salmony-website/work/">Work</a></li><li><a href="/salmony-website/cookbook/">Cookbook</a></li>
+      <li><a href="https://www.linkedin.com/in/salmony" rel="me">LinkedIn</a></li>
+      <li><a href="/salmony-website/contact/">Contact</a></li><li class="look-switch" hidden=""><button type="button" id="look-switch"></button></li>
+    </ul>
+  </div>
+</footer>
+<script>
+(function () {
+  var b = document.getElementById("look-switch"); if (!b) return;
+  var root = document.documentElement;
+  function label() { b.textContent = root.classList.contains("fun") ? "Switch to the clean look" : "Switch to the fun look"; }
+  b.addEventListener("click", function () {
+    var fun = root.classList.toggle("fun");
+    try { localStorage.setItem("look", fun ? "fun" : "clean"); } catch (e) {}
+    label();
+  });
+  label(); b.parentNode.hidden = false;
+})();
+</script>
+</body>
+</html>

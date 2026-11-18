@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michael Salmony</title>
+<meta name="description" content="The personal site of Michael Salmony: things survived, travels, Japan, genealogy, a cookbook for mathematicians, and what he does for a living.">
+
+
+<link rel="icon" href="/salmony-website/assets/img/favicon-personal.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/salmony-website/assets/css/site.css">
+<link rel="stylesheet" href="/salmony-website/assets/css/fun.css">
+<script>
+/* Two looks for the personal pages while Michael decides: "clean" (default) and "fun".
+   Adding ?look=fun or ?look=clean to any address switches; the choice is remembered in this browser only. */
+(function () { try {
+  var q = new URLSearchParams(location.search).get("look");
+  if (q === "fun" || q === "clean") localStorage.setItem("look", q);
+  if (localStorage.getItem("look") === "fun") document.documentElement.classList.add("fun");
+} catch (e) {} })();
+</script>
+</head>
+<body class="sec-personal">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="/salmony-website/"><span class="seal" aria-hidden="true">MS</span><span class="brand-name">Michael Salmony</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/salmony-website/stories/">Stories</a></li>
+        <li><a href="/salmony-website/personal/">Private</a></li>
+        <li><a href="/salmony-website/personal/travels/">Travels</a></li>
+        <li><a href="/salmony-website/genealogy/">Genealogy</a></li>
+        <li><a href="/salmony-website/cookbook/">Cookbook</a></li>
+        <li><a href="/salmony-website/work/">Work</a></li>
+        <li><a href="/salmony-website/contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<div class="wrap">
+  <section class="home-intro">
+    <h1>Michael Salmony</h1>
+    <p>Payments by profession. Japan, good food and the occasional potato cannon by inclination.</p>
+    <figure class="fun-only doodle" aria-hidden="true"><svg viewBox="0 0 520 326" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false">
+  <defs>
+    <filter id="wobble" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="7" result="n"></feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.4"></feDisplacementMap>
+    </filter>
+  </defs>
+  <g filter="url(#wobble)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ground -->
+    <path class="pen" d="M8 263 C 120 260, 250 266, 380 262 S 480 264, 512 262"></path>
+    <path class="pen thin" d="M22 263 l-9 11 M40 263 l-9 11 M58 263 l-9 11"></path>
+    <!-- the flight -->
+    <path class="pen dash" d="M162 158 Q 310 10 488 258"></path>
+    <!-- prop -->
+    <path class="pen" d="M137 184 L151 262 M137 184 L125 262"></path>
+    <!-- cannon: barrel, combustion chamber, end cap and igniter -->
+    <g transform="translate(70 250) rotate(-45)">
+      <rect class="pen fill-paper" x="20" y="-10" width="106" height="20" rx="2"></rect>
+      <rect class="pen fill-paper" x="-22" y="-17" width="46" height="34" rx="5"></rect>
+      <path class="pen" d="M-22 -19 v38"></path>
+      <path class="pen thin" d="M2 -17 v-9 M-4 -27 h12"></path>
+    </g>
+    <!-- angle -->
+    <path class="red thin" d="M99 262 A 41 41 0 0 0 87 233"></path>
+    <!-- the potato -->
+    <g transform="translate(318 109) rotate(-14)">
+      <path class="pen fill-potato" d="M-29 -3 C -28 -18, -9 -21, 7 -19 C 22 -17, 31 -10, 30 2 C 29 14, 13 19, -3 18 C -18 17, -30 11, -29 -3 Z"></path>
+      <path class="pen thin" d="M-13 -7 l3 2 M4 -10 l3 1 M11 5 l3 -1 M-6 8 l3 1"></path>
+    </g>
+    <path class="pen thin" d="M272 118 l-17 6 M270 104 l-15 3 M278 132 l-15 9"></path>
+    <!-- landing -->
+    <path class="red" d="M488 258 l-14 -16 M488 258 l1 -22 M488 258 l15 -15 M488 258 l-22 -3 M488 258 l21 -2"></path>
+    <!-- pointer to the potato -->
+    <path class="red thin" d="M404 50 C 386 56, 370 70, 358 88 M358 88 l2 -13 M358 88 l12 -6"></path>
+    <!-- range -->
+    <path class="red thin" d="M162 284 H 488 M162 284 l9 -5 M162 284 l9 5 M488 284 l-9 -5 M488 284 l-9 5 M162 276 v16 M488 276 v16"></path>
+  </g>
+  <text class="hand red-text" x="410" y="52">potato</text>
+  <text class="hand red-text small" x="103" y="251">45°</text>
+  <text class="hand pen-text" x="325" y="316" text-anchor="middle">range = v² / g (roughly)</text>
+</svg>
+</figure>
+  </section>
+
+  <section class="survived" aria-labelledby="survived-h">
+    <h2 id="survived-h">Things I survived</h2>
+    <ol>
+      <li><a href="/salmony-website/the-british-public-school-system-that-i-survived/">The British public school system I survived</a></li>
+      <li><a href="/salmony-website/the-train-crash-i-survived/">The train crash I survived</a></li>
+      <li><a href="/salmony-website/the-terrorist-attack-i-survived/">The terrorist attack I survived</a></li>
+      <li><a href="/salmony-website/the-explosives-experiment-that-i-survived/">The explosives experiment that I survived</a></li>
+      <li><a href="/salmony-website/the-tumor-in-my-head-i-survived/">The tumor in my head I survived</a></li>
+      <li><a href="/salmony-website/the-criminal-exploits-i-didnt-get-caught-in/">The criminal exploits I didn’t get caught in</a></li>
+    </ol>
+    <p class="fun-only grade" aria-hidden="true">6/6</p>
+  </section>
+
+  <section class="doors">
+    <div>
+      <h2><a href="/salmony-website/personal/">Private</a></h2>
+      <ul>
+        <li><a href="/salmony-website/personal/what-i-lust-for/">What I lust for</a></li>
+        <li><a href="/salmony-website/personal/top-10-books/">Top 10 books</a> and <a href="/salmony-website/personal/top-10-films/">films</a></li>
+        <li><a href="/salmony-website/personal/travels/">Travels</a> and <a href="/salmony-website/personal/travels/michael-salmony-on-japan/">Japan</a></li>
+        <li><a href="/salmony-website/genealogy/">Genealogy of the name Salmony</a></li>
+        <li><a href="/salmony-website/personal/the-meaning-of-life/">The meaning of life</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2><a href="/salmony-website/work/">Work</a></h2>
+      <ul>
+        <li><a href="/salmony-website/work/">What I really do for a living</a></li>
+        <li><a href="https://mgs49.github.io/payments-innovation-website/">Payments Innovation Consulting</a></li>
+        <li><a href="https://mgs49.github.io/payments-innovation-website/lectures/">Lectures</a> and <a href="https://mgs49.github.io/payments-innovation-website/publications/">publications</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2><a href="/salmony-website/cookbook/">Cookbook</a></h2>
+      <p>The Mathematician's Cookbook: recipes as cartoons and diagrams instead of text.</p>
+      <ul>
+        <li><a href="/salmony-website/cookbook/">English</a>, <a href="/salmony-website/cookbook/de/" lang="de">Deutsch</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <aside class="warning" aria-labelledby="warning-h">
+    <h2 id="warning-h">Warning</h2>
+    <p>This web site contains material that is in rather questionable taste and may not be suitable for computer users under the age of 17 or chartered public accountants of any age. This web site is also unsuitable for use when submerged in water or in close proximity to open flame. Also unsuitable for the prevention of disease. This web site is intended for the idle amusement of mature adults and has no redeeming feature whatsoever.</p>
+    <p>The first web site devised exclusively for the betterment of humanity. Includes scenes of extreme violence.</p>
+    <p><img src="/salmony-website/assets/img/counter-static.png" alt="3005058" width="105" height="20"> people have visited this site, or was it… <img src="/salmony-website/assets/img/counter.gif" alt="a counter spinning wildly" width="90" height="20"></p>
+    <p><img src="/salmony-website/assets/img/fosters.gif" alt="Best viewed after a few cans of Fosters" loading="lazy"></p>
+  </aside>
+</div>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <p>© 2026 Michael Salmony</p>
+    <ul>
+      <li><a href="/salmony-website/work/">Work</a></li><li><a href="/salmony-website/cookbook/">Cookbook</a></li>
+      <li><a href="https://www.linkedin.com/in/salmony" rel="me">LinkedIn</a></li>
+      <li><a href="/salmony-website/contact/">Contact</a></li><li class="look-switch" hidden=""><button type="button" id="look-switch"></button></li>
+    </ul>
+  </div>
+</footer>
+<script>
+(function () {
+  var b = document.getElementById("look-switch"); if (!b) return;
+  var root = document.documentElement;
+  function label() { b.textContent = root.classList.contains("fun") ? "Switch to the clean look" : "Switch to the fun look"; }
+  b.addEventListener("click", function () {
+    var fun = root.classList.toggle("fun");
+    try { localStorage.setItem("look", fun ? "fun" : "clean"); } catch (e) {}
+    label();
+  });
+  label(); b.parentNode.hidden = false;
+})();
+</script>
+</body>
+</html>
