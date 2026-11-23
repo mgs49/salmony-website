@@ -74,10 +74,12 @@ Order agreed 17th November 2026 (details in `docs/PLAN-email-domains-hosting.md`
 2. Michael plays each video on the Media page once.
 3. Go live when he is happy: DNS for salmony.co.uk and payments-innovation.com, `src/CNAME` in each repository, HTTPS, forward paymentsinnovation.consulting, decide on mathematicianscookbook.com, then cancel SiteGround and the GoDaddy Website Builder plan. E-mail on the two consulting domains must keep working throughout.
 4. Impressum: add address and e-mail if and when he decides.
-5. Optional: prune the 141 dead outside links (genealogy pictures done 24th November 2026).
+5. Done 24th November 2026: dead outside links and genealogy pictures.
 6. Done 24th November 2026: this log stays in the repository.
 
 ## Log
+
+- 24th November 2026 (morning): pictures of The Payments Trilogue and the book cover added under those two lines of the CV on the school page. Dead outside links dealt with as agreed: Internet Archive copies where they exist, link removed (text kept) where not, Journi links kept, two X posts unlinked; done on both sites (lectures and publications are on the professional site). The Brooks International client logo still links to a dead site (clients.json); left alone, as client logos change only on Michael's instruction.
 
 - 24th November 2026 (later): SiteGround retired. Final full backup taken over SSH (SiteGround charges for downloading its own backups): website files and WordPress databases of salmony.co.uk, payment-innovation.salmony.co.uk, mathematicianscookbook.com and the empty michaels590.sg-host.com, saved on Michael's Mac in Documents/save/homepage/backup 2026-11 SiteGround final (with a README; the 1.7 GB file archive checked identical to the server copy). No e-mail accounts existed on SiteGround. GrowBig plan cancelled "at expiration": it runs to 26th February 2027 and will not renew; nothing more to pay. The two "External Domain" entries at SiteGround cost nothing. Transaction Innovation Forum: no longer needed (Michael). Dead-links list built: 143 rows, 100 with a usable Internet Archive copy, 7 with only a recent (doubtful) copy, 26 gone, 8 Journi travel-journal links that in fact still work, 2 X/Twitter posts.
 

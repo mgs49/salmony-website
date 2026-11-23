@@ -15,7 +15,7 @@ templateEngineOverride: md
 
 <img src="/assets/uploads/2019/01/canside-300x225.jpg" class="centre" loading="lazy" width="300" height="225">
 
-First of we looked up how to build a Potato–Cannon in the book [“Backyard Ballistics”](http://www.backyard-ballistics.com/) and got in the right frame of mind by cultivating a [Bonsai Potato.](http://www.bonsaipotato.com)
+First of we looked up how to build a Potato–Cannon in the book [“Backyard Ballistics”](http://www.backyard-ballistics.com/) and got in the right frame of mind by cultivating a [Bonsai Potato.](https://web.archive.org/web/20190119215708/http://www.bonsaipotato.com:80/)
 
 Then we did some calculations on how far the potato should fly:
 

@@ -1,3 +1,5 @@
+> 24th November 2026: dealt with, as agreed with Michael. Links with an Internet Archive copy now point to it; links with no copy were removed (the text stays); the Journi travel-journal links still work and were kept; the two X/Twitter posts were unlinked. Lectures and publications now live on the professional site (payments-innovation-website), where the same changes were made. Full list with results: salmony-dead-links-2026-11-24.xlsx (sent to Michael).
+
 # Outside links that no longer work
 
 Checked automatically on 16th November 2026: every link from the new site to another website was opened once.

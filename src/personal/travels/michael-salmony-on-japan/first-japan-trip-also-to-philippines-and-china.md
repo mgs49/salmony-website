@@ -64,7 +64,7 @@ Homes and nature linked by wooden footbridges and even by rope ladders – a mor
 Situated south of Manila at the Gulf of Davao, 1.5. hours by air and then 45 mins by boat.  
 Typical Filipino food, the seafood is particularly good.
 
-<http://www.philippine-travel.co.uk/~pthotels/hotels/davao/pearl_farm/index.htm>
+<https://web.archive.org/web/20061013203341/http://www.philippine-travel.co.uk/%7Epthotels/hotels/davao/pearl_farm/index.htm>
 
 **Red Capital Club & Residence, Beijing, China**
 
@@ -89,7 +89,7 @@ From the air it looks like a giant Fisher-Price toy and is linked to the the gal
 Huge concrete cylinder with a transom window.  
 The restaurants “Sound of the Ocean” and “Wind between the Pine Trees” serve elaborate Kaiseki cuisine.
 
-<http://www.naoshima-is.co.jp/english/first.html>
+<https://web.archive.org/web/20090210222539/http://www.naoshima-is.co.jp:80/english/first.html>
 
 <img src="/assets/uploads/2026/09/japan-Benesse-House3.jpg" loading="lazy">
 
@@ -112,7 +112,7 @@ using japanese steam baths
 eating traditional japanese food  
 and having a special etiquette on [how to use a Ryokan](http://www.ryokan.or.jp/how_en.html).
 
-They come from simple [Minshuku](http://www.minshuku.jp/english/what.html) (like a home visit, where you get to see how a family lives)
+They come from simple [Minshuku](https://web.archive.org/web/20220317042021/http://www.minshuku.jp/english/what.html) (like a home visit, where you get to see how a family lives)
 
 to a super luxury [Relais & Chateaux Ryokan](http://www.gorakadan.com/)  both of which we will be visiting
 

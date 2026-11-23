@@ -11,13 +11,13 @@ templateEngineOverride: md
 
 ### Sick
 
-- [Final Meal Requests](http://www.tdcj.state.tx.us/stat/finalmeals.htm)
+- [Final Meal Requests](https://web.archive.org/web/20090130132035/http://tdcj.state.tx.us:80/stat/finalmeals.htm)
 - [The Vomitorium – airsickness bag collection](http://www.vomitorium.co.uk/)
 - [Corpses For Sale](http://www.distefano.com/)
 - [Divorce online](http://www.divorce-online.co.uk/)
-- Murderer [in slices](http://www.uchsc.edu/sm/chs/browse/browse_f.html) or [animated guts](http://www.uchsc.edu/sm/chs/gallery/gallery.htm)
-- [Chopped-off hands in Star Wars episodes](http://www.members.tripod.com/~Adam_P_B/starwarshands/)
-- [Skin diseases in films](http://itsb.ucsf.edu/~vcr/index.html)
+- Murderer [in slices](https://web.archive.org/web/20100211095106/http://www.uchsc.edu:80/sm/chs/browse/browse_f.html) or [animated guts](https://web.archive.org/web/20100527233347/http://www.uchsc.edu/sm/chs/gallery/gallery.htm)
+- [Chopped-off hands in Star Wars episodes](https://web.archive.org/web/20180726160252/http://members.tripod.com/~Adam_P_B/starwarshands/)
+- [Skin diseases in films](https://web.archive.org/web/20051217081936/http://itsb.ucsf.edu:80/%7evcr/index.html)
 
 ### Useful
 
@@ -38,10 +38,10 @@ templateEngineOverride: md
 - [Online Nuts+Bolts Pizza](http://www.ecst.csuchico.edu/~pizza/pizzaweb.html)
 - [Indoor Flying Saucers](http://www.draganfly.com/)
 - [Uploaded – lads’ mag](http://www.uploaded.com/)
-- [Matchstick Rockets](http://mrockets.hypermart.net/build.html)
+- [Matchstick Rockets](https://web.archive.org/web/20031209171253/http://mrockets.hypermart.net:80/build.html)
 - [Guiness World Records](http://www.guinnessworldrecords.com/)
 - [Personalised Integer and taste-inverting chemical](http://www.freedom-to-tinker.com/)
-- [Bonsai potato](http://www.bonsaipotato.com/)
+- [Bonsai potato](https://web.archive.org/web/20190119215708/http://www.bonsaipotato.com:80/)
 - [Spirograph pancacke](http://boingboing.net/2014/08/11/spirographic-pancakes.html)
 
 ### Clever
@@ -51,17 +51,17 @@ templateEngineOverride: md
 ### Strange
 
 - [TheBurglar.com – Burglars offer their loot back](http://www.theburglar.com/)
-- [Furniture Porn](http://www.vgg.com/vgg/furnporn1.html) – [Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch](http://llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch.co.uk/)
-- [Lego Death](http://www.legodeath.com/)
+- [Furniture Porn](https://web.archive.org/web/19990427014456/http://www.vgg.com:80/vgg/furnporn1.html) – [Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch](http://llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch.co.uk/)
+- [Lego Death](https://web.archive.org/web/20190129014446/https://www.legodeath.com/)
 - [Spiders’ webs when on drugs](http://www.cannabis.net/weblife.html)
 - [Cambridge University live Coffee Machine](http://www.cl.cam.ac.uk/coffee/coffee.html)
 - [Cats that look like Hitler](http://www.catsthatlooklikehitler.com/)
 - [The Smoking Gun: Celebrities’ conflicts with the law](http://www.thesmokinggun.com/circus/circus.shtml)
 - [Old Bailey medieaval verdicts](http://www.oldbaileyonline.org/forms/formMain.jsp)
-- [ex-MI6 employee reveals all](http://www.thebigbreach.com/)
-- [Paranormal equiment](http://www.tomsgadgets.com/products/categories.aspx?cat1=1)
-- [Fun with Science and Death](http://www.benecke.com/fun.html) (including traffic cone lovers)
-- [Campervan](http://www.gogomobil.net/) (should someone want to do this strange type of holiday)
+- [ex-MI6 employee reveals all](https://web.archive.org/web/20161023050839/http://thebigbreach.com/)
+- [Paranormal equiment](https://web.archive.org/web/20110321124312/http://www.tomsgadgets.com:80/products/categories.aspx?cat1=1)
+- [Fun with Science and Death](https://web.archive.org/web/20080706141127/http://www.benecke.com/fun.html) (including traffic cone lovers)
+- [Campervan](https://web.archive.org/web/20181121155707/https://www.gogomobil.net/) (should someone want to do this strange type of holiday)
 
 ### Gadgets
 
@@ -80,7 +80,7 @@ templateEngineOverride: md
 - [Pythonline](http://www.pythonline.com/)
 - [Monty Python net](http://www.montypython.net/)
 - [Aardman](http://www.aardman.co.uk/)
-- [British comedy](http://www.humorlinks.com/links/British_Comedy/)
+- [British comedy](https://web.archive.org/web/20020811053027/http://www.humorlinks.com:80/links/British_Comedy/)
 
 ### Hacking
 
