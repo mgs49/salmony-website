@@ -44,7 +44,7 @@
     {%- else %}
     <ul>
       <li><a href="/">salmony.co.uk</a></li>
-      <li><a href="/work/">Work</a></li>
+      {%- if sec != "cookbook" %}<li><a href="/work/">Work</a></li>{% endif %}
       {%- if sec != "cookbook" %}<li><a href="/cookbook/">Cookbook</a></li>{% endif %}
       <li><a href="/contact/">Contact</a></li>
     </ul>

@@ -54,14 +54,14 @@ Single source of truth for this project. Latest first.
 - New hosting: none (GitHub Pages, public repository).
 - Domains: renewals continue for each domain kept. Michael to check his invoices; no prices were verified.
 - Possible savings once live: SiteGround WordPress hosting and the GoDaddy Website Builder plan.
-- Possible new cost: re-registering mathematicianscookbook.com.
+- mathematicianscookbook.com at Cloudflare: $11.17 a year (from 23rd November 2026, auto-renew).
 
 ## Open items and next steps
 
 Order agreed 17th November 2026 (details in `docs/PLAN-email-domains-hosting.md`):
 - A. Await Abtis's reply (licence for the PI mailbox, cancelling Business Basic, quote for bringing PI into the PIC tenant later as a separate mailbox).
 - B. Michael reviews both new sites and chooses the looks; switches removed.
-- C. salmony.co.uk: done 23rd November 2026 (Cloudflare, transfer, live on GitHub Pages); still to do: tick Enforce HTTPS, final WordPress backup. Must be done before 26th February 2027 (SiteGround hosting ends; do not renew). Register mathematicianscookbook.com at Cloudflare.
+- C. salmony.co.uk: done 23rd November 2026 (Cloudflare, transfer, live on GitHub Pages); still to do: final WordPress backup before 26th February 2027 (SiteGround hosting ends; do not renew). mathematicianscookbook.com registered and forwarding (23rd November 2026).
 - D. PI: once Abtis confirms the licence, GoDaddy "move away" request, licence swapped in before the GoDaddy plan ends (by 16th June 2027). PIC and PI stay two separate mailboxes throughout.
 - E. Consulting domains to Cloudflare with mail records copied first; renew paymentsinnovation.consulting before 16th September 2027; payments-innovation.com site live; DKIM and DMARC.
 - G. Once PI runs well on a licence bought directly from Microsoft: move PIC's licences (Business Standard, Audio Conferencing) from Abtis to Microsoft directly at the end of their current terms, then remove Abtis as partner. Same organisation, so no mail moves; buy and assign the Microsoft licences a few days before the Abtis ones end, never after. Michael decided this on 17th November 2026 to be done with Abtis. Abtis terms for Business Standard (€12.74 a month) and Audio Conferencing (€2.31 a month) both end 14th October 2027, auto-renew still on; switch it off only once PI runs on its Microsoft licence. No further reply from Abtis is needed for any step.
@@ -78,6 +78,8 @@ Order agreed 17th November 2026 (details in `docs/PLAN-email-domains-hosting.md`
 6. Michael to say where this log should be kept on his Mac.
 
 ## Log
+
+- 23rd November 2026 (evening, Tokyo time): mathematicianscookbook.com registered at Cloudflare (Michael approved and paid himself; $11.17 for one year, renews at $11.17 a year with auto-renew, expires 23rd November 2027; registrant Michael privately, Heidelberg address). Two proxied placeholder A records (@ and www, 192.0.2.1) and a redirect rule "Forward to cookbook on salmony.co.uk": every address on the domain, with or without www, goes by 301 to https://www.salmony.co.uk/cookbook/. Tested. "Enforce HTTPS" ticked by Michael on GitHub; http://www.salmony.co.uk now goes to https. Work link removed from the cookbook footer.
 
 - 23rd November 2026 (evening): www.salmony.co.uk is live on GitHub Pages (Michael: "go live!"). `src/CNAME` added; Cloudflare DNS: four A records for salmony.co.uk to GitHub (185.199.108-111.153) and www as CNAME to mgs49.github.io, all DNS only. The old preview address now redirects to www.salmony.co.uk, and salmony.co.uk redirects to www. HTTPS certificate was still being issued by GitHub at the time of switching; "Enforce HTTPS" to be ticked in the repository's Pages settings once it is ready. Old SiteGround records (autoconfig, autodiscover, ftp, mail, ssh) still point to SiteGround; remove when SiteGround is cancelled. Professional site's link to the personal site changed to https://www.salmony.co.uk.
 
