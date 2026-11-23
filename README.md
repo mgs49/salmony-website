@@ -6,7 +6,7 @@ The source of **www.salmony.co.uk**: Michael Salmony's personal site and the Mat
 - Preview of the professional site: https://mgs49.github.io/payments-innovation-website/
 - Report on the remake: [REMAKE_REPORT.md](REMAKE_REPORT.md)
 - Proposal on the professional pages and the domains: [docs/PROPOSAL-professional-pages-and-domains.md](docs/PROPOSAL-professional-pages-and-domains.md)
-- Project log: [00_Statuslog.md](00_Statuslog.md)
+- Project log: kept on Michael's Mac in Documents/homepages/00_Statuslog.md and in the "Websites" project on claude.ai, not here
 
 ## Changing the site with Claude
 

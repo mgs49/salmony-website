@@ -111,6 +111,6 @@ In Downloads, the work clips not already in your work-videos folder appear to be
 - Personal site and cookbook: repository `mgs49/salmony-website`.
 - Professional site: repository `mgs49/payments-innovation-website`.
 - Proposal with the record of decisions: `docs/PROPOSAL-professional-pages-and-domains.md`.
-- Project log: `00_Statuslog.md`.
+- Project log: Documents/homepages/00_Statuslog.md on Michael's Mac (and in the "Websites" project on claude.ai).
 
 **Status: remake complete.** Both sites are built, checked and published as previews. Going live waits for your review and the domain steps.

@@ -26,7 +26,7 @@ This is Michael Salmony's personal website (www.salmony.co.uk) with the cookbook
 - After any change run `npm run build` and `npm run check`; both must pass. Look at the changed page (the built file in `_site/`) before saying it is done.
 - Commit to `main` with a plain-English message and push. Publishing is automatic. Never push to `gh-pages` yourself except to repair a failed publish.
 - When an old address changes, add a line to `src/_data/redirects.json` so existing links keep working.
-- Keep `00_Statuslog.md` up to date: latest entry first, with the date. The master copy is on Michael's Mac in Documents/homepages (the project folder, with `01_Briefing for Claude.md`); keep both copies the same. Never change anything in Documents/save/homepages (old versions).
+- The project log `00_Statuslog.md` is not kept in this repository (since 24th November 2026). Update it after every step that matters, latest entry first, with the date, in two places kept the same: the master copy on Michael's Mac in Documents/homepages (the project folder, with `01_Briefing for Claude.md`) and the copy in the "Websites" project on claude.ai. Never change anything in Documents/save/homepages (old versions).
 
 ## Look of the personal pages
 
