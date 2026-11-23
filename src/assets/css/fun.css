@@ -203,3 +203,6 @@
 .fun .prose table, .fun .prose td, .fun .prose th,
 .fun .warning, .fun .doors p, .fun .doors ul, .fun .index-list span,
 .fun .prose details, .fun .quickjump { font-size: var(--body-size); }
+
+/* Small pictures inside the CV table (podcast, book) */
+.cv-pic { display: block; margin: .5rem 0 .25rem; height: auto; box-shadow: 0 2px 6px rgba(0,0,0,.2); }

@@ -151,5 +151,5 @@ I loved it - except for Goddard, our housemaster, who later became Lord Mayor of
 | [Worldline](https://worldline.com/) (merger of Equens and Worldline Financial Processing) | (the biggest in Europe - until it collapsed) |
 | Far too much time in Brussels: ERPB, EACB, EPC, the [European Parliament hearing](https://youtu.be/AE0BXH5KdOM) and other gremia beginning with E |  |
 | [Payments Innovation Consulting](https://payments-innovation.com/) |  |
-| Host of [The Payments Trilogue](https://thepaymentstrilogue.com/) |  |
-| My book: [Tokenisation of Money - from Fiat to Stablecoins](https://tokenisationofmoney.com/) |  |
+| Host of [The Payments Trilogue](https://thepaymentstrilogue.com/)<br><a href="https://thepaymentstrilogue.com/"><img src="/assets/uploads/2026/11/payments-trilogue.jpg" alt="The Payments Trilogue" class="cv-pic" width="160" height="156" loading="lazy"></a> |  |
+| My book: [Tokenisation of Money - from Fiat to Stablecoins](https://tokenisationofmoney.com/)<br><a href="https://tokenisationofmoney.com/"><img src="/assets/uploads/2026/11/tokenisation-of-money-cover.jpg" alt="Tokenisation of Money - from Fiat to Stablecoins (Springer)" class="cv-pic" width="120" height="194" loading="lazy"></a> |  |
