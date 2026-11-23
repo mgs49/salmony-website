@@ -74,10 +74,12 @@ Order agreed 17th November 2026 (details in `docs/PLAN-email-domains-hosting.md`
 2. Michael plays each video on the Media page once.
 3. Go live when he is happy: DNS for salmony.co.uk and payments-innovation.com, `src/CNAME` in each repository, HTTPS, forward paymentsinnovation.consulting, decide on mathematicianscookbook.com, then cancel SiteGround and the GoDaddy Website Builder plan. E-mail on the two consulting domains must keep working throughout.
 4. Impressum: add address and e-mail if and when he decides.
-5. Optional: copy the ten genealogy pictures from the old homepage backups into the site; prune the 141 dead outside links.
-6. Michael to say where this log should be kept on his Mac.
+5. Optional: prune the 141 dead outside links (genealogy pictures done 24th November 2026).
+6. Done 24th November 2026: this log stays in the repository.
 
 ## Log
+
+- 24th November 2026: King's School photo (from the 2020 backup) added to the school page, and "This is what the school and we looked like" now links to it. Namesakes page tidied: grouped under headings, pictures as captioned galleries, the duplicate gravestone picture removed, broken line breaks mended; the ten old genealogy pictures that were still loaded from the Internet Archive now come from the site itself (originals from the 2003 homepage backup on Michael's Mac). New overview Sheet of all websites, domains, e-mail and hosting with renewals, costs and where to change each: https://claude.ai/artifact/LrKLTuR35ax8qXq3RLyKNt (private to Michael; no passwords in it). Michael confirmed this log stays in the repository; the Boarzell-page problem has gone.
 
 - 23rd November 2026 (evening, Tokyo time): mathematicianscookbook.com registered at Cloudflare (Michael approved and paid himself; $11.17 for one year, renews at $11.17 a year with auto-renew, expires 23rd November 2027; registrant Michael privately, Heidelberg address). Two proxied placeholder A records (@ and www, 192.0.2.1) and a redirect rule "Forward to cookbook on salmony.co.uk": every address on the domain, with or without www, goes by 301 to https://www.salmony.co.uk/cookbook/. Tested. "Enforce HTTPS" ticked by Michael on GitHub; http://www.salmony.co.uk now goes to https. Work link removed from the cookbook footer.
 
