@@ -25,11 +25,9 @@ This is Michael Salmony's personal website (www.salmony.co.uk) with the cookbook
 - When an old address changes, add a line to `src/_data/redirects.json` so existing links keep working.
 - Keep `00_Statuslog.md` up to date: latest entry first, with the date.
 
-## Two looks for the personal pages (temporary)
+## Look of the personal pages
 
-- The personal pages have two looks while he decides: the clean one (`site.css`, the default) and the fun one (`fun.css`, an exercise book in his handwriting). Only the look differs; pages and texts are shared. The cookbook has its own look and is not affected.
-- A link in the footer switches, as does adding `?look=fun` or `?look=clean` to any address. The choice is kept in the visitor's browser only (no cookie, nothing sent anywhere).
-- Parts with `class="fun-only"` (the potato-cannon drawing in `src/_includes/potato.svg` and the "6/6" mark on the home page) show in the fun look only.
-- When changing the design of a personal page, check both looks: view the page with and without `?look=fun`.
-- Once he has chosen, remove the other look and the switch (the two blocks marked in `src/_includes/base.njk`).
-
+- Michael chose the "fun" look on 23rd November 2026 (an exercise book in his handwriting). It is now the only look: `fun.css` sits on top of `site.css`, and `base.njk` puts `class="fun"` on every personal page. The cookbook has its own look and is not affected.
+- Parts with `class="fun-only"` (the potato-cannon drawing in `src/_includes/potato.svg` and the "6/6" mark on the home page) show on the personal pages.
+- The home page plays the applause from the old site (`/assets/uploads/2019/01/applause.mp3`). Browsers often block sound until the visitor clicks or presses a key; the page then plays it at the first touch.
+- LinkedIn is linked from the Work and Contact pages only, not from the footer (his decision, 23rd November 2026).

@@ -9,6 +9,8 @@ templateEngineOverride: md
 
 For the professional version of all this, with boards, lectures, publications, media and clients, see [Payments Innovation Consulting](https://payments-innovation.com/).
 
+To connect with me, find me on [LinkedIn](https://www.linkedin.com/in/salmony).
+
 ## Curriculum Vitae
 
 <img src="/assets/uploads/2019/01/smile-1.jpg" class="right" alt="Michael Salmony" loading="lazy" width="170" height="223">

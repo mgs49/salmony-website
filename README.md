@@ -40,9 +40,9 @@ Most pages are Markdown: `## Heading`, `**bold**`, `[link text](address)`, a bla
 
 Links to the professional site are written as `https://payments-innovation.com/...`. While that site is still a preview they are pointed at the preview automatically; set `workUrl` in `src/_data/site.json` to `https://payments-innovation.com` when it goes live.
 
-## Two looks for the personal pages
+## Look of the personal pages
 
-While Michael decides, the personal pages can be seen in two looks: the clean one and a more playful one (an exercise book in his own handwriting). Use the link at the bottom of any personal page to switch, or add `?look=fun` to the address. Details are in CLAUDE.md.
+The personal pages use the "fun" look (an exercise book in his own handwriting), chosen on 23rd November 2026. Details are in CLAUDE.md.
 
 ## How it is built
 

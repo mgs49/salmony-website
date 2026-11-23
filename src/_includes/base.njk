@@ -1,7 +1,7 @@
 {%- set sec = section or "personal" -%}
 {%- set menu = nav[navset or sec] -%}
 <!doctype html>
-<html lang="{{ lang or 'en-GB' }}">
+<html lang="{{ lang or 'en-GB' }}"{% if sec == "personal" %} class="fun"{% endif %}>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,15 +13,6 @@
 <link rel="stylesheet" href="/assets/css/site.css">
 {%- if sec == "personal" %}
 <link rel="stylesheet" href="/assets/css/fun.css">
-<script>
-/* Two looks for the personal pages while Michael decides: "clean" (default) and "fun".
-   Adding ?look=fun or ?look=clean to any address switches; the choice is remembered in this browser only. */
-(function () { try {
-  var q = new URLSearchParams(location.search).get("look");
-  if (q === "fun" || q === "clean") localStorage.setItem("look", q);
-  if (localStorage.getItem("look") === "fun") document.documentElement.classList.add("fun");
-} catch (e) {} })();
-</script>
 {%- endif %}
 </head>
 <body class="sec-{{ sec }}{% if bodyClass %} {{ bodyClass }}{% endif %}">
@@ -51,26 +42,9 @@
       {%- if sec != "personal" %}<li><a href="/">salmony.co.uk</a></li>{% endif %}
       <li><a href="/work/">Work</a></li>
       {%- if sec != "cookbook" %}<li><a href="/cookbook/">Cookbook</a></li>{% endif %}
-      <li><a href="{{ site.linkedin }}" rel="me">LinkedIn</a></li>
       <li><a href="/contact/">Contact</a></li>
-      {%- if sec == "personal" %}<li class="look-switch" hidden><button type="button" id="look-switch"></button></li>{% endif %}
     </ul>
   </div>
 </footer>
-{%- if sec == "personal" %}
-<script>
-(function () {
-  var b = document.getElementById("look-switch"); if (!b) return;
-  var root = document.documentElement;
-  function label() { b.textContent = root.classList.contains("fun") ? "Switch to the clean look" : "Switch to the fun look"; }
-  b.addEventListener("click", function () {
-    var fun = root.classList.toggle("fun");
-    try { localStorage.setItem("look", fun ? "fun" : "clean"); } catch (e) {}
-    label();
-  });
-  label(); b.parentNode.hidden = false;
-})();
-</script>
-{%- endif %}
 </body>
 </html>

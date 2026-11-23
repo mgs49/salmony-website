@@ -58,3 +58,16 @@ description: "The personal site of Michael Salmony: things survived, travels, Ja
     <p><img src="/assets/img/fosters.gif" alt="Best viewed after a few cans of Fosters" loading="lazy"></p>
   </aside>
 </div>
+
+<audio id="applause" src="/assets/uploads/2019/01/applause.mp3" preload="auto"></audio>
+<script>
+/* Applause on arrival, as on the old homepage. Browsers often refuse sound before the
+   visitor has touched the page; then it plays at the first click, tap or key press. */
+(function () {
+  var a = document.getElementById("applause"); if (!a) return;
+  var evs = ["pointerdown", "keydown", "touchstart"];
+  function later() { evs.forEach(function (e) { document.addEventListener(e, go, { once: true, capture: true }); }); }
+  function go() { evs.forEach(function (e) { document.removeEventListener(e, go, true); }); var p = a.play(); if (p && p.catch) p.catch(function () {}); }
+  var p = a.play(); if (p && p.catch) p.catch(later);
+})();
+</script>

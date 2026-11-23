@@ -9,7 +9,7 @@ parent:
 templateEngineOverride: md
 ---
 
-#### [Past trips to JaPan](#japtrips) [Why to Japan](#whyjap) [The Language](#japlang) [The Identity](#japidentity) [Curious facts](#japcurio) [First impressions](#japimpress) [Traditional Culture](#japcult) [Comparison Japan vs UK](#japvsuk) [Japanese books](#japbooks)
+<p class="quickjump"><a href="#japtrips">Past trips to Japan</a> <span aria-hidden="true">·</span> <a href="#whyjap">Why to Japan</a> <span aria-hidden="true">·</span> <a href="#japlang">The Language</a> <span aria-hidden="true">·</span> <a href="#japidentity">The Identity</a> <span aria-hidden="true">·</span> <a href="#japcurio">Curious facts</a> <span aria-hidden="true">·</span> <a href="#japimpress">First impressions</a> <span aria-hidden="true">·</span> <a href="#japcult">Traditional Culture</a> <span aria-hidden="true">·</span> <a href="#japvsuk">Comparison Japan vs UK</a> <span aria-hidden="true">·</span> <a href="#japbooks">Japanese books</a></p>
 
 <span id="japtrips"></span>
 

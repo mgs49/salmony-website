@@ -16,6 +16,8 @@ Single source of truth for this project. Latest first.
 
 ## Key facts and decisions (latest first)
 
+- 23rd November 2026 (Michael, in chat): chose the fun look for the personal pages ("I definitely prefer the fun design"). Wants the applause back on the home page; LinkedIn removed from the footer and linked from the Work page instead; on the school page DG BANK "merged into the DZ Bank", equensWorldline SE becomes Worldline with "(the biggest in Europe - until it collapsed)", "& Software Licensing" removed, and Payments Innovation Consulting to be added with its start date and a link. Asked for ideas on rethinking the school page (now mostly a CV) and on private contact details that do not expose his e-mail or phone.
+
 - 18th November 2026 (Michael, in chat): the holder of salmony.co.uk is to be him privately, not PIC. To be changed at Cloudflare once the transfer has completed (not during the transfer, so as not to disturb it), then checked in the Nominet record.
 
 - 18th November 2026 (Michael, attached Abtis invoice 11577692 of 1st October 2026): monthly bill, paid by direct debit, net €20.59, VAT €3.91, gross €24.50. Lines: Microsoft 365 Audio Conferencing €2.42, Business Standard €12.29, Business Basic €5.88 (all for 14th September to 13th October 2026), my.abtis Cloud Value Portal Essentials €0.00. Note: the per-licence prices on the invoice (€12.29 and €2.42) differ from the figures recorded on 17th November (€12.74 and €2.31); Michael to say which is current if it matters when the licences move to Microsoft.
@@ -72,6 +74,8 @@ Order agreed 17th November 2026 (details in `docs/PLAN-email-domains-hosting.md`
 6. Michael to say where this log should be kept on his Mac.
 
 ## Log
+
+- 23rd November 2026: fun look made permanent on the personal pages; look switch and its styles removed. Applause restored on the home page (taken from the old site, 7 seconds, re-encoded as a 44 KB MP3; plays on arrival where the browser allows, otherwise at the first click or key press). LinkedIn link removed from the footer of all pages of this site and added to the Work page. School page: DG BANK and Worldline rows corrected as asked; Payments Innovation Consulting row waiting for its start date. Japan page: quick-jump links separated and "JaPan" corrected. Build and link check pass; pages checked in screenshots.
 
 - 19th November 2026: salmony.co.uk holder checked at Cloudflare. Cloudflare took the registry's own record: holder Michael Salmony (organisation "Michael Salmony"), msalmony@gmail.com, "UK Individual", no trace of PIC. Corrections requested: address 56 Draycott Place, London SW3 3BP, phone +44 7457 409293 (his Hushed number) in place of an old +49 721 9600. Michael approved Cloudflare's confirmation e-mail at about 03:00 Singapore time; registrant now shows the new details. Administrator, technical and billing contacts set to the same details (no approval needed). All four contacts at Cloudflare: Michael Salmony, msalmony@gmail.com, +44 7457 409293, 56 Draycott Place, London SW3 3BP.
 

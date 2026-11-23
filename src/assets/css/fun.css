@@ -1,9 +1,8 @@
-/* salmony.co.uk - the alternative "fun" look for the personal pages.
+/* salmony.co.uk - the "fun" look for the personal pages (chosen by Michael on 23rd November 2026).
    Idea: a school maths exercise book. Squared paper, a red margin, headings in
    Michael's own handwriting, the teacher's red pen, and one drawing of the potato cannon.
-   Nothing here applies unless the page carries class="fun" on <html> (see base.njk).
-   The cookbook keeps its own look. To drop this look, delete this file and its two
-   mentions in src/_includes/base.njk. */
+   It sits on top of site.css and applies to pages that carry class="fun" on <html>,
+   which base.njk sets on every personal page. The cookbook keeps its own look. */
 
 .fun {
   --paper: #fdfefe;
