@@ -35,7 +35,7 @@ Munich, Germany (just after the last woman was executed in the UK, just around t
 <td><a href="https://kings-association.co.uk/events">King’s School</a>, Canterbury, England<br />
 A/S-Level (Abitur/Baccalaureat) Grade AAAA1.</td>
 <td>(then £166/13/4 per term, now charging £9725 per term – for my son …)<br />
-This is what the school and we looked like</td>
+<a href="/assets/uploads/2026/11/kings-school-canterbury.jpg">This is what the school and we looked like</a></td>
 </tr>
 <tr class="even">
 <td>Trainee at <a href="https://web.archive.org/web/20231206110629/http://www.liedl-lana.de">Liedl</a>, Munich</td>
@@ -128,6 +128,10 @@ How well do you know Boarzell? Click a question for the answer.
 Scores: 0-5 did you really go to Boarzell? 5-10 red star, 10-14 gold star.
 
 ## King's School, Canterbury
+
+<figure>
+<a href="/assets/uploads/2026/11/kings-school-canterbury.jpg"><img src="/assets/uploads/2026/11/kings-school-canterbury.jpg" alt="King's School, Canterbury" loading="lazy" width="620" height="413"></a>
+</figure>
 
 Not everyone enjoyed King's. [Somerset Maugham](https://en.wikipedia.org/wiki/W._Somerset_Maugham) was so unhappy there that at 16 he refused to go back, and put it all into *Of Human Bondage*. [John Lloyd](https://en.wikipedia.org/wiki/John_Lloyd_(producer)) (Not the Nine O'Clock News, Blackadder, QI) [called](https://shots.net/news/view/63312-john-lloyd) winning his scholarship there the worst thing that ever happened to him.
 
