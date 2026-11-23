@@ -79,6 +79,8 @@ Order agreed 17th November 2026 (details in `docs/PLAN-email-domains-hosting.md`
 
 ## Log
 
+- 23rd November 2026 (late): telegram introduction removed; added that Boarzell later became a language school, with a link to the Boarzell Facebook group (at his request).
+
 - 23rd November 2026 (late): Michael confirmed a test e-mail from PIC to hello@salmony.co.uk arrived in his Gmail. School page: Dumbreck introduction removed, scholarship note now says it was worth only £50 a year, IBM Science Center link moved onto "blown up by RAF", Brussels line ends "and other gremia beginning with E". Text sizes evened out on the personal pages (tables, quiz, home-page boxes and warning now the same size as ordinary text).
 
 - 23rd November 2026 (evening): Cloudflare Email Routing set up for salmony.co.uk (free): hello@salmony.co.uk forwards to msalmony@gmail.com (destination verified). The three old SiteGround MX records (mailspamprotection.com) and the old SiteGround SPF record were deleted; Cloudflare's MX (route1-3.mx.cloudflare.net), SPF and DKIM records added. Old _dmarc and _domainkey records left as they were. Contact page now shows hello@salmony.co.uk, built by script so robots reading the source do not see it. School page: all dates removed from the CV tables, degree lines and Boarzell/King's headings; Dumbreck letter shown small; new rows for Brussels, The Payments Trilogue and the book; DG/DZ title changed (also on the Work page, where the award years were dropped).

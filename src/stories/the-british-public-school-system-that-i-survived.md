@@ -100,11 +100,11 @@ Doktor der Naturwissenschaften Dr. rer. nat.
 
 </div>
 
-How it ended, five years later - by telegram:
-
 <img src="/assets/uploads/2026/11/kings-scholarship-telegram.jpg" class="centre" alt="Telegram: Michael awarded minor scholarship. Dumbreck" loading="lazy" width="1000" height="223">
 
 (a scholarship was celebrated with a strawberry tea for the whole school and your name engraved on the board. Mine was only worth £50 a year - probably less than the tea and strawberries for the whole school cost)
+
+Boarzell later became a language school. All that remains is the [Boarzell group on Facebook](https://www.facebook.com/groups/202377877091151/about/).
 
 ### The Boarzell QI-Quiz
 
