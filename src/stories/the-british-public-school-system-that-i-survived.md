@@ -137,6 +137,13 @@ Not everyone enjoyed King's. [Somerset Maugham](https://en.wikipedia.org/wiki/W.
 
 I loved it - except for Goddard, our housemaster, who later became Lord Mayor of Oxford.
 
+## Peterhouse, Cambridge
+
+<figure>
+<a href="/assets/uploads/2026/11/peterhouse-old-court.jpg"><img src="/assets/uploads/2026/11/peterhouse-old-court.jpg" alt="Peterhouse, Cambridge: Old Court and the chapel" loading="lazy" width="620" height="468"></a>
+<figcaption>Old Court and the chapel (photo: Azeira, <a href="https://commons.wikimedia.org/wiki/File:Cambridge_Peterhouse_OldCourt.JPG">Wikimedia Commons</a>, public domain)</figcaption>
+</figure>
+
 ## Work (Age 21-?)
 
 |   |   |
