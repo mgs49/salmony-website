@@ -18,6 +18,8 @@ This is Michael Salmony's personal website (www.salmony.co.uk) with the cookbook
 
 ## Working method
 
+- Links to other websites open in a new window (his rule, 23rd November 2026). `eleventy.config.js` adds `target="_blank" rel="noopener"` to every external link when the site is built, so write links normally; links within the site stay in the same window.
+
 - Pages are Markdown or Nunjucks in `src/`. Shared frames are in `src/_includes/`, data in `src/_data/`.
 - Internal links and picture addresses start with `/` (for example `/work/lectures/`, `/assets/uploads/2026/05/file.jpg`). Eleventy adds the `/salmony-website/` preview prefix while there is no `src/CNAME`; never write that prefix by hand.
 - New pictures go in `src/assets/uploads/YYYY/MM/`. Resize photographs to at most 1800 pixels on the long side before adding them.

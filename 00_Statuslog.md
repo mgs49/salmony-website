@@ -79,6 +79,8 @@ Order agreed 17th November 2026 (details in `docs/PLAN-email-domains-hosting.md`
 
 ## Log
 
+- 23rd November 2026 (late): new rule on both sites: every link to another website opens in a new window (added automatically at build time in `eleventy.config.js`); links within a site are unchanged. YouTube click-to-play on the professional site unaffected.
+
 - 23rd November 2026 (late): telegram introduction removed; added that Boarzell later became a language school, with a link to the Boarzell Facebook group (at his request).
 
 - 23rd November 2026 (late): Michael confirmed a test e-mail from PIC to hello@salmony.co.uk arrived in his Gmail. School page: Dumbreck introduction removed, scholarship note now says it was worth only £50 a year, IBM Science Center link moved onto "blown up by RAF", Brussels line ends "and other gremia beginning with E". Text sizes evened out on the personal pages (tables, quiz, home-page boxes and warning now the same size as ordinary text).
