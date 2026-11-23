@@ -16,6 +16,8 @@ Single source of truth for this project. Latest first.
 
 ## Key facts and decisions (latest first)
 
+- 23rd November 2026 (Michael, in chat, later): Payments Innovation Consulting started in 2015 (per his LinkedIn). Trainee firm on the school page is "Lidl" (without e). On the DZ row only the word "merged" carries the sound link. He loved King's except for Goddard, his housemaster, later Lord Mayor of Oxford; Somerset Maugham and John Lloyd both hated King's. Gave access to his homepage backups and the Dropbox "Boarzell media" folder.
+
 - 23rd November 2026 (Michael, in chat): chose the fun look for the personal pages ("I definitely prefer the fun design"). Wants the applause back on the home page; LinkedIn removed from the footer and linked from the Work page instead; on the school page DG BANK "merged into the DZ Bank", equensWorldline SE becomes Worldline with "(the biggest in Europe - until it collapsed)", "& Software Licensing" removed, and Payments Innovation Consulting to be added with its start date and a link. Asked for ideas on rethinking the school page (now mostly a CV) and on private contact details that do not expose his e-mail or phone.
 
 - 18th November 2026 (Michael, in chat): the holder of salmony.co.uk is to be him privately, not PIC. To be changed at Cloudflare once the transfer has completed (not during the transfer, so as not to disturb it), then checked in the Nominet record.
@@ -74,6 +76,8 @@ Order agreed 17th November 2026 (details in `docs/PLAN-email-domains-hosting.md`
 6. Michael to say where this log should be kept on his Mac.
 
 ## Log
+
+- 23rd November 2026 (later): school page reworked: new sections "Boarzell (1964-69)" (house photo, Mr Dumbreck's 1963 letter, three photos of Michael, the 1969 scholarship telegram cropped to the message, and 14 questions from the Boarzell QI-Quiz with answers that open on click) and "King's School, Canterbury (1969-73)" (Maugham, John Lloyd, Goddard). Lidl, DZ link and 2015 Payments Innovation Consulting row done. The King's School photo from the old site is still missing (its backup copy is too deep in the archive to fetch; Michael to connect that folder). Footer links on personal pages replaced by a random "Curious Japan" fact from the Japan page (list in `src/_data/japanFacts.json`); the cookbook keeps its footer links. Home page: when the browser blocks the applause (typically on a first visit), a handwritten "Click for your applause" note appears and the sound plays at the first click.
 
 - 23rd November 2026: fun look made permanent on the personal pages; look switch and its styles removed. Applause restored on the home page (taken from the old site, 7 seconds, re-encoded as a 44 KB MP3; plays on arrival where the browser allows, otherwise at the first click or key press). LinkedIn link removed from the footer of all pages of this site and added to the Work page. School page: DG BANK and Worldline rows corrected as asked; Payments Innovation Consulting row waiting for its start date. Japan page: quick-jump links separated and "JaPan" corrected. Build and link check pass; pages checked in screenshots.
 

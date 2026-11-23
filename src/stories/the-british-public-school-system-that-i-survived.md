@@ -43,7 +43,7 @@ This is what the school and we looked like</td>
 </tr>
 <tr class="even">
 <td>1974</td>
-<td>Trainee at <a href="https://web.archive.org/web/20231206110629/http://www.liedl-lana.de">Liedl</a>, Munich</td>
+<td>Trainee at <a href="https://web.archive.org/web/20231206110629/http://www.liedl-lana.de">Lidl</a>, Munich</td>
 <td>(destroyed a few weaving machines there)</td>
 </tr>
 <tr class="odd">
@@ -82,6 +82,69 @@ Thesis Title: “On OSI-based Transport Systems for Future Applications over Hig
 
 5/90 Doktor der Naturwissenschaften Dr. rer. nat.
 
+## Boarzell (1964-69)
+
+<img src="/assets/uploads/2026/11/boarzell-house.jpg" class="centre" alt="Boarzell, the school house near Hurst Green in Sussex" loading="lazy" width="762" height="529">
+
+How it started: in November 1963 Mr Dumbreck wrote to my father. I had been put down for September 1965, but they could take me a year earlier - and he would look for a family with a farm nearby, so that I could spend the summer learning English and getting to know the school before I came.
+
+<div class="gallery">
+
+<figure>
+<a href="/assets/uploads/2026/11/boarzell-dumbreck-letter-1963.jpg"><img src="/assets/uploads/2026/11/boarzell-dumbreck-letter-1963.jpg" alt="Letter from Richard Dumbreck, 11th November 1963" loading="lazy" width="689" height="1100"></a>
+<figcaption>Mr Dumbreck's letter, 11th November 1963</figcaption>
+</figure>
+
+<figure>
+<img src="/assets/uploads/2026/11/boarzell-uniform.jpg" alt="Michael Salmony in Boarzell uniform" loading="lazy" width="439" height="618">
+<figcaption>Correctly dressed</figcaption>
+</figure>
+
+<figure>
+<img src="/assets/uploads/2026/11/boarzell-sports-shirt.jpg" alt="Michael Salmony in a Boarzell sports shirt on the playing field" loading="lazy" width="524" height="529">
+<figcaption>Sports dress</figcaption>
+</figure>
+
+<figure>
+<img src="/assets/uploads/2026/11/boarzell-wun-tun.jpg" alt="Michael Salmony in costume as Wun Tun" loading="lazy" width="495" height="700">
+<figcaption>As Wun Tun in the school play</figcaption>
+</figure>
+
+</div>
+
+And how it ended, five years later - by telegram:
+
+<img src="/assets/uploads/2026/11/kings-scholarship-telegram.jpg" class="centre" alt="Telegram: Michael awarded minor scholarship. Dumbreck" loading="lazy" width="1000" height="223">
+
+(a scholarship was celebrated with a strawberry tea for the whole school and your name engraved on the board)
+
+### The Boarzell QI-Quiz
+
+How well do you know Boarzell? Click a question for the answer.
+
+<details><summary>"For my next trick - which is also impossible". Says who?</summary>The Colonel</details>
+<details><summary>How many screws to take out to get into the tuck cupboard?</summary>3 - best done with a screwdriver with integrated torch</details>
+<details><summary>What was the original planned use for the Dining Room?</summary>Billiard Room</details>
+<details><summary>What was served for Sunday breakfast?</summary>One banger on fried bread</details>
+<details><summary>"Lapis, lapidis, ______, ______"</summary>"masculine, a stone" - said in suitably forceful way (The Major)</details>
+<details><summary>List the spanking tools by order of severity</summary>Mr D: brown slipper, black slipper (when not flying out of window), cane. In classroom: 12-inch wooden rules arranged as a fan and applied to head of boy, chalk dusters, etc.</details>
+<details><summary>"Dogs and children on the left". Which lesson?</summary>The Major's Latin lesson</details>
+<details><summary>What was the highest numeral in a boy's name (e.g. Taylor ii)?</summary>iii</details>
+<details><summary>What colour were the "PVC mattress protectors"?</summary>Orange</details>
+<details><summary>Which house was Tony Banks (Genesis) in?</summary>Drake - see Boarzell Magazine</details>
+<details><summary>During an epidemic, what did one vomit into?</summary>Giant cans for jam</details>
+<details><summary>What do these have in common: nice, 3, Xmas, any word hyphenated over two lines?</summary>All "outlawed" by Mr D</details>
+<details><summary>Name some "crazes"</summary>Potty putty, crocheting using cotton reels and four hooks, conkers, cotton reel attached to pencil with rubber band - runs up ramp to lower forms</details>
+<details><summary>What were the only legal comics?</summary>The Eagle (merged into The Lion in 1969), Look &amp; Learn, Fix und Foxi</details>
+
+Scores: 0-5 did you really go to Boarzell? 5-10 red star, 10-14 gold star.
+
+## King's School, Canterbury (1969-73)
+
+Not everyone enjoyed King's. [Somerset Maugham](https://en.wikipedia.org/wiki/W._Somerset_Maugham) was so unhappy there that at 16 he refused to go back, and put it all into *Of Human Bondage*. [John Lloyd](https://en.wikipedia.org/wiki/John_Lloyd_(producer)) (Not the Nine O'Clock News, Blackadder, QI) [called](https://shots.net/news/view/63312-john-lloyd) winning his scholarship there the worst thing that ever happened to him.
+
+I loved it - except for Goddard, our housemaster, who later became Lord Mayor of Oxford.
+
 ## Work (Age 21-?)
 
 |           |                                                                                                                                                                                   |                                                                   |
@@ -89,8 +152,9 @@ Thesis Title: “On OSI-based Transport Systems for Future Applications over Hig
 | 6.8.1977  | [IBM Germany](http://www.ibm.de/), Stuttgart, Germany                                                                                                                             | (seen the bad times, seen the good times, …)                      |
 | 1982      | [IBM Science Center](http://books.google.de/books/about/The_IBM_Heidelberg_Science_Center.html?id=YfqnAgAACAAJ&redir_esc=y), Heidelberg, Germany                                  | (got blown up by RAF)                                             |
 | 1996      | [IBM Research](http://www.research.ibm.com/), Zurich/Rüschlikon, Switzerland                                                                                                      | (this is where the action is)                                     |
-| 1.10.1997 | DG BANK AG, Frankfurt                                                                                                                                                             | (later to be [merged into the DZ Bank](/assets/uploads/2026/09/newmgmt.mp3))       |
+| 1.10.1997 | DG BANK AG, Frankfurt                                                                                                                                                             | (later to be [merged](/assets/uploads/2026/09/newmgmt.mp3) into the DZ Bank)       |
 | 2001      | [Deutsche Zentral-Genossenschaftsbank](http://www.dzbank.de/), Frankfurt, Germany                                                                                                 | (what [I know](/assets/uploads/2026/09/lehrer.wav) about banking) |
 | 2003      | TAI AG with the truly international name of “TAI Transaktionsinstitut für Zahlungsverkehrsdienstleistungen AG”                                                                    | (e/m Payments – at last something I know about !)                 |
 | 2006      | Equens SE (merger of TAI and Interpay)                                                                                                                                            | (a merger of equals, yes, really)                                 |
+| 2015      | [Payments Innovation Consulting](https://payments-innovation.com/) | |
 | 2016      | [Worldline](https://worldline.com/) (merger of Equens and Worldline Financial Processing) | (the biggest in Europe - until it collapsed) |

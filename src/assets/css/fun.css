@@ -180,3 +180,20 @@
   .fun .doors { padding-top: 3.2rem; }
 }
 @media print { .fun body { background-image: none; } .fun main > .wrap::before { display: none; } }
+
+/* Footer: a curious fact about Japan instead of repeating the tabs */
+.japan-fact { margin: 0; max-width: 46rem; }
+.japan-fact .jp { font-family: var(--hand); color: var(--red); margin-right: 0.3em; }
+
+/* Home page: invitation to applaud when the browser blocked the sound */
+.applause-hint { margin: -0.5rem 0 1rem; }
+.applause-hint button { font-family: var(--hand); font-size: 1.15rem; color: var(--red); background: none; border: 0; padding: 0; cursor: pointer;
+  text-decoration: underline wavy var(--red); text-underline-offset: 0.25em; transform: rotate(-2deg); display: inline-block; }
+
+/* Quiz answers that open on click */
+.prose details { margin: 0 0 0.6rem; }
+.prose details summary { cursor: pointer; }
+.prose details[open] summary { margin-bottom: 0.2rem; }
+.prose details > :not(summary), .prose details { color: var(--ink); }
+.fun .prose details[open] { color: var(--red); font-family: var(--hand); }
+.fun .prose details[open] summary { font-family: var(--body-font); color: var(--ink); }
