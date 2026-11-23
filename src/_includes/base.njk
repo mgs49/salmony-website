@@ -39,7 +39,7 @@
   <div class="wrap footer-row">
     <p>© {{ "" | year }} Michael Salmony</p>
     {%- if sec == "personal" %}
-    <p class="japan-fact"><span class="jp" lang="ja">日本</span> Curious Japan: <span id="japan-fact">{{ japanFacts[0] }}</span> - <a href="/personal/travels/michael-salmony-on-japan/#japcurio">more</a></p>
+    <p class="japan-fact"><span class="jp" lang="ja">日本</span> Curious Japan: <span id="japan-fact">{{ japanFacts[0] }}</span> - <a href="/personal/travels/michael-salmony-on-japan/">more about Japan</a></p>
     <script>(function () { var f = {{ japanFacts | dump | safe }}; var e = document.getElementById("japan-fact"); if (e) e.textContent = f[Math.floor(Math.random() * f.length)]; })();</script>
     {%- else %}
     <ul>
