@@ -76,8 +76,6 @@ Doktor der Naturwissenschaften Dr. rer. nat.
 
 <img src="/assets/uploads/2026/11/boarzell-house.jpg" class="centre" alt="Boarzell, the school house near Hurst Green in Sussex" loading="lazy" width="762" height="529">
 
-How it started: Mr Dumbreck wrote to my father. They could take me a year earlier than planned - and he would look for a family with a farm nearby, so that I could spend the summer learning English and getting to know the school before I came.
-
 <div class="gallery">
 
 <figure>
@@ -102,11 +100,11 @@ How it started: Mr Dumbreck wrote to my father. They could take me a year earlie
 
 </div>
 
-And how it ended, five years later - by telegram:
+How it ended, five years later - by telegram:
 
 <img src="/assets/uploads/2026/11/kings-scholarship-telegram.jpg" class="centre" alt="Telegram: Michael awarded minor scholarship. Dumbreck" loading="lazy" width="1000" height="223">
 
-(a scholarship was celebrated with a strawberry tea for the whole school and your name engraved on the board)
+(a scholarship was celebrated with a strawberry tea for the whole school and your name engraved on the board. Mine was only worth £50 a year - probably less than the tea and strawberries for the whole school cost)
 
 ### The Boarzell QI-Quiz
 
@@ -140,14 +138,14 @@ I loved it - except for Goddard, our housemaster, who later became Lord Mayor of
 |   |   |
 |---|---|
 | [IBM Germany](http://www.ibm.de/), Stuttgart, Germany | (seen the bad times, seen the good times, …) |
-| [IBM Science Center](http://books.google.de/books/about/The_IBM_Heidelberg_Science_Center.html?id=YfqnAgAACAAJ&redir_esc=y), Heidelberg, Germany | (got blown up by RAF) |
+| IBM Science Center, Heidelberg, Germany | (got [blown up by RAF](http://books.google.de/books/about/The_IBM_Heidelberg_Science_Center.html?id=YfqnAgAACAAJ&redir_esc=y)) |
 | [IBM Research](http://www.research.ibm.com/), Zurich/Rüschlikon, Switzerland | (this is where the action is) |
 | Director Innovation Management & Digital Transformation, DG BANK AG, Frankfurt | (later to be [merged](/assets/uploads/2026/09/newmgmt.mp3) into the DZ Bank) |
 | [Deutsche Zentral-Genossenschaftsbank](http://www.dzbank.de/), Frankfurt, Germany | (what [I know](/assets/uploads/2026/09/lehrer.wav) about banking) |
 | TAI AG with the truly international name of “TAI Transaktionsinstitut für Zahlungsverkehrsdienstleistungen AG” | (e/m Payments – at last something I know about !) |
 | Equens SE (merger of TAI and Interpay) | (a merger of equals, yes, really) |
 | [Worldline](https://worldline.com/) (merger of Equens and Worldline Financial Processing) | (the biggest in Europe - until it collapsed) |
-| Far too much time in Brussels: ERPB, EACB, EPC and the [European Parliament hearing](https://youtu.be/AE0BXH5KdOM) |  |
+| Far too much time in Brussels: ERPB, EACB, EPC, the [European Parliament hearing](https://youtu.be/AE0BXH5KdOM) and other gremia beginning with E |  |
 | [Payments Innovation Consulting](https://payments-innovation.com/) |  |
 | Host of [The Payments Trilogue](https://thepaymentstrilogue.com/) |  |
 | My book: [Tokenisation of Money - from Fiat to Stablecoins](https://tokenisationofmoney.com/) |  |

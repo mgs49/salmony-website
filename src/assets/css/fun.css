@@ -197,3 +197,9 @@
 .prose details > :not(summary), .prose details { color: var(--ink); }
 .fun .prose details[open] { color: var(--red); font-family: var(--hand); }
 .fun .prose details[open] summary { font-family: var(--body-font); color: var(--ink); }
+
+/* One text size throughout the personal pages: tables, the home-page boxes and the
+   warning use the same size as ordinary paragraphs (they were set slightly smaller). */
+.fun .prose table, .fun .prose td, .fun .prose th,
+.fun .warning, .fun .doors p, .fun .doors ul, .fun .index-list span,
+.fun .prose details, .fun .quickjump { font-size: var(--body-size); }
