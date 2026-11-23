@@ -12,7 +12,8 @@ This is Michael Salmony's personal website (www.salmony.co.uk) with the cookbook
 - The Work page here carries the deliberately tongue-in-cheek title string ("Prof. h.c. Dr. rer. nat. ... VIP (Colbert), L.I.V.R., FRSA"). It is fine here and must never appear on the professional site.
 - Only LinkedIn. He does not use X, Twitter or Facebook; do not add links to them.
 - The cookbook is for sale. Never add the book's print PDFs, or more sample pages than the three already shown, without his explicit say-so.
-- Do not publish an e-mail address, phone number or home address on the site unless he asks.
+- Do not publish an e-mail address, phone number or home address on the site unless he asks. Exception he asked for (23rd November 2026): the Contact page shows hello@salmony.co.uk (Cloudflare Email Routing, forwards to his Gmail), assembled by a small script so it is not in the page source. Never show the Gmail address itself.
+- He does not want his age obvious at first glance: no dates in the CV tables on the school page; jokes that hint at his age may stay.
 - Do not add trackers, analytics, cookie banners, external fonts or embedded social-media widgets. Link to LinkedIn or X posts instead of embedding them.
 
 ## Working method

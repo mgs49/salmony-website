@@ -16,6 +16,8 @@ Single source of truth for this project. Latest first.
 
 ## Key facts and decisions (latest first)
 
+- 23rd November 2026 (Michael, in chat): wants hello@salmony.co.uk on the Contact page instead of LinkedIn, at no cost and without exposing his Gmail; no dates in his fun CV (age not obvious at top level; the hanging/FORTRAN joke may stay); DG/DZ role is "Director Innovation Management & Digital Transformation"; add Brussels line (ERPB, EACB, EPC, European Parliament hearing with video), Host of The Payments Trilogue and his book; Japan footer to link to the top of the Japan page; trainee firm is Liedl (weaving machines), not Lidl.
+
 - 23rd November 2026 (Michael, in chat, later): Payments Innovation Consulting started in 2015 (per his LinkedIn). Trainee firm on the school page is "Lidl" (without e). On the DZ row only the word "merged" carries the sound link. He loved King's except for Goddard, his housemaster, later Lord Mayor of Oxford; Somerset Maugham and John Lloyd both hated King's. Gave access to his homepage backups and the Dropbox "Boarzell media" folder.
 
 - 23rd November 2026 (Michael, in chat): chose the fun look for the personal pages ("I definitely prefer the fun design"). Wants the applause back on the home page; LinkedIn removed from the footer and linked from the Work page instead; on the school page DG BANK "merged into the DZ Bank", equensWorldline SE becomes Worldline with "(the biggest in Europe - until it collapsed)", "& Software Licensing" removed, and Payments Innovation Consulting to be added with its start date and a link. Asked for ideas on rethinking the school page (now mostly a CV) and on private contact details that do not expose his e-mail or phone.
@@ -76,6 +78,8 @@ Order agreed 17th November 2026 (details in `docs/PLAN-email-domains-hosting.md`
 6. Michael to say where this log should be kept on his Mac.
 
 ## Log
+
+- 23rd November 2026 (evening): Cloudflare Email Routing set up for salmony.co.uk (free): hello@salmony.co.uk forwards to msalmony@gmail.com (destination verified). The three old SiteGround MX records (mailspamprotection.com) and the old SiteGround SPF record were deleted; Cloudflare's MX (route1-3.mx.cloudflare.net), SPF and DKIM records added. Old _dmarc and _domainkey records left as they were. Contact page now shows hello@salmony.co.uk, built by script so robots reading the source do not see it. School page: all dates removed from the CV tables, degree lines and Boarzell/King's headings; Dumbreck letter shown small; new rows for Brussels, The Payments Trilogue and the book; DG/DZ title changed (also on the Work page, where the award years were dropped).
 
 - 23rd November 2026 (later): school page reworked: new sections "Boarzell (1964-69)" (house photo, Mr Dumbreck's 1963 letter, three photos of Michael, the 1969 scholarship telegram cropped to the message, and 14 questions from the Boarzell QI-Quiz with answers that open on click) and "King's School, Canterbury (1969-73)" (Maugham, John Lloyd, Goddard). Lidl, DZ link and 2015 Payments Innovation Consulting row done. The King's School photo from the old site is still missing (its backup copy is too deep in the archive to fetch; Michael to connect that folder). Footer links on personal pages replaced by a random "Curious Japan" fact from the Japan page (list in `src/_data/japanFacts.json`); the cookbook keeps its footer links. Home page: when the browser blocks the applause (typically on a first visit), a handwritten "Click for your applause" note appears and the sound plays at the first click.
 
