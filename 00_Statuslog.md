@@ -1,6 +1,6 @@
 # 00 Status log: salmony.co.uk remake
 
-Single source of truth for this project. Latest first.
+Single source of truth for this project. Latest first. Master copy: Documents/homepages/00_Statuslog.md on Michael's Mac (project folder since 24th November 2026); this copy in the repository is kept in step.
 
 ## Purpose and goals
 
@@ -78,6 +78,8 @@ Order agreed 17th November 2026 (details in `docs/PLAN-email-domains-hosting.md`
 6. Done 24th November 2026: this log stays in the repository.
 
 ## Log
+
+- 24th November 2026 (morning, later): Peterhouse, Cambridge section added to the school page after King's, with a public-domain picture of Old Court and the chapel (Wikimedia Commons, photo by Azeira; original in Documents/homepages/pictures). Michael decided to set up a clean new project: project folder Documents/homepages (new sites and the cookbook, later the professional site); Documents/save/homepages (old versions) stays untouched as the archive of the old sites. Handover written: Documents/homepages/01_Briefing for Claude.md plus this log.
 
 - 24th November 2026 (morning): pictures of The Payments Trilogue and the book cover added under those two lines of the CV on the school page. Dead outside links dealt with as agreed: Internet Archive copies where they exist, link removed (text kept) where not, Journi links kept, two X posts unlinked; done on both sites (lectures and publications are on the professional site). The Brooks International client logo still links to a dead site (clients.json); left alone, as client logos change only on Michael's instruction.
 
