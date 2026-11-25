@@ -44,7 +44,7 @@ Other [namesakes](/genealogy/salmony-namesakes/) and full family tree on request
 [<img src="/assets/uploads/2020/10/neander.png" class="left" loading="lazy" width="508" height="278">](/assets/uploads/2020/10/neander.png)  
 [<img src="/assets/uploads/2020/10/obese-300x197.png" class="left" loading="lazy" width="300" height="197">](/assets/uploads/2020/10/obese.png)
 
-Extract of my 30,000 genomes:
+<p class="clear">Extract of my 30,000 genomes:</p>
 
 [<img src="/assets/uploads/2020/10/genome-320x1024.png" class="centre" loading="lazy" width="320" height="1024">](/assets/uploads/2020/10/genome.png)
 

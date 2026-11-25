@@ -167,6 +167,7 @@ h4 { font-size: 1.15rem; margin: 2rem 0 0.6rem; font-family: var(--body-font); f
 .prose img.left { float: left; margin: 0.3rem 1.5rem 1rem 0; max-width: 45%; }
 .prose img.right { float: right; margin: 0.3rem 0 1rem 1.5rem; max-width: 45%; }
 .prose img.centre { display: block; margin-left: auto; margin-right: auto; }
+.prose .clear { clear: both; }
 .prose h2, .prose h3, .prose h4, .prose hr, .prose figure, .prose .gallery, .prose table { clear: both; }
 .prose figure { margin-left: 0; margin-right: 0; }
 .prose figcaption { font-size: 0.92rem; color: var(--soft); margin-top: 0.4rem; line-height: 1.45; }
