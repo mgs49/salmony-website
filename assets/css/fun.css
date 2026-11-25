@@ -1,0 +1,208 @@
+/* salmony.co.uk - the "fun" look for the personal pages (chosen by Michael on 23rd November 2026).
+   Idea: a school maths exercise book. Squared paper, a red margin, headings in
+   Michael's own handwriting, the teacher's red pen, and one drawing of the potato cannon.
+   It sits on top of site.css and applies to pages that carry class="fun" on <html>,
+   which base.njk sets on every personal page. The cookbook keeps its own look. */
+
+.fun {
+  --paper: #fdfefe;
+  --grid: rgba(64, 138, 196, 0.15);
+  --ink: #1d2545;            /* body text */
+  --biro: #2438c4;           /* blue biro: everything handwritten */
+  --red: #e0352b;            /* the teacher's red pen */
+  --hi: #ffe75e;             /* highlighter */
+  --soft: #55607a;
+  --line: #cfdcea;
+  --accent: var(--red);
+  --link: var(--ink);
+  --hand: "Salmony Michael", "Segoe Print", "Comic Sans MS", cursive;
+  --body-font: "Jost", "Century Gothic", "Helvetica Neue", Arial, sans-serif;
+  --head-font: var(--hand);
+  --ui-font: var(--hand);
+  --body-size: 1.125rem;
+  --leading: 1.75rem;        /* one square of the paper */
+  --measure: 40rem;
+  --head-weight: 400;
+  --margin: 4.25rem;         /* width of the exercise-book margin */
+}
+
+/* ---------- Paper ---------- */
+.fun body {
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(to right, var(--grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid) 1px, transparent 1px);
+  background-size: 1.75rem 1.75rem;
+}
+.fun .fun-only { display: block; }
+.fun strong, .fun b { font-weight: 600; }
+.fun a:hover { background: linear-gradient(transparent 12%, var(--hi) 12% 92%, transparent 92%); text-decoration-thickness: 0.09em; }
+.fun a:focus-visible, .fun button:focus-visible { outline: 3px solid var(--biro); outline-offset: 3px; }
+
+/* The red margin runs down the whole page; the teacher's marks go to the left of it */
+.fun main > .wrap { position: relative; padding-left: calc(1.5rem + var(--margin)); padding-bottom: 4rem; }
+.fun main > .wrap::before { content: ""; position: absolute; top: 0; bottom: 0; left: calc(1.5rem + var(--margin) - 1.25rem);
+  width: 2px; background: var(--red); opacity: 0.55; }
+
+/* ---------- Header: page-marker tabs hanging from the top edge ---------- */
+.fun .site-header { border-bottom: 0; }
+.fun .header-row { align-items: flex-start; padding-top: 0; padding-bottom: 0.6rem; }
+.fun .brand { padding-top: 1.1rem; gap: 0.6rem; }
+.fun .brand-name { font-family: var(--hand); color: var(--biro); font-size: 1.7rem; }
+.fun .seal { width: 2.5rem; height: 2.5rem; background: transparent; color: var(--red); border: 2px solid var(--red);
+  border-radius: 47% 53% 55% 45% / 54% 45% 55% 46%; font-family: var(--hand); font-size: 1rem; font-weight: 400;
+  letter-spacing: 0; transform: rotate(-7deg); }
+.fun .site-nav ul { gap: 0 0.35rem; align-items: flex-start; }
+.fun .site-nav a { font-family: var(--hand); font-size: 1.15rem; line-height: 1.2; color: var(--ink); background: var(--flag, var(--hi));
+  padding: 1.15rem 0.75rem 0.5rem; border: 0; border-radius: 0 0 0.45rem 0.45rem; transition: padding-top 0.15s ease; }
+.fun .site-nav a:hover { border: 0; padding-top: 1.6rem; background: var(--flag, var(--hi)); }
+.fun .site-nav a[aria-current="page"] { padding-top: 2.1rem; }
+.fun .site-nav li:nth-child(7n+1) a { --flag: #ffd84d; }
+.fun .site-nav li:nth-child(7n+2) a { --flag: #ffabc2; }
+.fun .site-nav li:nth-child(7n+3) a { --flag: #96d6ff; }
+.fun .site-nav li:nth-child(7n+4) a { --flag: #bceb8b; }
+.fun .site-nav li:nth-child(7n+5) a { --flag: #ffa391; }
+.fun .site-nav li:nth-child(7n+6) a { --flag: #cdd2dc; }
+.fun .site-nav li:nth-child(7n) a { --flag: #cdb8ff; }
+@media (prefers-reduced-motion: reduce) { .fun .site-nav a { transition: none; } }
+
+/* ---------- Headings and pages ---------- */
+.fun h1, .fun h2, .fun h3 { font-family: var(--hand); color: var(--biro); letter-spacing: 0; line-height: 1.25; }
+.fun h1 { font-size: clamp(2.3rem, 5.6vw, 3.7rem); }
+.fun h2 { font-size: clamp(1.7rem, 3.4vw, 2.15rem); margin: 3.5rem 0 0.9rem; }
+.fun h3 { font-size: 1.5rem; margin: 2.6rem 0 0.8rem; }
+.fun h4 { font-family: var(--body-font); font-weight: 600; }
+.fun .page { padding-top: 2.6rem; }
+/* The page title is underlined twice in red, by hand */
+.fun .page > h1, .fun .home-intro h1 { display: table; padding-bottom: 0.85rem; margin-bottom: 1.6rem;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 14' preserveAspectRatio='none'%3E%3Cpath d='M3 4 C 50 1, 95 7, 150 4 S 250 2, 297 5' fill='none' stroke='%23e0352b' stroke-width='2' stroke-linecap='round' vector-effect='non-scaling-stroke'/%3E%3Cpath d='M9 11 C 70 8, 120 13, 170 10 S 260 9, 290 11' fill='none' stroke='%23e0352b' stroke-width='2' stroke-linecap='round' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E") no-repeat left bottom / 100% 0.8rem; }
+.fun .crumb { font-family: var(--hand); font-size: 1.2rem; margin-bottom: 0.9rem; }
+.fun .crumb a { color: var(--red); text-decoration: none; }
+.fun .lede { font-size: 1.25rem; line-height: 1.75rem; color: var(--soft); }
+.fun .prose h2.year, .fun .prose h3.year { border-top: 0; font-size: 2rem; }
+.fun hr { border-top: 2px dashed var(--line); }
+.fun .prose blockquote { border-left-color: var(--biro); }
+.fun .prose th, .fun .prose td { border-bottom-color: var(--line); }
+.fun .prose table { background: var(--paper); }
+
+/* Pictures with a caption are prints stuck in with tape, never quite straight */
+.fun .prose figure:not(.video) { position: relative; display: table; padding: 0.55rem 0.55rem 0.3rem; margin-top: 1.9rem; margin-bottom: 1.9rem;
+  background: #fff; box-shadow: 0 1px 2px rgba(29, 37, 69, 0.18), 0 6px 14px -8px rgba(29, 37, 69, 0.35); transform: rotate(-0.8deg); }
+.fun .prose figure:not(.video):nth-of-type(even) { transform: rotate(0.9deg); }
+.fun .prose figure:not(.video)::before { content: ""; position: absolute; top: -0.7rem; left: 50%; width: 5rem; height: 1.35rem;
+  transform: translateX(-50%) rotate(-2.5deg); background: rgba(150, 214, 255, 0.5); border-left: 1px dashed rgba(29, 37, 69, 0.15);
+  border-right: 1px dashed rgba(29, 37, 69, 0.15); }
+.fun .prose figure img { display: block; border-radius: 0; }
+.fun .prose figcaption { font-family: var(--hand); font-size: 1.2rem; line-height: 1.35; color: var(--biro); margin: 0.45rem 0.1rem 0.2rem; }
+.fun .gallery figure:not(.video) { display: block; margin: 0; }
+.fun .gallery figure:nth-of-type(3n) { transform: rotate(1.4deg); }
+
+/* ---------- Home ---------- */
+.fun .home-intro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 29rem); grid-template-rows: 1fr auto; gap: 0 2rem; padding: 2.2rem 0 0; }
+.fun .home-intro h1 { grid-column: 1; align-self: end; justify-self: start; font-size: clamp(2.7rem, 7.4vw, 5.2rem); margin: 0 0 1.3rem; line-height: 1.1; width: min-content; }
+.fun .home-intro p { grid-column: 1; font-size: 1.25rem; line-height: 1.75rem; max-width: 27rem; color: var(--ink); margin-bottom: 2.6rem; }
+.fun .doodle { grid-column: 2; grid-row: 1 / span 2; margin: 0; }
+.fun .doodle svg { display: block; width: 100%; height: auto; overflow: visible; }
+.fun .doodle .pen { stroke: var(--biro); stroke-width: 2.4; }
+.fun .doodle .red { stroke: var(--red); stroke-width: 2.4; }
+.fun .doodle .thin { stroke-width: 1.7; }
+.fun .doodle .dash { stroke-dasharray: 2 11; stroke-width: 3; }
+.fun .doodle .fill-paper { fill: var(--paper); }
+.fun .doodle .fill-potato { fill: #e9c88b; }
+.fun .doodle .hand { font-family: var(--hand); font-size: 20px; }
+.fun .doodle .small { font-size: 17px; }
+.fun .doodle .pen-text { fill: var(--biro); }
+.fun .doodle .red-text { fill: var(--red); }
+@media (max-width: 54rem) {
+  .fun .home-intro { grid-template-columns: 1fr; }
+  .fun .doodle { grid-column: 1; grid-row: auto; max-width: 29rem; margin-top: 0.5rem; }
+}
+
+/* Things I survived: marked like homework, with a tick in the margin for each */
+.fun .survived { position: relative; padding: 2.6rem 0 0; }
+.fun .survived h2 { font-family: var(--hand); font-style: normal; font-size: 1.4rem; color: var(--red); margin: 0 0 0.4rem; }
+.fun .survived ol { border-top: 0; }
+.fun .survived li { position: relative; border-bottom: 0; }
+.fun .survived li::before { content: ""; position: absolute; left: calc(-1 * var(--margin) + 0.1rem); top: 0.55rem; width: 2.1rem; height: 1.9rem;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 34 30'%3E%3Cpath d='M3 16 C 6 18, 9 22, 11 27 C 14 17, 21 8, 31 3' fill='none' stroke='%23e0352b' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center / contain; }
+.fun .survived li:nth-child(even)::before { transform: rotate(-9deg) translateY(2px); }
+.fun .survived li:nth-child(3n)::before { transform: rotate(6deg) scale(1.1); }
+.fun .survived a { display: inline-block; padding: 0.45rem 0; font-size: clamp(1.45rem, 3.5vw, 2.2rem); line-height: 1.3; color: var(--biro); }
+.fun .survived a:hover { color: var(--biro); }
+.fun .grade { position: absolute; right: 0; bottom: -0.4rem; margin: 0; width: 5.6rem; height: 4.4rem; display: grid !important; place-items: center;
+  font-family: var(--hand); font-size: 2rem; color: var(--red); border: 2.5px solid var(--red);
+  border-radius: 46% 54% 52% 48% / 55% 44% 56% 45%; transform: rotate(-9deg); }
+@media (max-width: 54rem) { .fun .grade { position: static; margin: 1rem 0 0 auto; } }
+
+/* The three doors are notes stuck on the page */
+.fun .doors { gap: 2.2rem; padding: 4.2rem 0 1rem; align-items: start; }
+.fun .doors > div { position: relative; padding: 1.5rem 1.3rem 1.3rem; background: var(--note, #fff3a6);
+  box-shadow: 0 1px 2px rgba(29, 37, 69, 0.16), 0 10px 16px -12px rgba(29, 37, 69, 0.45); transform: rotate(-1.4deg); }
+.fun .doors > div:nth-child(2) { --note: #ffffff; transform: rotate(0.9deg); }
+.fun .doors > div:nth-child(3) { --note: #ffd9d2; transform: rotate(-0.5deg); }
+.fun .doors > div::before { content: ""; position: absolute; top: -0.65rem; left: 50%; width: 5.2rem; height: 1.3rem;
+  transform: translateX(-50%) rotate(2deg); background: rgba(150, 214, 255, 0.55); }
+.fun .doors h2 { font-size: 1.75rem; margin: 0 0 0.5rem; }
+.fun .doors h2 a { color: var(--biro); }
+.fun .doors a:hover { background: none; text-decoration-thickness: 0.16em; }
+
+/* The warning is a proper warning label */
+.fun .warning { margin: 4.5rem 0 0; padding: 1.3rem 1.5rem 1.2rem; max-width: 46rem; background: #fff; color: #111;
+  border: 0.7rem solid; border-image: repeating-linear-gradient(-45deg, #111 0 0.75rem, #ffd500 0.75rem 1.5rem) 14; font-size: 1rem; }
+.fun .warning h2 { font-family: var(--body-font); font-weight: 600; font-size: 1.35rem; color: #111; margin: 0 0 0.6rem; padding-left: 2.3rem;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 28'%3E%3Cpath d='M16 2 L30 26 H2 Z' fill='%23ffd500' stroke='%23111' stroke-width='2.4' stroke-linejoin='round'/%3E%3Cpath d='M16 10 v8' stroke='%23111' stroke-width='3' stroke-linecap='round'/%3E%3Ccircle cx='16' cy='22' r='1.7' fill='%23111'/%3E%3C/svg%3E") no-repeat left center / 1.8rem auto; }
+.fun .warning p { line-height: 1.6; }
+.fun .warning p:last-child { margin-bottom: 0; }
+
+/* ---------- Lists of pages ---------- */
+.fun .index-list li { border-bottom: 0; padding: 0.55rem 0 0.55rem 2.2rem;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 20'%3E%3Cpath d='M2 11 C 9 9, 16 12, 26 10 M26 10 l-8 -6 M26 10 l-7 7' fill='none' stroke='%23e0352b' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat left 0.95rem / 1.5rem auto; }
+.fun .index-list a { font-size: 1.4rem; line-height: 1.35; color: var(--biro); }
+.fun .index-list a:hover { color: var(--biro); }
+.fun .index-list span { font-size: 1.05rem; line-height: 1.5; margin-top: 0.15rem; }
+
+/* ---------- Footer ---------- */
+.fun .site-footer { border-top: 0; margin-top: 0; font-family: var(--body-font); font-size: 1rem; }
+.fun .footer-row { padding-top: 1.2rem; border-top: 2px dashed var(--line); }
+
+@media (max-width: 40rem) {
+  .fun { --margin: 2.4rem; }
+  .fun main > .wrap { padding-left: calc(1rem + var(--margin)); padding-right: 1rem; }
+  .fun main > .wrap::before { left: calc(1rem + var(--margin) - 0.8rem); }
+  .fun .survived li::before { width: 1.5rem; height: 1.4rem; left: calc(-1 * var(--margin) - 0.1rem); top: 0.6rem; }
+  .fun .header-row { flex-direction: column; gap: 0.4rem; }
+  .fun .brand { padding-top: 0.8rem; order: 2; }
+  .fun .site-nav { order: 1; }
+  .fun .site-nav ul { gap: 0 0.25rem; }
+  .fun .site-nav a { font-size: 0.9rem; padding: 0.8rem 0.5rem 0.4rem; }
+  .fun .site-nav a[aria-current="page"] { padding-top: 1.5rem; }
+  .fun .site-nav a:hover { padding-top: 0.8rem; }
+  .fun .doors { padding-top: 3.2rem; }
+}
+@media print { .fun body { background-image: none; } .fun main > .wrap::before { display: none; } }
+
+/* Footer: a curious fact about Japan instead of repeating the tabs */
+.japan-fact { margin: 0; max-width: 46rem; }
+.japan-fact .jp { font-family: var(--hand); color: var(--red); margin-right: 0.3em; }
+
+/* Home page: invitation to applaud when the browser blocked the sound */
+.applause-hint { margin: -0.5rem 0 1rem; }
+.applause-hint button { font-family: var(--hand); font-size: 1.15rem; color: var(--red); background: none; border: 0; padding: 0; cursor: pointer;
+  text-decoration: underline wavy var(--red); text-underline-offset: 0.25em; transform: rotate(-2deg); display: inline-block; }
+
+/* Quiz answers that open on click */
+.prose details { margin: 0 0 0.6rem; }
+.prose details summary { cursor: pointer; }
+.prose details[open] summary { margin-bottom: 0.2rem; }
+.prose details > :not(summary), .prose details { color: var(--ink); }
+.fun .prose details[open] { color: var(--red); font-family: var(--hand); }
+.fun .prose details[open] summary { font-family: var(--body-font); color: var(--ink); }
+
+/* One text size throughout the personal pages: tables, the home-page boxes and the
+   warning use the same size as ordinary paragraphs (they were set slightly smaller). */
+.fun .prose table, .fun .prose td, .fun .prose th,
+.fun .warning, .fun .doors p, .fun .doors ul, .fun .index-list span,
+.fun .prose details, .fun .quickjump { font-size: var(--body-size); }
+
+/* Small pictures inside the CV table (podcast, book) */
+.cv-pic { display: block; margin: .5rem 0 .25rem; height: auto; box-shadow: 0 2px 6px rgba(0,0,0,.2); }
